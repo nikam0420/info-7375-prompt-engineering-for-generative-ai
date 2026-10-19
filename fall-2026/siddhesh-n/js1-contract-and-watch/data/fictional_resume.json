@@ -1,0 +1,9 @@
+{
+  "fictional": true,
+  "_note": "FICTIONAL RÉSUMÉ. This person does not exist. Bundled for testing the board watcher only; never a real résumé.",
+  "name": "Avery Quillfeather",
+  "email": "avery.quillfeather@example.com",
+  "phone": "202-555-0147",
+  "target_titles": ["data analyst", "business intelligence analyst"],
+  "skills": ["SQL", "Python", "Tableau", "Excel", "Data visualization", "A/B testing"]
+}

@@ -1,0 +1,3 @@
+mkdir -p evidence/action-surfaces
+pbpaste > evidence/action-surfaces/trial1-chat-response.json
+python3 -m watcher judgment-import --help

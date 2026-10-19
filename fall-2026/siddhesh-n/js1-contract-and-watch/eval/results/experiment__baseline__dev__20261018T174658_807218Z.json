@@ -1,0 +1,111 @@
+{
+  "kind": "experiment",
+  "backend": "cli",
+  "prompt_version": "baseline",
+  "prompt_sha256": "202e5613944f09d024bbf055eaa740d4fccaabd512fda4d9d9fc54bcc4b4415e",
+  "split": "dev",
+  "frozen_record": null,
+  "started_at": "2026-10-18T17:46:58.807218Z",
+  "finished_at": "2026-10-18T17:47:51.174927Z",
+  "items": [
+    {
+      "posting_id": 8189909,
+      "hand_label": "relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174658_807702Z__posting-8189909__baseline__cli.json"
+    },
+    {
+      "posting_id": 5416444,
+      "hand_label": "relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174705_215941Z__posting-5416444__baseline__cli.json"
+    },
+    {
+      "posting_id": 8194291,
+      "hand_label": "relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174709_504435Z__posting-8194291__baseline__cli.json"
+    },
+    {
+      "posting_id": 8194287,
+      "hand_label": "relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174714_428568Z__posting-8194287__baseline__cli.json"
+    },
+    {
+      "posting_id": 8094087,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174719_547644Z__posting-8094087__baseline__cli.json"
+    },
+    {
+      "posting_id": 8044391,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174726_677429Z__posting-8044391__baseline__cli.json"
+    },
+    {
+      "posting_id": 7913702,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174732_434727Z__posting-7913702__baseline__cli.json"
+    },
+    {
+      "posting_id": 8198323,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174737_092049Z__posting-8198323__baseline__cli.json"
+    },
+    {
+      "posting_id": 8110261,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174742_414314Z__posting-8110261__baseline__cli.json"
+    },
+    {
+      "posting_id": 8230276,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": false,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-baseline-dev/20261018T174746_269643Z__posting-8230276__baseline__cli.json"
+    }
+  ],
+  "summary": {
+    "n": 10,
+    "available": 10,
+    "unavailable_or_invalid": 0,
+    "agree": 9,
+    "disagree": 1,
+    "agreement_over_available": 0.9,
+    "agreement_over_all_counting_unavailable_as_miss": 0.9
+  }
+}

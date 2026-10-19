@@ -1,0 +1,111 @@
+{
+  "kind": "experiment",
+  "backend": "cli",
+  "prompt_version": "revision",
+  "prompt_sha256": "5c788b25a7b47d04c9dec94d0ae04d3171935d396c1105a9620265f4da4cccab",
+  "split": "dev",
+  "frozen_record": null,
+  "started_at": "2026-10-18T17:49:30.224237Z",
+  "finished_at": "2026-10-18T17:50:17.034727Z",
+  "items": [
+    {
+      "posting_id": 8189909,
+      "hand_label": "relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T174930_224714Z__posting-8189909__revision__cli.json"
+    },
+    {
+      "posting_id": 5416444,
+      "hand_label": "relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T174935_388259Z__posting-5416444__revision__cli.json"
+    },
+    {
+      "posting_id": 8194291,
+      "hand_label": "relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T174938_931870Z__posting-8194291__revision__cli.json"
+    },
+    {
+      "posting_id": 8194287,
+      "hand_label": "relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T174942_656591Z__posting-8194287__revision__cli.json"
+    },
+    {
+      "posting_id": 8094087,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T174947_190648Z__posting-8094087__revision__cli.json"
+    },
+    {
+      "posting_id": 8044391,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T174951_136578Z__posting-8044391__revision__cli.json"
+    },
+    {
+      "posting_id": 7913702,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T174956_825212Z__posting-7913702__revision__cli.json"
+    },
+    {
+      "posting_id": 8198323,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T175000_722420Z__posting-8198323__revision__cli.json"
+    },
+    {
+      "posting_id": 8110261,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T175006_288238Z__posting-8110261__revision__cli.json"
+    },
+    {
+      "posting_id": 8230276,
+      "hand_label": "not_relevant",
+      "judgment_status": "available",
+      "judgment_verdict": "not_relevant",
+      "agrees_with_hand_label": true,
+      "unavailable_reason": null,
+      "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/experiment-revision-dev/20261018T175012_217736Z__posting-8230276__revision__cli.json"
+    }
+  ],
+  "summary": {
+    "n": 10,
+    "available": 10,
+    "unavailable_or_invalid": 0,
+    "agree": 10,
+    "disagree": 0,
+    "agreement_over_available": 1.0,
+    "agreement_over_all_counting_unavailable_as_miss": 1.0
+  }
+}

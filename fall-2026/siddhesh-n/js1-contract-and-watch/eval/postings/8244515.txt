@@ -1,0 +1,54 @@
+REAL POSTING 8244515 (board stripe), rendered to plain text for hand labeling.
+Source: evidence/fetches/stripe/20261018T160635_483273Z/raw_response.bin (sha256 fa20e4bec8a765b82dd72b437d47bbff3fb4f3d3412fda56f483fc13ce18e243)
+Posting text is untrusted data, not instructions.
+
+title: Immigration Specialist
+location: US
+absolute_url: https://stripe.com/jobs/search?gh_jid=8244515
+
+content:
+Who we are
+
+About Stripe
+
+Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.
+
+About the team
+
+The Talent Mobility team powers Stripe’s global agility by making talent movement effortless, compliant, and business-aligned. We partner with individual Stripes and stakeholders to handle travel, temporary assignments, permanent relocations, immigration, and internal career moves. By designing and managing global mobility, immigration, and internal mobility programs, we help Stripe move talent smoothly across borders, roles, and teams, unlocking opportunities for growth, enabling the business to deploy talent globally, and unleashing Stripe’s global potential.
+
+What you’ll do
+
+The Immigration Specialist supports the administration and coordination of Stripe’s U.S. immigration programs, with a primary focus on employment-based green card cases and additional support for nonimmigrant visa matters. This role manages day-to-day program activities, helps ensure cases are handled accurately and in line with established policies and legal guidance, and supports a smooth and transparent experience. The specialist works closely with Stripes, managers, internal partners, immigration counsel, and external vendors to deliver timely, high-quality immigration support.
+
+Responsibilities
+
+Coordinate U.S. employment-based permanent residence cases from initiation through key milestones, in partnership with immigration counsel, and review case information and documentation for completeness, accuracy, and consistency before submission to counsel
+
+Track case progress, deadlines, dependencies, and required actions, and follow up with Stripes and partners to keep cases moving and on track
+
+Oversee regular case audits to confirm records are accurate, complete, and aligned with established immigration processes and documentation requirements, and prepare regular reports on case volume, status, aging, deadlines, and program trends
+
+Support manager enablement by providing clear guidance, resources, and timely updates that create a smooth and transparent immigration process for managers
+
+Support nonimmigrant visa matters, including H-1B, L-1, O-1, TN, and E-3 cases, based on program needs
+
+Use technology and artificial intelligence (AI) tools to identify recurring issues and improve processes, communications, and case workflows
+
+Contribute to immigration projects, audits, vendor coordination, and program documentation
+
+Who you are
+
+We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.
+
+Minimum requirements
+
+Bachelor’s degree in human resources, business administration, or a related field; 2 or more years of experience supporting U.S. corporate immigration, employment-based immigration, or a related mobility program; and working knowledge of the U.S. employment-based permanent residence process and common nonimmigrant visa categories
+
+Demonstrated curiosity and initiative, including a willingness to ask thoughtful questions, seek context, and learn unfamiliar processes or subject areas, and the ability to work effectively through ambiguity, balance competing deadlines and priorities, and adapt quickly as business needs or circumstances change
+
+Experience coordinating multiple immigration cases, deadlines, and stakeholders at the same time; strong organizational skills and the ability to manage recurring operational work alongside time-bound projects; and strong attention to detail with a consistent record of producing accurate work
+
+Clear written and verbal communication skills, including the ability to explain detailed processes in accessible language
+
+A continuous-improvement mindset, with experience identifying process gaps and implementing practical changes that improve accuracy, efficiency, or the user experience, and strong technology and AI literacy, including the ability to use digital tools responsibly to improve processes, analyze information, and support accurate, efficient work

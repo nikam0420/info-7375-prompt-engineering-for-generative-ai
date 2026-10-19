@@ -1,0 +1,82 @@
+test_prepare_preserves_original_and_labels_snapshot (test_evaluation_and_demo.DemoTests.test_prepare_preserves_original_and_labels_snapshot) ... ok
+test_two_run_demo_reports_withheld_ids_only (test_evaluation_and_demo.DemoTests.test_two_run_demo_reports_withheld_ids_only) ... ok
+test_baseline_and_revision_differ_in_exactly_one_block (test_evaluation_and_demo.EvalTests.test_baseline_and_revision_differ_in_exactly_one_block) ... ok
+test_consistency_is_5_postings_by_4_fresh_calls (test_evaluation_and_demo.EvalTests.test_consistency_is_5_postings_by_4_fresh_calls) ... ok
+test_heldout_locked_until_freeze_then_runs_once (test_evaluation_and_demo.EvalTests.test_heldout_locked_until_freeze_then_runs_once) ... ok
+test_label_edits_after_use_are_refused (test_evaluation_and_demo.EvalTests.test_label_edits_after_use_are_refused) ... ok
+test_label_sheets_are_blank_and_show_no_predictions (test_evaluation_and_demo.EvalTests.test_label_sheets_are_blank_and_show_no_predictions) ... ok
+test_metrics_come_only_from_returned_judgments (test_evaluation_and_demo.EvalTests.test_metrics_come_only_from_returned_judgments) ... ok
+test_model_runs_refused_until_labels_complete (test_evaluation_and_demo.EvalTests.test_model_runs_refused_until_labels_complete) ... ok
+test_prompt_edit_after_freeze_blocks_heldout (test_evaluation_and_demo.EvalTests.test_prompt_edit_after_freeze_blocks_heldout) ... ok
+test_runs_refused_without_api_key (test_evaluation_and_demo.EvalTests.test_runs_refused_without_api_key) ... ok
+test_sample_is_20_split_10_10_disjoint_and_deterministic (test_evaluation_and_demo.EvalTests.test_sample_is_20_split_10_10_disjoint_and_deterministic) ... ok
+test_sample_refuses_redraw_and_small_responses (test_evaluation_and_demo.EvalTests.test_sample_refuses_redraw_and_small_responses) ... ok
+test_api_errors_refusals_and_bad_bodies_unavailable (test_judgment.ClientTests.test_api_errors_refusals_and_bad_bodies_unavailable) ... ok
+test_default_transport_refuses_other_hosts (test_judgment.ClientTests.test_default_transport_refuses_other_hosts) ... ok
+test_empty_citations_from_claude_reported_unavailable (test_judgment.ClientTests.test_empty_citations_from_claude_reported_unavailable) ... ok
+test_no_key_means_no_call_and_unavailable (test_judgment.ClientTests.test_no_key_means_no_call_and_unavailable) ... ok
+test_pasted_import_validates_and_saves (test_judgment.ClientTests.test_pasted_import_validates_and_saves) ... ok
+test_transport_exception_unavailable_and_logged (test_judgment.ClientTests.test_transport_exception_unavailable_and_logged) ... ok
+test_valid_judgment_saved_with_timestamps_and_model (test_judgment.ClientTests.test_valid_judgment_saved_with_timestamps_and_model) ... ok
+test_wrong_id_from_claude_reported_unavailable (test_judgment.ClientTests.test_wrong_id_from_claude_reported_unavailable) ... ok
+test_empty_citations_rejected (test_judgment.ValidatorTests.test_empty_citations_rejected)
+Contract wrong implementation #2: empty field citations must not be accepted. ... ok
+test_field_values_rejected (test_judgment.ValidatorTests.test_field_values_rejected) ... ok
+test_key_set_must_be_exact (test_judgment.ValidatorTests.test_key_set_must_be_exact) ... ok
+test_not_exactly_one_object_rejected (test_judgment.ValidatorTests.test_not_exactly_one_object_rejected) ... ok
+test_user_message_keeps_posting_inside_data_tags (test_judgment.ValidatorTests.test_user_message_keeps_posting_inside_data_tags) ... ok
+test_valid_output_accepted (test_judgment.ValidatorTests.test_valid_output_accepted) ... ok
+test_wrong_posting_id_rejected (test_judgment.ValidatorTests.test_wrong_posting_id_rejected) ... ok
+test_fixture_parses_and_converts_html (test_postings_and_relevance.ParseTests.test_fixture_parses_and_converts_html) ... ok
+test_html_entities_decoded (test_postings_and_relevance.ParseTests.test_html_entities_decoded) ... ok
+test_malformed_responses (test_postings_and_relevance.ParseTests.test_malformed_responses) ... ok
+test_missing_required_fields (test_postings_and_relevance.ParseTests.test_missing_required_fields) ... ok
+test_wrongly_typed_fields (test_postings_and_relevance.ParseTests.test_wrongly_typed_fields) ... ok
+test_absent_sql_described_as_absent_without_quotation (test_postings_and_relevance.RelevanceTests.test_absent_sql_described_as_absent_without_quotation) ... ok
+test_all_three_conditions_pass (test_postings_and_relevance.RelevanceTests.test_all_three_conditions_pass) ... ok
+test_case_insensitive_matching (test_postings_and_relevance.RelevanceTests.test_case_insensitive_matching) ... ok
+test_entity_encoded_sql_in_real_shaped_content (test_postings_and_relevance.RelevanceTests.test_entity_encoded_sql_in_real_shaped_content) ... ok
+test_justification_cites_all_four_fields (test_postings_and_relevance.RelevanceTests.test_justification_cites_all_four_fields) ... ok
+test_seniority_and_location_not_assessed (test_postings_and_relevance.RelevanceTests.test_seniority_and_location_not_assessed) ... ok
+test_skill_condition_fails (test_postings_and_relevance.RelevanceTests.test_skill_condition_fails) ... ok
+test_sql_must_be_whole_word (test_postings_and_relevance.RelevanceTests.test_sql_must_be_whole_word) ... ok
+test_title_condition_fails (test_postings_and_relevance.RelevanceTests.test_title_condition_fails) ... ok
+test_bad_board_tokens (test_resume_and_netguard.AllowListTests.test_bad_board_tokens) ... ok
+test_blocked_url_never_reaches_opener (test_resume_and_netguard.AllowListTests.test_blocked_url_never_reaches_opener) ... ok
+test_build_url_is_exact_endpoint (test_resume_and_netguard.AllowListTests.test_build_url_is_exact_endpoint) ... ok
+test_disallowed_hosts_and_urls (test_resume_and_netguard.AllowListTests.test_disallowed_hosts_and_urls) ... ok
+test_fetch_reports_redirect_as_refused_status (test_resume_and_netguard.RedirectTests.test_fetch_reports_redirect_as_refused_status) ... ok
+test_handler_declines_every_redirect (test_resume_and_netguard.RedirectTests.test_handler_declines_every_redirect) ... ok
+test_opener_raises_instead_of_following (test_resume_and_netguard.RedirectTests.test_opener_raises_instead_of_following) ... ok
+test_transport_failure_is_fetch_error (test_resume_and_netguard.RedirectTests.test_transport_failure_is_fetch_error) ... ok
+test_bundled_resume_satisfies_contract (test_resume_and_netguard.ResumeTests.test_bundled_resume_satisfies_contract) ... ok
+test_each_violation_rejected (test_resume_and_netguard.ResumeTests.test_each_violation_rejected) ... ok
+test_missing_field_rejected (test_resume_and_netguard.ResumeTests.test_missing_field_rejected) ... ok
+test_blocked_board_never_fetches (test_watch.WatchTests.test_blocked_board_never_fetches) ... ok
+test_corrupt_state_is_an_error_not_a_new_baseline (test_watch.WatchTests.test_corrupt_state_is_an_error_not_a_new_baseline) ... ok
+test_failed_fetch_http_error (test_watch.WatchTests.test_failed_fetch_http_error) ... ok
+test_failed_fetch_redirect (test_watch.WatchTests.test_failed_fetch_redirect) ... ok
+test_failed_fetch_transport_error (test_watch.WatchTests.test_failed_fetch_transport_error) ... ok
+test_failure_on_first_run_does_not_create_baseline (test_watch.WatchTests.test_failure_on_first_run_does_not_create_baseline) ... ok
+test_first_run_is_baseline_with_zero_new (test_watch.WatchTests.test_first_run_is_baseline_with_zero_new) ... ok
+test_invalid_resume_refused_before_fetch (test_watch.WatchTests.test_invalid_resume_refused_before_fetch) ... ok
+test_judge_exception_is_unavailable_not_fatal (test_watch.WatchTests.test_judge_exception_is_unavailable_not_fatal) ... ok
+test_judgment_for_a_different_id_is_rejected (test_watch.WatchTests.test_judgment_for_a_different_id_is_rejected) ... ok
+test_malformed_json (test_watch.WatchTests.test_malformed_json) ... ok
+test_new_posting_carries_id_title_url_record_and_separate_judgment (test_watch.WatchTests.test_new_posting_carries_id_title_url_record_and_separate_judgment) ... ok
+test_one_malformed_posting_invalidates_whole_response (test_watch.WatchTests.test_one_malformed_posting_invalidates_whole_response) ... ok
+test_only_unseen_ids_reported (test_watch.WatchTests.test_only_unseen_ids_reported) ... ok
+test_posting_instructions_are_not_executed (test_watch.WatchTests.test_posting_instructions_are_not_executed) ... ok
+test_raw_bytes_and_state_snapshots_saved (test_watch.WatchTests.test_raw_bytes_and_state_snapshots_saved) ... ok
+test_repeat_run_reports_nothing_new (test_watch.WatchTests.test_repeat_run_reports_nothing_new) ... ok
+test_requested_url_is_allow_listed_endpoint (test_watch.WatchTests.test_requested_url_is_allow_listed_endpoint) ... ok
+test_state_is_per_board (test_watch.WatchTests.test_state_is_per_board) ... ok
+test_state_keeps_union_so_reappearing_ids_are_not_new (test_watch.WatchTests.test_state_keeps_union_so_reappearing_ids_are_not_new) ... ok
+test_unavailable_judge_passthrough (test_watch.WatchTests.test_unavailable_judge_passthrough) ... ok
+test_verdicts_stay_attached_to_ids_when_order_changes (test_watch.WatchTests.test_verdicts_stay_attached_to_ids_when_order_changes)
+Contract wrong implementation #1. ... ok
+
+----------------------------------------------------------------------
+Ran 75 tests in 0.218s
+
+OK

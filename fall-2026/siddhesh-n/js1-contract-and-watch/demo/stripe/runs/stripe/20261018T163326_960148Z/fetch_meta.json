@@ -1,0 +1,9 @@
+{
+  "type": "replay",
+  "replayed_file": "evidence/fetches/stripe/20261018T160635_483273Z/raw_response.bin",
+  "label": "Replay of the unmodified real response retrieved at 2026-10-18T16:06:35.967132Z.",
+  "note": "No network request was made for this run.",
+  "raw_sha256": "fa20e4bec8a765b82dd72b437d47bbff3fb4f3d3412fda56f483fc13ce18e243",
+  "raw_bytes": 5695675,
+  "raw_file": "raw_response.bin"
+}

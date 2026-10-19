@@ -1,0 +1,138 @@
+{
+  "board": "stripe",
+  "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+  "run_started_at": "2026-10-18T16:33:26.960148Z",
+  "evidence_dir": "demo/stripe/runs/stripe/20261018T163326_960148Z",
+  "state_file": "demo/stripe/state/stripe.json",
+  "source": {
+    "type": "replay",
+    "replayed_file": "evidence/fetches/stripe/20261018T160635_483273Z/raw_response.bin",
+    "label": "Replay of the unmodified real response retrieved at 2026-10-18T16:06:35.967132Z.",
+    "note": "No network request was made for this run.",
+    "raw_sha256": "fa20e4bec8a765b82dd72b437d47bbff3fb4f3d3412fda56f483fc13ce18e243",
+    "raw_bytes": 5695675,
+    "raw_file": "raw_response.bin"
+  },
+  "status": "ok",
+  "state_updated": true,
+  "postings_in_response": 731,
+  "previously_seen": 728,
+  "new_count": 3,
+  "new_postings": [
+    {
+      "posting_id": 7634113,
+      "title": "Field Marketing Manager, SMB and Mid-Market - EMEA",
+      "url": "https://stripe.com/jobs/search?gh_jid=7634113",
+      "record": {
+        "kind": "record",
+        "posting_id": 7634113,
+        "verdict": "not_relevant",
+        "conditions": {
+          "title_contains_target_title": {
+            "passed": false,
+            "matched_phrases": []
+          },
+          "content_contains_sql_word": {
+            "passed": false,
+            "match_offset": null
+          },
+          "resume_skills_contains_sql": {
+            "passed": true
+          }
+        },
+        "resume_fields": [
+          "target_titles",
+          "skills"
+        ],
+        "posting_fields": [
+          "title",
+          "content"
+        ],
+        "justification": "Condition 1 (title) failed: posting.title \"Field Marketing Manager, SMB and Mid-Market - EMEA\" contains none of résumé.target_titles [\"data analyst\", \"business intelligence analyst\"] (case-insensitive substring). Condition 2 (SQL in description) failed: SQL as a whole word is absent from posting.content after HTML-to-text conversion and entity decoding. Condition 3 (SQL skill) passed: résumé.skills contains \"SQL\", equal to SQL after trimming whitespace (case-insensitive)."
+      },
+      "judgment": {
+        "kind": "judgment",
+        "status": "unavailable",
+        "reason": "Claude judgment not requested for this run (re-run with --claude to obtain one).",
+        "posting_id": 7634113
+      }
+    },
+    {
+      "posting_id": 8055701,
+      "title": "Staff Software Engineer, API Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=8055701",
+      "record": {
+        "kind": "record",
+        "posting_id": 8055701,
+        "verdict": "not_relevant",
+        "conditions": {
+          "title_contains_target_title": {
+            "passed": false,
+            "matched_phrases": []
+          },
+          "content_contains_sql_word": {
+            "passed": false,
+            "match_offset": null
+          },
+          "resume_skills_contains_sql": {
+            "passed": true
+          }
+        },
+        "resume_fields": [
+          "target_titles",
+          "skills"
+        ],
+        "posting_fields": [
+          "title",
+          "content"
+        ],
+        "justification": "Condition 1 (title) failed: posting.title \"Staff Software Engineer, API Platform\" contains none of résumé.target_titles [\"data analyst\", \"business intelligence analyst\"] (case-insensitive substring). Condition 2 (SQL in description) failed: SQL as a whole word is absent from posting.content after HTML-to-text conversion and entity decoding. Condition 3 (SQL skill) passed: résumé.skills contains \"SQL\", equal to SQL after trimming whitespace (case-insensitive)."
+      },
+      "judgment": {
+        "kind": "judgment",
+        "status": "unavailable",
+        "reason": "Claude judgment not requested for this run (re-run with --claude to obtain one).",
+        "posting_id": 8055701
+      }
+    },
+    {
+      "posting_id": 8144185,
+      "title": "Solutions Architect, Enterprise (Presales)",
+      "url": "https://stripe.com/jobs/search?gh_jid=8144185",
+      "record": {
+        "kind": "record",
+        "posting_id": 8144185,
+        "verdict": "not_relevant",
+        "conditions": {
+          "title_contains_target_title": {
+            "passed": false,
+            "matched_phrases": []
+          },
+          "content_contains_sql_word": {
+            "passed": false,
+            "match_offset": null
+          },
+          "resume_skills_contains_sql": {
+            "passed": true
+          }
+        },
+        "resume_fields": [
+          "target_titles",
+          "skills"
+        ],
+        "posting_fields": [
+          "title",
+          "content"
+        ],
+        "justification": "Condition 1 (title) failed: posting.title \"Solutions Architect, Enterprise (Presales)\" contains none of résumé.target_titles [\"data analyst\", \"business intelligence analyst\"] (case-insensitive substring). Condition 2 (SQL in description) failed: SQL as a whole word is absent from posting.content after HTML-to-text conversion and entity decoding. Condition 3 (SQL skill) passed: résumé.skills contains \"SQL\", equal to SQL after trimming whitespace (case-insensitive)."
+      },
+      "judgment": {
+        "kind": "judgment",
+        "status": "unavailable",
+        "reason": "Claude judgment not requested for this run (re-run with --claude to obtain one).",
+        "posting_id": 8144185
+      }
+    }
+  ],
+  "run_finished_at": "2026-10-18T16:33:27.207531Z"
+}

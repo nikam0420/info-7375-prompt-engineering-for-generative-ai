@@ -1,0 +1,17 @@
+{
+  "saved_by": "watcher.claude.import_pasted_judgment",
+  "purpose": "manual-import",
+  "posting_id": 8189909,
+  "prompt_version": "revision",
+  "prompt_sha256": "5c788b25a7b47d04c9dec94d0ae04d3171935d396c1105a9620265f4da4cccab",
+  "surface_declared": "claude.ai web chat — partial recovery retaining code fences",
+  "model_declared": "Opus 5.5",
+  "imported_at": "2026-10-19T20:01:52.969009Z",
+  "raw_response_file": "20261019T200152_969009Z__posting-8189909__revision.response.txt",
+  "validation": {
+    "valid": false,
+    "errors": [
+      "output is not exactly one JSON object: Expecting value: line 1 column 1 (char 0)"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.*.tmp
+.DS_Store
+# Editor save buffer; kept locally as FRICTIONAL.md S1 evidence, excluded from the submission
+CONTRACT.md.save

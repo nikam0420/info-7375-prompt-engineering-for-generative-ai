@@ -1,0 +1,9 @@
+{
+  "type": "replay",
+  "replayed_file": "demo/stripe/constructed_seeded_baseline.json",
+  "label": "CONSTRUCTED SEEDED BASELINE: reduced snapshot of the real response (sha256 fa20e4bec8a765b82dd72b437d47bbff3fb4f3d3412fda56f483fc13ce18e243) with 3 postings withheld using seed 20261018. Constructed, not observed.",
+  "note": "No network request was made for this run.",
+  "raw_sha256": "71293a4b830bfde7de3b4cdf91e325cbe52720bdc87e78e0a4466b88ba53571b",
+  "raw_bytes": 5485881,
+  "raw_file": "raw_response.bin"
+}

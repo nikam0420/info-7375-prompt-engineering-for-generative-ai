@@ -1,0 +1,4 @@
+
+```json
+{"posting_id": 8189909, "kind": "judgment", "verdict": "relevant", "resume_fields": ["target_titles", "skills"], "posting_fields": ["title", "content"], "justification": "All three conditions hold. (1) The title 'Data Analyst, NYC ' contains the target title 'data analyst' as a case-insensitive substring. (2) The content mentions SQL as a whole word (e.g., 'Proficiency in SQL'). (3) The résumé skills include 'SQL'. The 6+ years experience requirement is not assessed under the criterion."}
+```

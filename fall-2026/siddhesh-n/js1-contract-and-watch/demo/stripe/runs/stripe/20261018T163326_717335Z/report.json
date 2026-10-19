@@ -1,0 +1,23 @@
+{
+  "board": "stripe",
+  "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+  "run_started_at": "2026-10-18T16:33:26.717335Z",
+  "evidence_dir": "demo/stripe/runs/stripe/20261018T163326_717335Z",
+  "state_file": "demo/stripe/state/stripe.json",
+  "source": {
+    "type": "replay",
+    "replayed_file": "demo/stripe/constructed_seeded_baseline.json",
+    "label": "CONSTRUCTED SEEDED BASELINE: reduced snapshot of the real response (sha256 fa20e4bec8a765b82dd72b437d47bbff3fb4f3d3412fda56f483fc13ce18e243) with 3 postings withheld using seed 20261018. Constructed, not observed.",
+    "note": "No network request was made for this run.",
+    "raw_sha256": "71293a4b830bfde7de3b4cdf91e325cbe52720bdc87e78e0a4466b88ba53571b",
+    "raw_bytes": 5485881,
+    "raw_file": "raw_response.bin"
+  },
+  "status": "baseline_saved",
+  "state_updated": true,
+  "postings_in_response": 728,
+  "previously_seen": 0,
+  "new_count": 0,
+  "new_postings": [],
+  "run_finished_at": "2026-10-18T16:33:26.959037Z"
+}

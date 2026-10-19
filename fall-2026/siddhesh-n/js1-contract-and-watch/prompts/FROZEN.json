@@ -1,0 +1,16 @@
+{
+  "frozen_at": "2026-10-18T17:51:35.099691Z",
+  "prompt_sha256": {
+    "baseline": "202e5613944f09d024bbf055eaa740d4fccaabd512fda4d9d9fc54bcc4b4415e",
+    "revision": "5c788b25a7b47d04c9dec94d0ae04d3171935d396c1105a9620265f4da4cccab"
+  },
+  "dev_results_considered": {
+    "baseline": [
+      "eval/results/experiment__baseline__dev__20261018T174658_807218Z.json"
+    ],
+    "revision": [
+      "eval/results/experiment__revision__dev__20261018T174930_224237Z.json"
+    ]
+  },
+  "note": "After this point the prompts must not change; held-out evaluation checks these hashes."
+}

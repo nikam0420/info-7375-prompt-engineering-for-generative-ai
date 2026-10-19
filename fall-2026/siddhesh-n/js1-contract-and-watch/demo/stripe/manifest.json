@@ -1,0 +1,117 @@
+{
+  "prepared_at": "2026-10-18T16:33:26.649855Z",
+  "board": "stripe",
+  "original_response": "evidence/fetches/stripe/20261018T160635_483273Z/raw_response.bin",
+  "original_sha256": "fa20e4bec8a765b82dd72b437d47bbff3fb4f3d3412fda56f483fc13ce18e243",
+  "original_retrieval": {
+    "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+    "final_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+    "status": 200,
+    "reason": "OK",
+    "headers": [
+      [
+        "Content-Type",
+        "application/json"
+      ],
+      [
+        "Content-Length",
+        "5695675"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "x-farm-id",
+        "us"
+      ],
+      [
+        "vary",
+        "Origin, Accept-Encoding"
+      ],
+      [
+        "etag",
+        "W/\"fa20e4bec8a765b82dd72b437d47bbff\""
+      ],
+      [
+        "cache-control",
+        "max-age=0, private, must-revalidate"
+      ],
+      [
+        "x-request-id",
+        "f480df55-bce7-47e4-86a9-14b112e345ad"
+      ],
+      [
+        "x-runtime",
+        "0.062755"
+      ],
+      [
+        "x-xss-protection",
+        "1; mode=block"
+      ],
+      [
+        "x-download-options",
+        "noopen"
+      ],
+      [
+        "x-envoy-upstream-service-time",
+        "64"
+      ],
+      [
+        "strict-transport-security",
+        "max-age=31536000; includeSubDomains"
+      ],
+      [
+        "x-sigsci-request-id",
+        "6ad4ee8b0c622f30566585d8"
+      ],
+      [
+        "date",
+        "Sun, 18 Oct 2026 16:06:35 GMT"
+      ],
+      [
+        "server",
+        "istio-envoy"
+      ],
+      [
+        "X-Cache",
+        "Miss from cloudfront"
+      ],
+      [
+        "Via",
+        "1.1 bdf727f7ab24a086b6b4253dcb9bc280.cloudfront.net (CloudFront)"
+      ],
+      [
+        "X-Amz-Cf-Pop",
+        "JFK50-P13"
+      ],
+      [
+        "X-Amz-Cf-Id",
+        "iX6H6Gp-1Pim9QiX1HoKDdK03sV8nCenqzgQSGFcxo3mEOeJK_z7Pw=="
+      ]
+    ],
+    "request_started_at": "2026-10-18T16:06:35.488035Z",
+    "response_finished_at": "2026-10-18T16:06:35.967132Z",
+    "redirect_refused": false,
+    "raw_file": "raw_response.bin",
+    "raw_bytes": 5695675,
+    "raw_sha256": "fa20e4bec8a765b82dd72b437d47bbff3fb4f3d3412fda56f483fc13ce18e243",
+    "board": "stripe",
+    "validation": {
+      "valid": true,
+      "postings": 731,
+      "error": null
+    }
+  },
+  "original_posting_count": 731,
+  "constructed_seeded_baseline": "demo/stripe/constructed_seeded_baseline.json",
+  "constructed_seeded_baseline_sha256": "71293a4b830bfde7de3b4cdf91e325cbe52720bdc87e78e0a4466b88ba53571b",
+  "constructed_posting_count": 728,
+  "seed": 20261018,
+  "withheld_ids": [
+    7634113,
+    8055701,
+    8144185
+  ],
+  "label": "CONSTRUCTED SEEDED BASELINE"
+}

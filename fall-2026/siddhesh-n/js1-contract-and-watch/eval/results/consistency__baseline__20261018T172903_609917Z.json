@@ -1,0 +1,207 @@
+{
+  "kind": "consistency",
+  "backend": "cli",
+  "prompt_version": "baseline",
+  "split": "dev",
+  "postings_chosen_rule": "first 5 IDs of the dev split in sample.json order",
+  "calls_per_posting": 4,
+  "started_at": "2026-10-18T17:29:03.609917Z",
+  "finished_at": "2026-10-18T17:31:31.891328Z",
+  "postings": [
+    {
+      "posting_id": 8189909,
+      "calls": [
+        {
+          "call": 1,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T172903_611069Z__posting-8189909__baseline__cli__call1of4.json"
+        },
+        {
+          "call": 2,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T172909_354561Z__posting-8189909__baseline__cli__call2of4.json"
+        },
+        {
+          "call": 3,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T172946_233685Z__posting-8189909__baseline__cli__call3of4.json"
+        },
+        {
+          "call": 4,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T172951_654883Z__posting-8189909__baseline__cli__call4of4.json"
+        }
+      ],
+      "available": 4,
+      "verdict_counts": {
+        "relevant": 4,
+        "not_relevant": 0
+      },
+      "unanimous_over_all_calls": true
+    },
+    {
+      "posting_id": 5416444,
+      "calls": [
+        {
+          "call": 1,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T172957_001509Z__posting-5416444__baseline__cli__call1of4.json"
+        },
+        {
+          "call": 2,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173003_015579Z__posting-5416444__baseline__cli__call2of4.json"
+        },
+        {
+          "call": 3,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173010_898741Z__posting-5416444__baseline__cli__call3of4.json"
+        },
+        {
+          "call": 4,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173016_768834Z__posting-5416444__baseline__cli__call4of4.json"
+        }
+      ],
+      "available": 4,
+      "verdict_counts": {
+        "relevant": 4,
+        "not_relevant": 0
+      },
+      "unanimous_over_all_calls": true
+    },
+    {
+      "posting_id": 8194291,
+      "calls": [
+        {
+          "call": 1,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173021_313284Z__posting-8194291__baseline__cli__call1of4.json"
+        },
+        {
+          "call": 2,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173025_940924Z__posting-8194291__baseline__cli__call2of4.json"
+        },
+        {
+          "call": 3,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173030_100025Z__posting-8194291__baseline__cli__call3of4.json"
+        },
+        {
+          "call": 4,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173038_804571Z__posting-8194291__baseline__cli__call4of4.json"
+        }
+      ],
+      "available": 4,
+      "verdict_counts": {
+        "relevant": 4,
+        "not_relevant": 0
+      },
+      "unanimous_over_all_calls": true
+    },
+    {
+      "posting_id": 8194287,
+      "calls": [
+        {
+          "call": 1,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173043_779126Z__posting-8194287__baseline__cli__call1of4.json"
+        },
+        {
+          "call": 2,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173048_688294Z__posting-8194287__baseline__cli__call2of4.json"
+        },
+        {
+          "call": 3,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173054_209354Z__posting-8194287__baseline__cli__call3of4.json"
+        },
+        {
+          "call": 4,
+          "status": "available",
+          "verdict": "relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173104_192155Z__posting-8194287__baseline__cli__call4of4.json"
+        }
+      ],
+      "available": 4,
+      "verdict_counts": {
+        "relevant": 4,
+        "not_relevant": 0
+      },
+      "unanimous_over_all_calls": true
+    },
+    {
+      "posting_id": 8094087,
+      "calls": [
+        {
+          "call": 1,
+          "status": "available",
+          "verdict": "not_relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173109_350996Z__posting-8094087__baseline__cli__call1of4.json"
+        },
+        {
+          "call": 2,
+          "status": "available",
+          "verdict": "not_relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173113_709318Z__posting-8094087__baseline__cli__call2of4.json"
+        },
+        {
+          "call": 3,
+          "status": "available",
+          "verdict": "not_relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173118_660232Z__posting-8094087__baseline__cli__call3of4.json"
+        },
+        {
+          "call": 4,
+          "status": "available",
+          "verdict": "not_relevant",
+          "reason": null,
+          "raw_record": "/Users/siddheshnikam/Downloads/js1-work/fall-2026/siddhesh-n/js1-contract-and-watch/claude_outputs/2026-10-18/consistency-baseline/20261018T173124_279867Z__posting-8094087__baseline__cli__call4of4.json"
+        }
+      ],
+      "available": 4,
+      "verdict_counts": {
+        "relevant": 0,
+        "not_relevant": 4
+      },
+      "unanimous_over_all_calls": true
+    }
+  ]
+}

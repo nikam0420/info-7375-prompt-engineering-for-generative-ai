@@ -1,0 +1,31 @@
+{
+  "label": "CONSTRUCTED SEEDED BASELINE demonstration — the run-1/run-2 difference was constructed by withholding postings",
+  "ran_at": "2026-10-18T16:33:27.211382Z",
+  "board": "stripe",
+  "run1": {
+    "status": "baseline_saved",
+    "new_count": 0,
+    "evidence": "demo/stripe/runs/stripe/20261018T163326_717335Z"
+  },
+  "run2": {
+    "status": "ok",
+    "new_count": 3,
+    "new_ids": [
+      7634113,
+      8055701,
+      8144185
+    ],
+    "evidence": "demo/stripe/runs/stripe/20261018T163326_960148Z"
+  },
+  "withheld_ids": [
+    7634113,
+    8055701,
+    8144185
+  ],
+  "checks": {
+    "run1_is_baseline_with_zero_new": true,
+    "run2_new_ids_equal_withheld_ids": true,
+    "original_unchanged": true
+  },
+  "all_checks_passed": true
+}

@@ -1,0 +1,156 @@
+{
+  "created_at": "2026-10-18T16:35:41.238712Z",
+  "board": "stripe",
+  "source_raw_file": "evidence/fetches/stripe/20261018T160635_483273Z/raw_response.bin",
+  "source_sha256": "fa20e4bec8a765b82dd72b437d47bbff3fb4f3d3412fda56f483fc13ce18e243",
+  "postings_in_source": 731,
+  "seed": 20261018,
+  "strategy": "title-stratified",
+  "strategy_note": "Title-stratified: 8 postings drawn from the 8 whose title contains a target title (condition 1 only), 12 from the other 723. Only titles were inspected; no relevance record or model output was used.",
+  "dev": [
+    8189909,
+    5416444,
+    8194291,
+    8194287,
+    8094087,
+    8044391,
+    7913702,
+    8198323,
+    8110261,
+    8230276
+  ],
+  "heldout": [
+    7921649,
+    8186442,
+    8044924,
+    8230296,
+    8209649,
+    7544547,
+    8244515,
+    8224617,
+    7961101,
+    7728618
+  ],
+  "postings": {
+    "8189909": {
+      "split": "dev",
+      "title": "Data Analyst, NYC ",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8189909",
+      "text_file": "eval/postings/8189909.txt"
+    },
+    "5416444": {
+      "split": "dev",
+      "title": "Data Analyst",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=5416444",
+      "text_file": "eval/postings/5416444.txt"
+    },
+    "8194291": {
+      "split": "dev",
+      "title": "Data Analyst, Intern",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8194291",
+      "text_file": "eval/postings/8194291.txt"
+    },
+    "8194287": {
+      "split": "dev",
+      "title": "Data Analyst, Intern",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8194287",
+      "text_file": "eval/postings/8194287.txt"
+    },
+    "8094087": {
+      "split": "dev",
+      "title": "Privacy Operations Program Manager",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8094087",
+      "text_file": "eval/postings/8094087.txt"
+    },
+    "8044391": {
+      "split": "dev",
+      "title": "Strategy and Operations Lead, Deal Pricing",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8044391",
+      "text_file": "eval/postings/8044391.txt"
+    },
+    "7913702": {
+      "split": "dev",
+      "title": "Staff Product Manager, Dashboard",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7913702",
+      "text_file": "eval/postings/7913702.txt"
+    },
+    "8198323": {
+      "split": "dev",
+      "title": "Solutions Engineer, AI Build Team ",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8198323",
+      "text_file": "eval/postings/8198323.txt"
+    },
+    "8110261": {
+      "split": "dev",
+      "title": "Account Executive, Strategics ",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8110261",
+      "text_file": "eval/postings/8110261.txt"
+    },
+    "8230276": {
+      "split": "dev",
+      "title": "Strategy and Operations Analyst, Customer Success",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8230276",
+      "text_file": "eval/postings/8230276.txt"
+    },
+    "7921649": {
+      "split": "heldout",
+      "title": "Staff Data Analyst",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7921649",
+      "text_file": "eval/postings/7921649.txt"
+    },
+    "8186442": {
+      "split": "heldout",
+      "title": "Financial Data Analyst Intern, Technical Operations",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8186442",
+      "text_file": "eval/postings/8186442.txt"
+    },
+    "8044924": {
+      "split": "heldout",
+      "title": "Data Analyst, Payments",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8044924",
+      "text_file": "eval/postings/8044924.txt"
+    },
+    "8230296": {
+      "split": "heldout",
+      "title": "Data Analyst, Global Growth",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8230296",
+      "text_file": "eval/postings/8230296.txt"
+    },
+    "8209649": {
+      "split": "heldout",
+      "title": "Engagement Manager, Professional Services",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8209649",
+      "text_file": "eval/postings/8209649.txt"
+    },
+    "7544547": {
+      "split": "heldout",
+      "title": "Operations Associate, New Grad (Mexico)",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7544547",
+      "text_file": "eval/postings/7544547.txt"
+    },
+    "8244515": {
+      "split": "heldout",
+      "title": "Immigration Specialist",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8244515",
+      "text_file": "eval/postings/8244515.txt"
+    },
+    "8224617": {
+      "split": "heldout",
+      "title": "Commercial Lead",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8224617",
+      "text_file": "eval/postings/8224617.txt"
+    },
+    "7961101": {
+      "split": "heldout",
+      "title": "Product Marketing Manager, Radar",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7961101",
+      "text_file": "eval/postings/7961101.txt"
+    },
+    "7728618": {
+      "split": "heldout",
+      "title": "Specialist Solutions Architect, Billing",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7728618",
+      "text_file": "eval/postings/7728618.txt"
+    }
+  }
+}
