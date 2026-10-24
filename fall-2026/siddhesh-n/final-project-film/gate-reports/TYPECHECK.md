@@ -1,6 +1,6 @@
 # TYPECHECK.md — GATE T
 
-Reel: `checkedsql-pitch`  |  Checked: 2026-10-24T14:09  |  Overall: PASS  |  Beats checked: 15  |  FAILs: 0
+Reel: `checkedsql-pitch`  |  Checked: 2026-10-24T14:21  |  Overall: PASS  |  Beats checked: 15  |  FAILs: 0
 
 Spec: `skills/make/kerning/reference/type-spec.md` §8.  Floor: 1.9% frame-height.  Contrast: 4.5:1 WCAG.  Kern threshold: 3.5× expected advance.  Wordy budget: 2 elements.
 
