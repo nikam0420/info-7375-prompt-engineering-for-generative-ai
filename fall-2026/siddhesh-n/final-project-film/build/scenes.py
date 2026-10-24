@@ -416,12 +416,12 @@ def database(iso):
 class B00_OneSentence(Scene):
     def construct(self):
         self.add(topline("1 · What is it?", "PLANNED · sketch", real=False))
-        card = RoundedRectangle(width=3.5, height=1.5, corner_radius=0.2, fill_color=CARD, fill_opacity=1,
-                                stroke_color=GHOST, stroke_width=3).move_to([-4.3, 0.9, 0])
-        qtext = VGroup(T("Which channel had", 34), T("the highest ROAS?", 34)).arrange(DOWN, buff=0.12).move_to([-4.3, 0.9, 0])
+        card = RoundedRectangle(width=3.3, height=2.0, corner_radius=0.2, fill_color=CARD, fill_opacity=1,
+                                stroke_color=GHOST, stroke_width=3).move_to([-4.4, 0.8, 0])
+        qtext = VGroup(T("Which channel", 32), T("had the highest", 32), T("ROAS?", 32)).arrange(DOWN, buff=0.1).move_to([-4.4, 0.8, 0])
         go(self, "ask a campaign question", 0.6, FadeIn(card), FadeIn(qtext))
         blk = Iso(-1.3, -0.3, 0.65).mcp(-0.65, -0.65, 0, 1.3, 1.3, 0.8)
-        a1 = Arrow([-2.5, 0.4, 0], [-2.15, 0.4, 0], color=CONNECT, stroke_width=6, buff=0)
+        a1 = Arrow([-2.7, 0.4, 0], [-2.15, 0.4, 0], color=CONNECT, stroke_width=6, buff=0)
         go(self, "have Claude write", 0.6, FadeIn(blk, shift=DOWN * 0.3), GrowArrow(a1))
         self.play(FadeIn(T("Claude", 36).move_to([-1.3, -1.25, 0])), run_time=0.3)
         sq = sheet(1.2, 0.4, 1.1, 1.4)
@@ -449,23 +449,23 @@ class B01_Repo(Scene):
         data = R.box(0.3, 1.9, 0.05, 1.1, 1.1, 0.7, DARK_TOP, DARK_L, DARK_R); data.set_z_index(1)
         qs = R.page(1.9, 1.9, 0.05); qs.set_z_index(1)
         ck = VGroup(*[R.page(1.9, 0.3, 0.05 + 0.12 * i) for i in range(3)]); ck.set_z_index(1)
-        built = T("built", 36).move_to([1.3, 1.9, 0])
-        nxt = T("next", 36).move_to([4.6, 1.9, 0])
+        built = T("built", 36).move_to([1.0, 1.9, 0])
+        nxt = T("next", 36).move_to([4.4, 1.9, 0])
         self.add(built, nxt)
         names = ["campaigns.csv", "questions.json", "checker.py"]
         for i, (mob, name, phrase) in enumerate(zip([data, qs, ck], names, ["synthetic dataset", "ten test questions", "and the checker"])):
             cue(self, phrase, 1.0)
             self.play(FadeIn(mob, shift=DOWN * 0.4), run_time=0.6)
-            lab = M(name, 30)
-            lab.move_to([0.0 + lab.width / 2, 1.1 - i * 0.75, 0])
-            self.play(FadeIn(Dot([-0.25, 1.1 - i * 0.75, 0], radius=0.09, color=INK)), FadeIn(lab), run_time=0.3)
+            lab = M(name, 28)
+            lab.move_to([-0.35 + lab.width / 2, 1.1 - i * 0.75, 0])
+            self.play(FadeIn(Dot([-0.6, 1.1 - i * 0.75, 0], radius=0.09, color=INK)), FadeIn(lab), run_time=0.3)
         todo = ["contract", "Claude step", "eval log"]
         cue(self, "Still to come", 1.2)
         anims = []
         for i, name in enumerate(todo):
             y = 1.1 - i * 0.75
-            anims += [Create(Circle(radius=0.09, color=INK, stroke_width=4).move_to([3.55, y, 0])),
-                      FadeIn(T(name, 34).move_to([3.8 + T(name, 34).width / 2, y, 0]))]
+            anims += [Create(Circle(radius=0.09, color=INK, stroke_width=4).move_to([3.3, y, 0])),
+                      FadeIn(T(name, 34).move_to([3.55 + T(name, 34).width / 2, y, 0]))]
         self.play(LaggedStart(*anims, lag_ratio=0.12), run_time=1.2)
         finish(self)
 
@@ -481,16 +481,15 @@ class B02_Dashboard(Scene):
         go(self, "Tableau dashboard", 1.0, LaggedStart(*[GrowFromEdge(b, DOWN) for b in bars], lag_ratio=0.2))
         self.play(*[FadeIn(T(n, 32).move_to([x, -1.25, 0])) for n, x in zip(["Email", "Search", "Social"], [0.6, 2.0, 3.4])],
                   FadeIn(T("Tableau", 36).move_to([2.0, -2.6, 0])), run_time=0.5)
-        q = sheet(-5.5, 0.4)
-        self.add(q)
-        go(self, "A new question", 0.6, q.animate.move_to([-1.5, 0.4, 0]))
-        self.play(q.animate.move_to([-3.9, 0.4, 0]), run_time=0.5, rate_func=rate_functions.ease_out_bounce)
-        self.play(FadeIn(T("new question", 36).move_to([-3.9, -1.0, 0])), run_time=0.4)
+        q = VGroup(sheet(-3.9, 0.4), T("new question", 36).move_to([-3.9, -0.85, 0]))
+        go(self, "It answers the questions", 0.6, FadeIn(q, shift=RIGHT * 0.4))
+        go(self, "A new question", 0.5, q.animate.shift(RIGHT * 1.6))
+        self.play(q.animate.shift(LEFT * 1.6), run_time=0.5, rate_func=rate_functions.ease_out_bounce)
         finish(self)
 
 
 # ── 2 · Why care? alternative 2 — the REAL chat-assistant test ─────────────────────────────────
-CHAT_SHOT = "chat_test.png"   # my own ChatGPT screenshot (2026-10-24), cropped to its answer sentence, not edited
+CHAT_SHOT = "chat_test.png"   # my own ChatGPT screenshot (2026-10-24), cropped to its answer sentence; shown with colours inverted (see _inv)
 def _inv(path):
     from PIL import Image as _PI, ImageOps as _PO
     return ImageMobject(np.array(_PO.invert(_PI.open(path).convert("RGB"))))
