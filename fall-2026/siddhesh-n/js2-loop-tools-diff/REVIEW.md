@@ -23,3 +23,19 @@ A seeded HTTP 200 response with no jobs array produced a finished trace with cou
 **Decision — Accept.** The patch corrected both reproduced failures, and the test for a genuinely empty array still passed.
 
 **Coverage gap.** A provider could return a valid `jobs` array containing only some of its listings. These tests would count the rows received and miss the omitted listings.
+
+## Second review — Independent checker, November 9, 2026
+
+**Pre-patch commit** — [g4ce4b07bddca86b90ae4a8ab850e13ce054ee2f3]
+
+**Reproduction.** I changed the status of a copy of the single-board seeded trace to `error`. This was a constructed trace. Before the patch, I ran the checker directly. It printed `PASS` and exited 0 even though the expected status was `incomplete`. See `evidence/student-checker-reproduction.txt`.
+
+**Test timing.** I committed the AI-assisted `test_checker_rejects_wrong_exit` before Claude edited the checker. The original pre-patch test log shows an `IndentationError`, so the unit test did not execute its assertion at that point. I repaired the test file after the patch and preserved the original log in `evidence/student-checker-prepatch.txt`.
+
+**Claude Code evidence — November 9, 2026.** I asked Claude Code to change only `independent_check.py` so the missing-schema seed requires status `incomplete`, result `board-failed`, and an explicit null count. I did not retain a reply excerpt for this second review. The resulting code change is saved in `evidence/claude-checker-change.diff`.
+
+**Diff and scope.** Claude changed `independent_check.py` to require exactly one observation for this seed, status `incomplete`, result `board-failed`, and an explicitly present null count. I inspected the diff and reran the suite. All 11 tests passed. The historical false-success trace, corrected seeded trace, and constructed wrong-exit trace returned 1, 0, and 1. See `evidence/claude-checker-change.diff`, `evidence/student-checker-postpatch.txt`, and `evidence/student-checker-comparison.txt`.
+
+**Decision — Accept.** The checker rejected the reproduced wrong exit and still accepted the corrected trace.
+
+**Coverage gap.** A fabricated trace with all the expected fields could still pass. This check validates the outcome for this seed. It does not authenticate the trace’s origin.

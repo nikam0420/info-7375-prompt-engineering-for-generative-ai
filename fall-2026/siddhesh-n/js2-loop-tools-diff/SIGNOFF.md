@@ -12,3 +12,7 @@
 |---|---|---|---|
 | Loop | Suggest exit conditions and edge cases. | I decide the budgets and permitted actions because those rules determine what the collector may do. I check the trace against those decisions. | `GATE.md` and `evidence/codex-live2-trace.json`, including the deliberate HTTP 404 with an unknown count. |
 | Review | Propose the parser change and explain the diff. | I reproduce the defect before the patch, inspect the actual changes, rerun the checks, and decide whether the evidence supports accepting the patch. | `REVIEW.md`, `evidence/student-prepatch.txt`, `evidence/claude-change.diff`, and `evidence/student-postpatch.txt`. |
+
+## Second review and personal live verification
+
+I personally captured and checked the live run in `evidence/student-live-20261109-154303-trace.json`. I inspected the checker diff, reran all 11 tests, and verified that the three seeded comparisons returned 1, 0, and 1. The AI-assisted `test_checker_rejects_wrong_exit` passed after I repaired the test file. See `REVIEW.md`, `evidence/claude-checker-change.diff`, and `evidence/student-checker-comparison.txt`.

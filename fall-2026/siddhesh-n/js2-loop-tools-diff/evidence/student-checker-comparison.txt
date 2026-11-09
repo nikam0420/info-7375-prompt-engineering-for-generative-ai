@@ -1,0 +1,6 @@
+MISMATCH: raw payload has no jobs array, expected status incomplete, got 'finished'
+Historical false-success exit=1
+PASS: missing schema did not become a successful count
+Corrected seeded trace exit=0
+MISMATCH: raw payload has no jobs array, expected status incomplete, got 'error'
+Constructed wrong-exit trace exit=1

@@ -6,3 +6,7 @@
 - Codex (ChatGPT, 2026-11-09). Recovered Agent 1 source, drafted the gate, authored the JS2 baseline, wrote the example tests and independent checker, captured seeded and live evidence, and drafted workflow documentation.
 - Claude Code (November 9, 2026) changed the Greenhouse parser so a missing `jobs` field reaches schema validation. The prompt, reply excerpt, and verification are in `REVIEW.md`.
 - Siddhesh Nikam reproduced the failure, added the AI-assisted metadata-only test before the patch, inspected the diff, reran the test suite and seeded checker, and recomputed counts from the live responses captured by Codex.
+
+## Second review contributions
+
+Claude Code patched `independent_check.py`. Codex supplied the test scaffold and helped repair the test file and draft the documentation. Siddhesh Nikam captured and checked the personal live run, reproduced the checker defect directly, inspected the diff, and reran the checks.

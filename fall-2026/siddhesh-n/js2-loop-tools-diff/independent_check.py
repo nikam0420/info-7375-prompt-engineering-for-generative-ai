@@ -6,8 +6,21 @@ import sys
 payload = json.loads(Path(sys.argv[1]).read_bytes())
 trace = json.loads(Path(sys.argv[2]).read_bytes())
 has_jobs_array = isinstance(payload, dict) and "jobs" in payload and isinstance(payload["jobs"], list)
-row = trace["observations"][0]
-if not has_jobs_array and (trace["status"] == "finished" or row["count"] is not None):
-    print("MISMATCH: raw payload has no jobs array, but agent reported a successful count")
-    sys.exit(1)
+if not has_jobs_array:
+    # Single-board seed: the only acceptable outcome is an incomplete run whose
+    # one board failed with an explicitly recorded unknown (null) count.
+    observations = trace.get("observations") if isinstance(trace, dict) else None
+    row = observations[0] if isinstance(observations, list) and len(observations) == 1 else None
+    if not isinstance(row, dict):
+        print("MISMATCH: expected exactly one observation for the single-board seed")
+        sys.exit(1)
+    if trace.get("status") != "incomplete":
+        print(f"MISMATCH: raw payload has no jobs array, expected status incomplete, got {trace.get('status')!r}")
+        sys.exit(1)
+    if row.get("result") != "board-failed":
+        print(f"MISMATCH: raw payload has no jobs array, expected result board-failed, got {row.get('result')!r}")
+        sys.exit(1)
+    if "count" not in row or row["count"] is not None:
+        print("MISMATCH: raw payload has no jobs array, expected an explicit null count")
+        sys.exit(1)
 print("PASS: missing schema did not become a successful count")

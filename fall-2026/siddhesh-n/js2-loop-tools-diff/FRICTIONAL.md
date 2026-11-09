@@ -13,3 +13,9 @@
 - Claude Code initially reported that my login had expired. I signed in again with `/login`, resent the scoped prompt, and inspected the resulting diff. Claude removed the empty-list fallback from the Greenhouse parser.
 - I reran all ten tests and got exit code 0. The independent seed checker printed `PASS`, and the explicit empty-array test still passed. See `evidence/claude-change.diff` and `evidence/student-postpatch.txt`.
 - A valid-looking response could still omit listings. Recomputing the saved counts only verifies what was in the captured responses.
+
+### November 9, 2026 — Personal live run and checker review
+
+The original checker printed `PASS` for a constructed trace with status `error`. I reproduced that directly before the patch. The unit test initially could not load because of an indentation error. After the checker patch and test-file repair, all 11 tests passed. I verified that both wrong traces were rejected and the corrected trace was accepted. I also ran the collector and recomputed the live counts from its saved responses. See `evidence/student-checker-reproduction.txt` and `evidence/student-checker-comparison.txt`.
+
+Codex assisted with drafting this entry from the recorded outputs.

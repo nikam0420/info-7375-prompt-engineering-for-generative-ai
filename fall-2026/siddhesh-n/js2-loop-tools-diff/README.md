@@ -48,3 +48,7 @@ python3 check_live.py evidence/codex-live2-trace.json
 ```
 
 This verifies agreement with the observed responses at capture time. It does not establish that the providers listed every opening.
+
+## Final verification and personal live run
+
+The final suite passed all 11 tests. In my live run, Stripe returned 771 listings, Airbnb 203, and Wealthfront 23. The deliberate invalid board returned HTTP 404 with an unknown count. The agent exited 2 and the independent live checker exited 0. See `evidence/student-live-20261109-154303-trace.json` and `evidence/student-checker-comparison.txt`.

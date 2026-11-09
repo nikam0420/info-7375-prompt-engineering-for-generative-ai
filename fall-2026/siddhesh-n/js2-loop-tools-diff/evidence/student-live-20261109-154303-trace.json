@@ -1,0 +1,46 @@
+{
+  "status": "incomplete",
+  "requests": 4,
+  "elapsed_seconds": 1.801,
+  "observations": [
+    {
+      "board": "stripe",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+      "count": 771,
+      "http": 200,
+      "raw": "jobs/student-live-20261109-154303-stripe.raw",
+      "result": "observed"
+    },
+    {
+      "board": "airbnb",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs",
+      "count": 203,
+      "http": 200,
+      "raw": "jobs/student-live-20261109-154303-airbnb.raw",
+      "result": "observed"
+    },
+    {
+      "board": "wealthfront",
+      "provider": "lever",
+      "url": "https://api.lever.co/v0/postings/wealthfront?mode=json",
+      "count": 23,
+      "http": 200,
+      "raw": "jobs/student-live-20261109-154303-wealthfront.raw",
+      "result": "observed"
+    },
+    {
+      "board": "deliberate-invalid",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/js2-deliberately-nonexistent-9c9bf5/jobs",
+      "count": null,
+      "http": 404,
+      "raw": "jobs/student-live-20261109-154303-deliberate-invalid.raw",
+      "result": "board-failed",
+      "detail": "HTTP 404"
+    }
+  ],
+  "mode": "live",
+  "recorded_at": "2026-11-09T20:43:04.955230+00:00"
+}

@@ -15,4 +15,4 @@ class CheckerReview(unittest.TestCase):
             capture_output=True,
             text=True,
         )
-                self.assertEqual(result.returncode, 1)
+        self.assertEqual(result.returncode, 1)

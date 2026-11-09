@@ -1,0 +1,4 @@
+stripe: 771 raw listings match reported count
+airbnb: 203 raw listings match reported count
+wealthfront: 23 raw listings match reported count
+deliberate-invalid: HTTP 404, count unknown
