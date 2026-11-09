@@ -1,0 +1,17 @@
+{
+  "status": "finished",
+  "requests": 1,
+  "elapsed_seconds": 0.0,
+  "observations": [
+    {
+      "board": "stripe",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+      "count": 0,
+      "http": 200,
+      "raw": "evidence/seed-missing-jobs.json",
+      "result": "observed"
+    }
+  ],
+  "mode": "seeded-simulation"
+}

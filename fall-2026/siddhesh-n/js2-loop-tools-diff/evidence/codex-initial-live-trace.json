@@ -1,0 +1,44 @@
+{
+  "status": "incomplete",
+  "requests": 4,
+  "elapsed_seconds": 17.635,
+  "observations": [
+    {
+      "board": "stripe",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+      "count": null,
+      "result": "board-failed",
+      "detail": "Command '['curl', '-q', '--silent', '--show-error', '--proto', '=https', '--max-time', '5', '--max-filesize', '8000000', '--write-out', '\\n%{http_code}', 'https://boards-api.greenhouse.io/v1/boards/stripe/jobs']' timed out after 5 seconds"
+    },
+    {
+      "board": "airbnb",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs",
+      "count": 203,
+      "http": 200,
+      "raw": "jobs/codex-live-airbnb.raw",
+      "result": "observed"
+    },
+    {
+      "board": "wealthfront",
+      "provider": "lever",
+      "url": "https://api.lever.co/v0/postings/wealthfront?mode=json",
+      "count": null,
+      "result": "board-failed",
+      "detail": "Command '['curl', '-q', '--silent', '--show-error', '--proto', '=https', '--max-time', '5', '--max-filesize', '8000000', '--write-out', '\\n%{http_code}', 'https://api.lever.co/v0/postings/wealthfront?mode=json']' timed out after 5 seconds"
+    },
+    {
+      "board": "deliberate-invalid",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/js2-deliberately-nonexistent-9c9bf5/jobs",
+      "count": null,
+      "http": 404,
+      "raw": "jobs/codex-live-deliberate-invalid.raw",
+      "result": "board-failed",
+      "detail": "HTTP 404"
+    }
+  ],
+  "mode": "live",
+  "recorded_at": "2026-11-09T19:52:58.589013+00:00"
+}

@@ -1,0 +1,8 @@
+# Sources and contributions
+
+- Agent 1 starting point. [Siddhesh Nikam, Job-Search Agent 1 at commit 7854b1351716b9c1316490b63de8bc75b8c447db](https://github.com/nikam0420/info-7375-prompt-engineering-for-generative-ai/tree/7854b1351716b9c1316490b63de8bc75b8c447db/fall-2026/siddhesh-n/js1-contract-and-watch). The Stripe board, raw-before-parse design, and untrusted JSON approach carry forward. `js1_decode.py` reuses the decoder and its exception class from `watcher/postings.py`. JS2 adds the multi-board loop, Lever support, separate exits, and enforced tool boundaries. The JS1 ranking, seen-ID history and personal files are outside this assignment's collector.
+- API reference. [Greenhouse Job Board API](https://docs.greenhouse.io/job-board.html) and [Lever Postings API](https://github.com/lever/postings-api).
+- Course policy and reporting. [AI policy](https://github.com/nikbearbrown/info-7375-prompt-engineering-for-generative-ai/blob/main/prerequisites/ai-policy.md), [policy video](https://youtu.be/8Ut0Cdl6vMw?si=9w3aEpt1ZyAR4Kiz), [Frictional](https://github.com/nikbearbrown/info-7375-prompt-engineering-for-generative-ai/blob/main/prerequisites/frictional.md), [GitHub version posting](https://github.com/nikbearbrown/info-7375-prompt-engineering-for-generative-ai/blob/main/prerequisites/github-submission.md).
+- Codex (ChatGPT, 2026-11-09). Recovered Agent 1 source, drafted the gate, authored the JS2 baseline, wrote the example tests and independent checker, captured seeded and live evidence, and drafted workflow documentation.
+- Claude Code contribution: [fill only from an actual dated Claude Code interaction].
+- Student contribution: [fill with specific actions personally performed and evidence references].

@@ -1,0 +1,41 @@
+{
+  "status": "incomplete",
+  "requests": 4,
+  "elapsed_seconds": 0.028,
+  "observations": [
+    {
+      "board": "stripe",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+      "count": null,
+      "result": "board-failed",
+      "detail": "Command '['curl', '-q', '--silent', '--show-error', '--noproxy', '*', '--proto', '=https', '--max-time', '5', '--max-filesize', '8000000', '--write-out', '\\n%{http_code}', 'https://boards-api.greenhouse.io/v1/boards/stripe/jobs']' returned non-zero exit status 6."
+    },
+    {
+      "board": "airbnb",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs",
+      "count": null,
+      "result": "board-failed",
+      "detail": "Command '['curl', '-q', '--silent', '--show-error', '--noproxy', '*', '--proto', '=https', '--max-time', '5', '--max-filesize', '8000000', '--write-out', '\\n%{http_code}', 'https://boards-api.greenhouse.io/v1/boards/airbnb/jobs']' returned non-zero exit status 6."
+    },
+    {
+      "board": "wealthfront",
+      "provider": "lever",
+      "url": "https://api.lever.co/v0/postings/wealthfront?mode=json",
+      "count": null,
+      "result": "board-failed",
+      "detail": "Command '['curl', '-q', '--silent', '--show-error', '--noproxy', '*', '--proto', '=https', '--max-time', '5', '--max-filesize', '8000000', '--write-out', '\\n%{http_code}', 'https://api.lever.co/v0/postings/wealthfront?mode=json']' returned non-zero exit status 6."
+    },
+    {
+      "board": "deliberate-invalid",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/js2-deliberately-nonexistent-9c9bf5/jobs",
+      "count": null,
+      "result": "board-failed",
+      "detail": "Command '['curl', '-q', '--silent', '--show-error', '--noproxy', '*', '--proto', '=https', '--max-time', '5', '--max-filesize', '8000000', '--write-out', '\\n%{http_code}', 'https://boards-api.greenhouse.io/v1/boards/js2-deliberately-nonexistent-9c9bf5/jobs']' returned non-zero exit status 6."
+    }
+  ],
+  "mode": "live",
+  "recorded_at": "2026-11-09T19:52:17.824462+00:00"
+}

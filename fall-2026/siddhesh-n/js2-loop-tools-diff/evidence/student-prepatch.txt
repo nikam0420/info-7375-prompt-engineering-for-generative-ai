@@ -1,0 +1,37 @@
+test_request_policy (test_boundaries.Boundaries.test_request_policy) ... ok
+test_write_policy (test_boundaries.Boundaries.test_write_policy) ... ok
+test_off_list_plan_is_error (test_loop.Loop.test_off_list_plan_is_error) ... ok
+test_repeat_skips_without_spending_request (test_loop.Loop.test_repeat_skips_without_spending_request) ... ok
+test_request_budget_reports_unattempted_boards (test_loop.Loop.test_request_budget_reports_unattempted_boards) ... ok
+test_seeded_failure_continues_and_count_is_unknown (test_loop.Loop.test_seeded_failure_continues_and_count_is_unknown) ... ok
+test_time_budget_stops_collection (test_loop.Loop.test_time_budget_stops_collection) ... ok
+test_explicit_empty_greenhouse_jobs_remains_valid (test_review.Review.test_explicit_empty_greenhouse_jobs_remains_valid) ... ok
+test_metadata_only_response_is_incomplete (test_review.Review.test_metadata_only_response_is_incomplete) ... FAIL
+test_missing_greenhouse_jobs_is_incomplete_with_unknown_count (test_review.Review.test_missing_greenhouse_jobs_is_incomplete_with_unknown_count) ... FAIL
+
+======================================================================
+FAIL: test_metadata_only_response_is_incomplete (test_review.Review.test_metadata_only_response_is_incomplete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/siddheshnikam/Downloads/info7375-js2/fall-2026/siddhesh-n/js2-loop-tools-diff/tests/test_review.py", line 29, in test_metadata_only_response_is_incomplete
+    self.assertEqual(trace["status"], "incomplete")
+AssertionError: 'finished' != 'incomplete'
+- finished
++ incomplete
+
+
+======================================================================
+FAIL: test_missing_greenhouse_jobs_is_incomplete_with_unknown_count (test_review.Review.test_missing_greenhouse_jobs_is_incomplete_with_unknown_count)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/siddheshnikam/Downloads/info7375-js2/fall-2026/siddhesh-n/js2-loop-tools-diff/tests/test_review.py", line 14, in test_missing_greenhouse_jobs_is_incomplete_with_unknown_count
+    self.assertEqual(trace["status"], "incomplete")
+AssertionError: 'finished' != 'incomplete'
+- finished
++ incomplete
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+FAILED (failures=2)

@@ -1,0 +1,46 @@
+{
+  "status": "incomplete",
+  "requests": 4,
+  "elapsed_seconds": 14.656,
+  "observations": [
+    {
+      "board": "stripe",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+      "count": 772,
+      "http": 200,
+      "raw": "jobs/codex-live2-stripe.raw",
+      "result": "observed"
+    },
+    {
+      "board": "airbnb",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs",
+      "count": 203,
+      "http": 200,
+      "raw": "jobs/codex-live2-airbnb.raw",
+      "result": "observed"
+    },
+    {
+      "board": "wealthfront",
+      "provider": "lever",
+      "url": "https://api.lever.co/v0/postings/wealthfront?mode=json",
+      "count": 23,
+      "http": 200,
+      "raw": "jobs/codex-live2-wealthfront.raw",
+      "result": "observed"
+    },
+    {
+      "board": "deliberate-invalid",
+      "provider": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/js2-deliberately-nonexistent-9c9bf5/jobs",
+      "count": null,
+      "http": 404,
+      "raw": "jobs/codex-live2-deliberate-invalid.raw",
+      "result": "board-failed",
+      "detail": "HTTP 404"
+    }
+  ],
+  "mode": "live",
+  "recorded_at": "2026-11-09T19:53:31.430604+00:00"
+}

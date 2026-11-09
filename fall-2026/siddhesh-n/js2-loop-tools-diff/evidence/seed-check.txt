@@ -1,0 +1,1 @@
+MISMATCH: raw payload has no jobs array, but agent reported a successful count
