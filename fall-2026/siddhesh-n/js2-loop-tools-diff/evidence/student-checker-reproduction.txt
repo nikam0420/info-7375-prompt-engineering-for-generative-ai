@@ -1,0 +1,2 @@
+PASS: missing schema did not become a successful count
+Checker exit=0

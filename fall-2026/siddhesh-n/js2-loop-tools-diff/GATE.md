@@ -25,3 +25,15 @@ Draft budget revision (2026-11-09, Codex): the five-second request ceiling produ
 - An off-list hostname, redirected request, POST, prefix sibling, or symlink crosses the tool boundary.
 - Request and time budget exits look like success.
 - Raw files can be persisted without explicit approval.
+
+## Second review — November 9, 2026
+
+I ran the independent checker on a constructed copy of the missing-schema
+trace with its run status changed to error. The checker printed PASS and
+exited 0. For this single-board seed, I expect the checker to accept only
+a run with status incomplete, a board result of board-failed, and an
+explicit null count. It should reject a mismatch with exit 1.
+
+I am limiting this review to independent_check.py. I will commit the
+failing test before asking Claude Code for a patch. The agent loop,
+budgets, and permissions are outside the scope of this review.
