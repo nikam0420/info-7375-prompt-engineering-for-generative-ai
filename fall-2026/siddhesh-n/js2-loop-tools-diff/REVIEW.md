@@ -1,4 +1,4 @@
-# Claude Code review packet — student to complete
+# Claude Code review packet
 
 ## Baseline reproduced by Codex
 
@@ -23,5 +23,3 @@ A seeded HTTP 200 response with no jobs array produced a finished trace with cou
 **Decision — Accept.** The patch corrected both reproduced failures, and the test for a genuinely empty array still passed.
 
 **Coverage gap.** A provider could return a valid `jobs` array containing only some of its listings. These tests would count the rows received and miss the omitted listings.
-
-Keep the Codex baseline separate from your personal evidence. Save only sanitized Claude excerpts and the code diff.

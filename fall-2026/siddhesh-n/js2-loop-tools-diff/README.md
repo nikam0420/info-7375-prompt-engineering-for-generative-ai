@@ -2,7 +2,7 @@
 
 Siddhesh Nikam · INFO 7375 · Fall 2026
 
-***Verification status.** The pre-patch suite ran 10 tests with two expected failures. After the Claude Code parser fix, all 10 tests passed and the independent seeded checker printed `PASS`. Codex captured the live run and raw responses. I independently recomputed the three successful board counts from those saved responses. See `REVIEW.md` and `SIGNOFF.md`. Codex drafted and exercised this baseline. The seeded regression is intentionally red until the student completes the Claude Code review. The student's review, decision and sign-off are pending.
+**Verification status.** Before the Claude Code parser patch, two of 10 tests failed as expected. After the patch, all 10 passed, and the independent checker passed on the patched seeded trace. Codex captured the live run and saved its raw responses. I recomputed the three successful board counts from those responses. See `REVIEW.md` and `SIGNOFF.md`.
 
 ## Toolchain and run commands
 

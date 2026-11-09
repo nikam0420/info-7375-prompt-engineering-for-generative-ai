@@ -7,7 +7,7 @@
 
 ## Personal entries
 
-A### November 9, 2026 — Reproducing and reviewing the parser bug
+### November 9, 2026 — Reproducing and reviewing the parser bug
 
 - My first run discovered only the nine starter tests. After adding the AI-assisted metadata-only case, I reran the suite and confirmed that it discovered ten tests. Both missing-field cases failed because the agent returned `finished` for an HTTP 200 response without a `jobs` array. See `evidence/student-prepatch.txt`.
 - Claude Code initially reported that my login had expired. I signed in again with `/login`, resent the scoped prompt, and inspected the resulting diff. Claude removed the empty-list fallback from the Greenhouse parser.
