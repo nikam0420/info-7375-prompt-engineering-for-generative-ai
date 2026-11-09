@@ -4,5 +4,5 @@
 - API reference. [Greenhouse Job Board API](https://docs.greenhouse.io/job-board.html) and [Lever Postings API](https://github.com/lever/postings-api).
 - Course policy and reporting. [AI policy](https://github.com/nikbearbrown/info-7375-prompt-engineering-for-generative-ai/blob/main/prerequisites/ai-policy.md), [policy video](https://youtu.be/8Ut0Cdl6vMw?si=9w3aEpt1ZyAR4Kiz), [Frictional](https://github.com/nikbearbrown/info-7375-prompt-engineering-for-generative-ai/blob/main/prerequisites/frictional.md), [GitHub version posting](https://github.com/nikbearbrown/info-7375-prompt-engineering-for-generative-ai/blob/main/prerequisites/github-submission.md).
 - Codex (ChatGPT, 2026-11-09). Recovered Agent 1 source, drafted the gate, authored the JS2 baseline, wrote the example tests and independent checker, captured seeded and live evidence, and drafted workflow documentation.
-- Claude Code contribution: [fill only from an actual dated Claude Code interaction].
-- Student contribution: [fill with specific actions personally performed and evidence references].
+- Claude Code (November 9, 2026) changed the Greenhouse parser so a missing `jobs` field reaches schema validation. The prompt, reply excerpt, and verification are in `REVIEW.md`.
+- Siddhesh Nikam reproduced the failure, added the AI-assisted metadata-only test before the patch, inspected the diff, reran the test suite and seeded checker, and recomputed counts from the live responses captured by Codex.

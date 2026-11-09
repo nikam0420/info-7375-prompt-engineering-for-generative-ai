@@ -2,7 +2,7 @@
 
 Siddhesh Nikam · INFO 7375 · Fall 2026
 
-**Starter status.** Codex drafted and exercised this baseline. The seeded regression is intentionally red until the student completes the Claude Code review. The student's review, decision and sign-off are pending.
+***Verification status.** The pre-patch suite ran 10 tests with two expected failures. After the Claude Code parser fix, all 10 tests passed and the independent seeded checker printed `PASS`. Codex captured the live run and raw responses. I independently recomputed the three successful board counts from those saved responses. See `REVIEW.md` and `SIGNOFF.md`. Codex drafted and exercised this baseline. The seeded regression is intentionally red until the student completes the Claude Code review. The student's review, decision and sign-off are pending.
 
 ## Toolchain and run commands
 

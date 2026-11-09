@@ -71,8 +71,8 @@ def fetch(url, seconds):
 def count_jobs(provider, body):
     payload = decode_json_bytes(body)
     if provider == "greenhouse":
-        # Review target: a missing jobs field is currently treated as an empty board.
-        rows = payload.get("jobs", []) if isinstance(payload, dict) else None
+        # A missing jobs field is an unknown count, not an empty board.
+        rows = payload.get("jobs") if isinstance(payload, dict) else None
     else:
         rows = payload
     if not isinstance(rows, list) or any(

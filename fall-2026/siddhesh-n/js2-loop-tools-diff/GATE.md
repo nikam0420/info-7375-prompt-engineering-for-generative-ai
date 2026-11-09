@@ -15,7 +15,7 @@ Repeat identity is the exact configured GET URL. Log later occurrences as skippe
 
 Only unauthenticated HTTPS GET calls to exact configured public listing URLs on boards-api.greenhouse.io and api.lever.co. Reject redirects, credentials, alternative ports and paths, and network writes. The agent never applies, emails, messages, or logs in. No résumé, contacts, or tracker. Use only fresh files directly inside the operator-created jobs directory. Raw persistence requires the operator's explicit --approve-raw flag. Reject traversal, sibling prefixes, links, and existing destinations. Run from a trusted checkout under the operator's account. The transport uses the operator’s configured HTTPS proxy environment if present and disables curl startup configuration.
 
-Draft budget revision (2026-11-09, Codex): the five-second request ceiling produced two timeouts on the initial live run. The proposed 12-second per-request and 50-second collection ceilings cover up to four bounded requests. Operator decision: [record dated approval or revision before Claude Code].
+Draft budget revision (2026-11-09, Codex): the five-second request ceiling produced two timeouts on the initial live run. The proposed 12-second per-request and 50-second collection ceilings cover up to four bounded requests. Operator decision — November 9, 2026. I kept the draft limits of four boards, four requests, 12 seconds per request, and 50 seconds for collection. Four requests at the per-request limit take 48 seconds, leaving two seconds of margin. I kept zero retries so a failed board uses one request and the loop can continue. The draft limits were written before the Claude Code patch. I recorded my decision after the patch review.
 
 ## Wrong implementations
 

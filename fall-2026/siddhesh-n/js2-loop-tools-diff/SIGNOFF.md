@@ -1,14 +1,14 @@
 # Sign-off — Job-Search Agent 2
 
-- Checked: [properties and my own test names]
-- How: [distinguish hand checks, tests written before reading Claude’s code, recomputation and AI assistance]
-- Not checked: [at least three real items]
-- Not claiming: [describe the limits of this collector]
-- Signed or withheld: WITHHELD pending personal verification [student name and date]
+- **Checked** — `test_missing_greenhouse_jobs_is_incomplete_with_unknown_count` and the AI-assisted `test_metadata_only_response_is_incomplete` failed before the patch and passed afterward. `test_explicit_empty_greenhouse_jobs_remains_valid` confirmed that an explicitly empty array still reports zero. All 10 tests passed after the patch.
+- **How** — I inspected the Claude Code diff, ran the tests before and after the patch, and ran the independent checker on the patched seeded trace. I also recomputed the Stripe, Airbnb, and Wealthfront counts from the live responses captured by Codex.
+- **Not checked** — Live HTTP redirect handling, whether the providers returned every available listing, and behavior when two processes run simultaneously.
+- **Not claiming** — The counts describe the saved responses at the time of capture. Provider completeness would require a separate check.
+- **Signed** — Siddhesh Nikam, November 9, 2026. This sign-off covers the checks listed above.
 
 ## Driver’s seat
 
-| Part | Claude can do | I should do and why | Evidence |
+| Part | Claude can do | What stays with me and why | Evidence |
 |---|---|---|---|
-| Loop | Suggest control flow and review edge cases | Set budgets, select allowed actions, predict failures and inspect trace. These decisions define how the agent uses tools on my behalf. | [specific Gate decision and observed trace rows] |
-| Review | Draft the narrowly scoped fix | Write a test first, inspect the actual diff, rerun independently and decide. These steps establish whether I can justify accepting the changed behavior. | [my red test, sanitized prompt, diff and green result] |
+| Loop | Suggest exit conditions and edge cases. | I decide the budgets and permitted actions because those rules determine what the collector may do. I check the trace against those decisions. | `GATE.md` and `evidence/codex-live2-trace.json`, including the deliberate HTTP 404 with an unknown count. |
+| Review | Propose the parser change and explain the diff. | I reproduce the defect before the patch, inspect the actual changes, rerun the checks, and decide whether the evidence supports accepting the patch. | `REVIEW.md`, `evidence/student-prepatch.txt`, `evidence/claude-change.diff`, and `evidence/student-postpatch.txt`. |
