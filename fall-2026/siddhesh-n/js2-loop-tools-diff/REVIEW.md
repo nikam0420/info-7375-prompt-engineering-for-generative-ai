@@ -26,7 +26,7 @@ A seeded HTTP 200 response with no jobs array produced a finished trace with cou
 
 ## Second review — Independent checker, November 9, 2026
 
-**Pre-patch commit** — [g4ce4b07bddca86b90ae4a8ab850e13ce054ee2f3]
+**Pre-patch commit** — `4ce4b07bddca86b90ae4a8ab850e13ce054ee2f3`
 
 **Reproduction.** I changed the status of a copy of the single-board seeded trace to `error`. This was a constructed trace. Before the patch, I ran the checker directly. It printed `PASS` and exited 0 even though the expected status was `incomplete`. See `evidence/student-checker-reproduction.txt`.
 
