@@ -1,0 +1,157 @@
+[
+  {
+    "id": "stripe:8415333",
+    "url": "https://stripe.com/jobs/search?gh_jid=8415333",
+    "title": "Analytics Engineer",
+    "score": 8,
+    "claims": [
+      {
+        "claim": "Posting mentions SQL",
+        "label": "supported",
+        "excerpt": "SQL"
+      },
+      {
+        "claim": "Posting mentions dashboards",
+        "label": "supported",
+        "excerpt": "dashboards"
+      },
+      {
+        "claim": "Posting mentions ETL",
+        "label": "supported",
+        "excerpt": "ETL"
+      },
+      {
+        "claim": "Posting mentions data pipelines",
+        "label": "supported",
+        "excerpt": "data pipelines"
+      },
+      {
+        "claim": "Posting mentions data modeling",
+        "label": "supported",
+        "excerpt": "data modeling"
+      }
+    ]
+  },
+  {
+    "id": "stripe:5416444",
+    "url": "https://stripe.com/jobs/search?gh_jid=5416444",
+    "title": "Data Analyst",
+    "score": 7,
+    "claims": [
+      {
+        "claim": "Posting mentions SQL",
+        "label": "supported",
+        "excerpt": "SQL"
+      },
+      {
+        "claim": "Posting mentions dashboards",
+        "label": "supported",
+        "excerpt": "dashboards"
+      },
+      {
+        "claim": "Posting mentions data pipelines",
+        "label": "supported",
+        "excerpt": "data pipelines"
+      },
+      {
+        "claim": "Posting mentions reporting",
+        "label": "supported",
+        "excerpt": "reporting"
+      }
+    ]
+  },
+  {
+    "id": "stripe:5601881",
+    "url": "https://stripe.com/jobs/search?gh_jid=5601881",
+    "title": "Data Analyst",
+    "score": 7,
+    "claims": [
+      {
+        "claim": "Posting mentions SQL",
+        "label": "supported",
+        "excerpt": "SQL"
+      },
+      {
+        "claim": "Posting mentions dashboards",
+        "label": "supported",
+        "excerpt": "dashboards"
+      },
+      {
+        "claim": "Posting mentions data pipelines",
+        "label": "supported",
+        "excerpt": "data pipelines"
+      },
+      {
+        "claim": "Posting mentions reporting",
+        "label": "supported",
+        "excerpt": "reporting"
+      }
+    ]
+  },
+  {
+    "id": "stripe:8189909",
+    "url": "https://stripe.com/jobs/search?gh_jid=8189909",
+    "title": "Data Analyst, SF",
+    "score": 7,
+    "claims": [
+      {
+        "claim": "Posting mentions SQL",
+        "label": "supported",
+        "excerpt": "SQL"
+      },
+      {
+        "claim": "Posting mentions dashboards",
+        "label": "supported",
+        "excerpt": "dashboards"
+      },
+      {
+        "claim": "Posting mentions data pipelines",
+        "label": "supported",
+        "excerpt": "data pipelines"
+      },
+      {
+        "claim": "Posting mentions reporting",
+        "label": "supported",
+        "excerpt": "reporting"
+      }
+    ]
+  },
+  {
+    "id": "airbnb:8300926",
+    "url": "https://careers.airbnb.com/positions/8300926?gh_jid=8300926",
+    "title": "Senior Data Software Engineer",
+    "score": 6,
+    "claims": [
+      {
+        "claim": "Posting mentions SQL",
+        "label": "supported",
+        "excerpt": "SQL"
+      },
+      {
+        "claim": "Posting mentions dashboards",
+        "label": "supported",
+        "excerpt": "dashboards"
+      },
+      {
+        "claim": "Posting mentions ETL",
+        "label": "supported",
+        "excerpt": "ETL"
+      },
+      {
+        "claim": "Posting mentions data pipelines",
+        "label": "supported",
+        "excerpt": "data pipelines"
+      },
+      {
+        "claim": "Posting mentions data modeling",
+        "label": "supported",
+        "excerpt": "data modeling"
+      },
+      {
+        "claim": "Posting mentions reporting",
+        "label": "supported",
+        "excerpt": "reporting"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+# Frictional
+
+The entries below describe the observed AI-assisted work. Add your own reaction, an independently checked example, and any suggested change you accepted, modified or rejected before signing.
+
+1. **Starting point.** The prompt was “i have to submit this assignment and i just have 1 hour remaining,” with the course brief. The upstream student directory did not contain JS2. The public board configuration was reused conceptually while the implementation was written from scratch. The filter and evidence rules were committed before implementation in `0fea918`.
+2. **A failed experimental layout.** The initial run assigned all score-4 keeps to audit groups, leaving no held-out flips for 4→5. Codex ran the report, checked the score distribution and reserved two score-4 rows before student labeling. The revised run shows two flips. The random reject group remained seeded and selection was independent of labels. A balanced holdout was infeasible after allocating kept examples to the audit because only 15 passed.
+3. **Term matching can be misleading.** During source inspection, Codex found “Reporting to the Talent Director” in Airbnb's Talent Partner posting. The filter counted the term. The draft threshold kept it out, and making reporting sufficient would have changed 190 decisions. A general deletion would discard valid appearances, so the baseline retained the signal.
+4. **Transport evidence has a limit.** Claude Code was absent here. Codex used a deterministic Python client to produce and check a real bidirectional exchange with seeded fictional text. The repo records the actual client and date. Running the Claude setup remains a distinct verification.
+5. **Student review pending.** The sample sheet and import tool exist. No student labels or personal assurances are inferred from the assistant's work. Student: record which judgments, tool behaviors, or tests you verified yourself and the date.

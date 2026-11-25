@@ -22,3 +22,7 @@ Supported means a direct statement attributable to this role establishes the ato
 ## Planned sample
 
 Reproducible simple random sample of 30 rejected rows, seed 7375. Supplement with five closest rejects, five closest keeps and five random keeps, with no row repeated in the audit. Separately reserve up to 24 other rows balanced by baseline keep/reject and lock human labels before comparing threshold 4 with threshold 5. Coverage and threshold strata describe these samples only. Change threshold alone; preserve all weights, inputs and parsing. Do not tune on reserved labels.
+
+## Sampling amendment v1.0.1
+
+The first sample layout had no held-out rows on the boundary between 4 and 5. Before any human labels were received, the audit plan was amended to reserve up to two score-4 rows in the holdout before drawing closest/random keeps, with ID-order ties and seeded draws for the remaining rows. The random reject draw remains identical. This is a change to the sampling design. The filter itself and the two thresholds stayed the same.

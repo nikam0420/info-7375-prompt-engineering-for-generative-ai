@@ -1,0 +1,990 @@
+id,title,decision,score,title_match,signals
+airbnb:6757302,"Senior Staff Machine Learning Engineer, Data & Eval",reject,1,,data pipelines
+airbnb:6852954,"Support Specialist, Premium ",reject,0,,
+airbnb:7107054,"Senior Staff Data Scientist, Guest & Host Marketplace AI",reject,1,,SQL
+airbnb:7230257,Spécialiste au Support Premium,reject,0,,
+airbnb:7417293,"Support Specialist, Safety",reject,0,,
+airbnb:7417294,"Spécialiste, Sécurité",reject,0,,
+airbnb:7453190,"Senior Mobile Software Engineer, Quality Engineering",reject,0,,
+airbnb:7525479,"Senior Staff Software Engineer, Payments",reject,0,,
+airbnb:7528577,"Staff Software Engineer, Guest & Host",reject,0,,
+airbnb:7532824,"Engineering Manager, Guest & Host",reject,1,,data modeling
+airbnb:7587869,"Senior Market Manager, Hotels",reject,0,,
+airbnb:7592146,"Senior Staff Machine Learning Engineer, Trust",reject,1,,data pipelines
+airbnb:7662244,"Senior Data Scientist, Guest & Host",reject,1,,SQL
+airbnb:7702714,"Staff Software Engineer, Streaming Infrastructure",reject,1,,reporting
+airbnb:7705262,"Staff Data Scientist, Marketplace Intelligence and Forecasting",reject,1,,SQL
+airbnb:7716341,"Machine Learning Engineer, Assistance Engineering",reject,1,,data pipelines
+airbnb:7789528,Regulatory Operations Lead,reject,1,,dashboards
+airbnb:7789554,"Associate Legal Counsel, Japan",reject,0,,
+airbnb:7826337,"Machine Learning Engineer, Assistance Engineering",reject,0,,
+airbnb:7839229,Senior Forecasting and Demand Planning Analyst,reject,3,,SQL|dashboards|data pipelines
+airbnb:7858738,"Senior Staff Machine Learning Engineer, Post Training",reject,0,,
+airbnb:7862109,"Manager, Premium Support",reject,2,,SQL|reporting
+airbnb:7862110,"Gestionnaire, Soutien Premium",reject,1,,SQL
+airbnb:7955579,Principal Machine Learning Engineer- LLM Fine-tuning and Optimization ,reject,0,,
+airbnb:7964996,"Support Specialist, Safety",reject,0,,
+airbnb:7968034,"Senior Engineering Manager, Media Foundation",reject,0,,
+airbnb:7975743,"Senior Machine Learning Engineer, Assistance Engineering",reject,1,,data pipelines
+airbnb:7978040,Sr. Staff Experience Designer,reject,0,,
+airbnb:8023118,"Lead Advanced Analytics, Community Support",reject,3,,SQL|dashboards|reporting
+airbnb:8024057,"Senior Software Engineer, Service Tools   ",reject,1,,data pipelines
+airbnb:8024316,"Staff Machine Learning Engineer, Assistance Engineering",reject,0,,
+airbnb:8044801,"Senior Manager, Field Operations",reject,1,,dashboards
+airbnb:8053756,"Senior Principal, Competitive Intelligence",reject,1,,reporting
+airbnb:8070705,"Senior Platform Manager, Data Products, Finance Accounting",reject,3,,SQL|data pipelines|reporting
+airbnb:8074955,"Operations Engineer, BizTech",reject,3,,SQL|dashboards|reporting
+airbnb:8080766,"Support Specialist, Premium",reject,0,,
+airbnb:8080767,Spécialiste au Support Premium,reject,0,,
+airbnb:8081180,"Senior Analyst, Advanced Analytics - Gurugram",reject,3,,SQL|dashboards|reporting
+airbnb:8095365,"Senior Staff Software Engineer, Marketing Technology",reject,0,,
+airbnb:8107160,"Senior Support Specialist, Premium Support",reject,0,,
+airbnb:8107161,"Spécialiste principal(e), Soutien Premium",reject,0,,
+airbnb:8121074,"Staff Experience Designer, International",reject,0,,
+airbnb:8129371,"Staff Machine Learning Engineer, Traffic Intelligence",reject,2,,SQL|data pipelines
+airbnb:8130355,"Senior Machine Learning Engineer, Trust",reject,1,,data pipelines
+airbnb:8140993,"Market Manager, Australia",reject,0,,
+airbnb:8141266,"Senior Market Manager, Vietnamese Speaking (Bangkok Based) ",reject,0,,
+airbnb:8154705,"Staff Software Engineer, Data Catalog",reject,1,,SQL
+airbnb:8163100,Staff Platform Manager - GTM & Ops Tooling,reject,2,,SQL|reporting
+airbnb:8175521,"Senior Manager, Platform Product Management (Payments)",reject,1,,reporting
+airbnb:8196013,"Senior Demand Strategy Lead, Experiences",reject,1,,reporting
+airbnb:8201750,Host Communications Strategy Lead,reject,1,,dashboards
+airbnb:8211765,"Lead Platform Manager, Tech Foundations",reject,0,,
+airbnb:8214375,"Senior Executive IT Support Engineer, Tech Foundations",reject,0,,
+airbnb:8220091,"Senior Manager, Quality",reject,2,,dashboards|reporting
+airbnb:8225785,"Senior Analyst, Advanced Analytics",keep,4,,SQL|dashboards|data modeling|reporting
+airbnb:8231431,"Product Manager, AI Trip Planning",reject,0,,
+airbnb:8232153,"Senior Machine Learning Engineer, Trust",reject,1,,data pipelines
+airbnb:8232474,Senior Enterprise Account Manager,reject,0,,
+airbnb:8236127,"Policy Manager, Consults and Escalations",reject,1,,reporting
+airbnb:8238592,"Senior Staff Engineer, Guest & Host (Host Listings & Quality)",reject,1,,data modeling
+airbnb:8238604,"Engineering Manager, Guest & Host (Host Listings & Quality)",reject,2,,dashboards|data pipelines
+airbnb:8242459,"Business Operations and Growth Lead, Asia",reject,1,,reporting
+airbnb:8242793,Senior Program Operations Manager,reject,1,,SQL
+airbnb:8243975,Global Initiatives Curator,reject,0,,
+airbnb:8257909,"Staff Software Engineer, Cloud Infrastructure ",reject,0,,
+airbnb:8258743,Senior Host Communications Strategy Lead,reject,1,,dashboards
+airbnb:8258957,"Sales Development Representative, Luxe",reject,0,,
+airbnb:8259224,Quality Assurance & Standards Manager,reject,1,,reporting
+airbnb:8259504,"Engineering Manager, Payments ",reject,0,,
+airbnb:8259526,"Staff Software Engineer, Payments (AirCover Insurance Platform)",reject,1,,SQL
+airbnb:8259671,"Senior Manager, Technical Brand & Content",reject,0,,
+airbnb:8259920,"Principal, Strategic Finance & Analytics, Incubations",reject,2,,SQL|reporting
+airbnb:8260010,Market Manager,reject,0,,
+airbnb:8260061,Market Manager,reject,0,,
+airbnb:8262207,"Product Manager, API Platform",reject,0,,
+airbnb:8262769,"Staff Software Engineer, iOS Platform",reject,0,,
+airbnb:8262812,"Senior Software Engineer, iOS Platform",reject,0,,
+airbnb:8263282,"Senior Software Engineer, Analytics Infrastructure",reject,1,,SQL
+airbnb:8263303,"Software Engineer, Analytics Infrastructure",reject,1,,SQL
+airbnb:8271903,"Market Manager, UK (Hotels)",reject,0,,
+airbnb:8272848,"Market Manager, DACH (Hotels)",reject,0,,
+airbnb:8272909,"Market Manager, France (Hotels)",reject,0,,
+airbnb:8272923,"Market Manager, Spain (Hotels)",reject,0,,
+airbnb:8272929,"Market Manager, Italy (Hotels)",reject,0,,
+airbnb:8274152,"Software Engineer, Payments",reject,2,,SQL|data pipelines
+airbnb:8275370,"Counsel, Corporate ",reject,1,,reporting
+airbnb:8275416,"Principal, Strategic Finance & Analytics, Technology",reject,1,,reporting
+airbnb:8275755,"Senior Manager, Safety",reject,1,,reporting
+airbnb:8278729,"Senior Analyst, France & Netherlands (12 Month Fixed-Term Contract)",reject,2,,SQL|reporting
+airbnb:8281533,Staff Software Engineer - Hosting Services,reject,1,,data pipelines
+airbnb:8282322,"Product Manager, Social Features",reject,0,,
+airbnb:8286207,"Staff Technical Program Manager, Infrastructure Security",reject,0,,
+airbnb:8287849,"Senior Communications Manager, Spanish-Speaking South America",reject,0,,
+airbnb:8299386,"Office Manager, China (Executive Administration and Workplace)",reject,1,,reporting
+airbnb:8299396,"Manager, Homes Supply, Thailand & Vietnam",reject,1,,dashboards
+airbnb:8300839,Market Associate,reject,0,,
+airbnb:8300926,Senior Data Software Engineer,keep,6,,SQL|dashboards|ETL|data pipelines|data modeling|reporting
+airbnb:8301515,"Senior Data Scientist, People Analytics & Research",reject,2,,SQL|reporting
+airbnb:8303047,"Product Manager, LATAM (Miami or San Francisco)",reject,0,,
+airbnb:8303135,Market Coordinator (12 Month Fixed-Term Contract),reject,0,,
+airbnb:8303198,Market Manager ,reject,0,,
+airbnb:8303917,"Manager, Key Accounts - Hotels",reject,0,,
+airbnb:8303963,"Manager, Key Accounts - Hotels",reject,0,,
+airbnb:8303966,"Manager, Key Accounts - Hotels",reject,0,,
+airbnb:8303967,"Manager, Key Accounts - Hotels",reject,0,,
+airbnb:8303970,"Manager, Key Accounts - Hotels",reject,0,,
+airbnb:8303971,"Manager, Key Accounts - Hotels",reject,0,,
+airbnb:8304162,"Product Manager, LATAM  (Mexico City, Mexico)",reject,0,,
+airbnb:8304183,"Product Manager, LATAM (São Paulo, Brazil)",reject,0,,
+airbnb:8305593,"Senior Talent Partner, India",reject,1,,reporting
+airbnb:8306218,Market Associate,reject,0,,
+airbnb:8306554,"AirCover Specialist, Claims Experience",reject,0,,
+airbnb:8306555,"Spécialiste AirCover, Expérience client en réclamations",reject,0,,
+airbnb:8311558,"Senior Counsel, Product Privacy",reject,0,,
+airbnb:8312713,"Systems Engineer, Tech Foundations (Jira cloud)",reject,2,,dashboards|reporting
+airbnb:8316130,"Manager, Engineering, Dev AI",reject,0,,
+airbnb:8316843,Connectivity Partner Manager,reject,1,,SQL
+airbnb:8318103,"Senior Compliance Lead - Cities, EMEA",reject,1,,reporting
+airbnb:8318152,"Senior Compliance Lead - Cities, EMEA",reject,1,,reporting
+airbnb:8318155,"Senior Compliance Lead - Cities, EMEA",reject,1,,reporting
+airbnb:8325603,"Senior Software Engineer, Experimentation Interfaces",reject,1,,data pipelines
+airbnb:8325753,"Staff Software Engineer, Prototyping Platform (Full Stack)",reject,1,,data pipelines
+airbnb:8325761,Senior Enablement Manager - API,reject,2,,SQL|reporting
+airbnb:8327439,"Senior Communications Lead, India",reject,1,,reporting
+airbnb:8327789,"Emergency Response Manager, APAC",reject,1,,reporting
+airbnb:8329612,"Principal, Strategic Finance & Analytics",reject,1,,reporting
+airbnb:8331899,"Staff, Advanced Analytics ",reject,3,,SQL|data pipelines|reporting
+airbnb:8331990,"Senior Accountant, Consolidations",reject,2,,SQL|reporting
+airbnb:8334880,"Senior Software Engineer, Experimentation Platform",reject,1,,data pipelines
+airbnb:8335541,Senior Engineering Manager - Partner Ecosystem,reject,0,,
+airbnb:8336191,Senior Account Executive,reject,0,,
+airbnb:8336590,"Campaign Manager, Mexico",reject,0,,
+airbnb:8336893,Market Manager,reject,0,,
+airbnb:8336959,Senior Market Manager,reject,1,,dashboards
+airbnb:8337229,"Senior Manager, Community Policy ",reject,0,,
+airbnb:8345089,"Senior Program Manager, Design",reject,0,,
+airbnb:8345532,"AirCover Specialist, Claims Experience",reject,0,,
+airbnb:8346184,"Senior Manager, Public Policy, Pacific Northwest",reject,0,,
+airbnb:8347087,"Senior Software Engineer, Marketing Technology",reject,0,,
+airbnb:8348207,Law Enforcement Engagement Lead - LATAM,reject,0,,
+airbnb:8349065,"Senior Account Executive, Hotels",reject,0,,
+airbnb:8349111,"Vendor Performance Manager, APAC (Sales-Focused)",reject,2,,SQL|reporting
+airbnb:8350117,"Market Manager, Spain & Portugal",reject,0,,
+airbnb:8350696,Staff Data Scientist - Martech Platform (ML/Algos),reject,1,,SQL
+airbnb:8351417,"Senior Machine Learning Engineer, Relevance",reject,1,,data pipelines
+airbnb:8351488,"Senior Market Manager, Luxe",reject,1,,reporting
+airbnb:8351513,"Market Manager, Hotels",reject,0,,
+airbnb:8355483,"Lead Program Manager, Design",reject,0,,
+airbnb:8356141,"Senior Program Manager, Design",reject,0,,
+airbnb:8356427,"Supervisor, Premium Support",reject,2,,SQL|reporting
+airbnb:8356428,"Superviseur (-e), Soutien Premium ",reject,1,,SQL
+airbnb:8357059,Business Operations and Growth Lead - DACH & CEE,reject,1,,SQL
+airbnb:8358646,Regulatory Strategy and Operations Lead,reject,1,,dashboards
+airbnb:8358671,Regulatory Strategy and Operations Lead,reject,1,,dashboards
+airbnb:8360478,Software Engineering Intern (BS/MS),reject,1,,SQL
+airbnb:8364499,"Senior Communications Manager, Korea",reject,1,,reporting
+airbnb:8365363,Account Executive (Hotels),reject,0,,
+airbnb:8367963,"Senior Account Executive, Hotels - France & Netherlands (12M FTC)",reject,0,,
+airbnb:8372095,"Sales Development Intern, Services, Italy",reject,0,,
+airbnb:8372149,Connectivity Partner Specialist,reject,1,,SQL
+airbnb:8372325,"Sales Development Intern, Services, France",reject,0,,
+airbnb:8372424,"Sales Development Intern, Services, Spain",reject,0,,
+airbnb:8374427,"Senior Engineering Manager, Storage",reject,1,,SQL
+airbnb:8374537,"Senior Security Engineer, Threat Detection & Incident Response",reject,1,,SQL
+airbnb:8374941,"Engineering Manager, Marketing Technology",reject,0,,
+airbnb:8376005,"Communications Intern, France",reject,1,,reporting
+airbnb:8376045,"Brand Marketing Intern, France",reject,1,,reporting
+airbnb:8376124,"Marketing & CRM Intern, Experiences",reject,1,,dashboards
+airbnb:8377478,"Recruiter, Commercial (12-Month Contract)",reject,0,,
+airbnb:8377745,"Recruiter, Commercial (12-Month Contract)",reject,0,,
+airbnb:8378197,"Manager, Quality ROW",reject,1,,reporting
+airbnb:8381734,"Senior Market Manager, Luxe",reject,1,,reporting
+airbnb:8381807,"Category Lead, Airbnb Services",reject,1,,SQL
+airbnb:8382875,Senior Key Accounts Manager,reject,0,,
+airbnb:8383026,Senior Key Accounts Manager,reject,0,,
+airbnb:8383070,Senior Key Accounts Manager,reject,0,,
+airbnb:8383084,Senior Key Accounts Manager,reject,0,,
+airbnb:8383090,Senior Key Accounts Manager,reject,0,,
+airbnb:8383877,Senior Connectivity Partner Manager,reject,0,,
+airbnb:8383913,"Lead, Quality, Elevated Support",reject,1,,reporting
+airbnb:8385577,"Communications Manager, Trust",reject,0,,
+airbnb:8393253,"Program Manager, North America Policy",reject,1,,reporting
+airbnb:8393522,"Senior Manager, Supply Tech Platform Management",reject,1,,SQL
+airbnb:8393726,"Engineering Manager, Machine Learning",reject,1,,data pipelines
+airbnb:8393912,Senior Software Engineer Guest & Host,reject,0,,
+airbnb:8394382,"Engineering Manager, External Search & AI Optimization",reject,1,,data pipelines
+airbnb:8394407,"Creative Director Copy, Social",reject,0,,
+airbnb:8394471,Senior Growth & Business Operations Lead,reject,1,,reporting
+airbnb:8401203,Senior AI Development Lead,reject,2,,SQL|dashboards
+airbnb:8402949,"Senior Financial Operations Lead, Vendor Operations",reject,0,,
+airbnb:8403001,Senior Vendor Operations Manager,reject,0,,
+airbnb:8406316,"Lead Counsel, Litigation",reject,1,,reporting
+airbnb:8406333,Partnerships Enablement Intern,reject,0,,
+airbnb:8406371,"Senior Software Engineer, Partner Ecosystems ",reject,0,,
+airbnb:8411254,"Senior Machine Learning Engineer, Assistance Foundations",reject,1,,data pipelines
+airbnb:8411290,"Tax Senior Principal, New Business Initiatives",reject,1,,reporting
+airbnb:8412312,"Senior Web Engineer, Profile & Community ",reject,0,,
+airbnb:8412322,"Policy Lead, California",reject,0,,
+airbnb:8413908,"Operations Associate, Guest Services",reject,0,,
+stripe:5416444,Data Analyst,keep,7,Data Analyst,SQL|dashboards|data pipelines|reporting
+stripe:5601879,Data Scientist,reject,1,,SQL
+stripe:5601881,Data Analyst,keep,7,Data Analyst,SQL|dashboards|data pipelines|reporting
+stripe:5895430,Data Scientist,reject,1,,SQL
+stripe:6042172,"Backend Engineer, Core Technology",reject,1,,data pipelines
+stripe:6176758,"Backend/API Engineer, Money as a Service",reject,0,,
+stripe:6209187,Legal Entity Controller,reject,2,,SQL|reporting
+stripe:6348471,Product Marketing Manager,reject,0,,
+stripe:6447175,"Full Stack Engineer, Link",reject,0,,
+stripe:6558993,Customer Success Manager,reject,0,,
+stripe:6567104,"Full Stack Engineer, Developer & End User Experience Platform",reject,0,,
+stripe:6570253,Sales Development Representative,reject,1,,reporting
+stripe:6570259,Sales Development Representative (German fluency) ,reject,1,,reporting
+stripe:6717520,"Software Engineer, Payments and Risk",reject,0,,
+stripe:7120766,"Specialist Solutions Architect, Crypto & Stablecoins",reject,0,,
+stripe:7202630,"Staff Product Designer, Link",reject,0,,
+stripe:7208537,"Software Engineer, Money Movement ",reject,0,,
+stripe:7214197,"Program Manager, Risk Ops Enablement",reject,1,,SQL
+stripe:7230452,"Forward Deployed Engineer, Privy",reject,0,,
+stripe:7230670,"Software Engineer, Data Orchestration",reject,3,,SQL|data pipelines|reporting
+stripe:7230921,Risk Operations Analyst,reject,1,,reporting
+stripe:7235875,"Software Engineer, Privy",reject,0,,
+stripe:7277110,"Software Engineer, Bridge",reject,1,,SQL
+stripe:7277406,"Account Executive, Commercial (Hunter)",reject,0,,
+stripe:7292520,"Backend Engineer, Developer & End-user Experience Platform",reject,0,,
+stripe:7298935,"Account Executive, Platforms (Hunter) ",reject,0,,
+stripe:7369543,"Backend/API Engineer, Money as a Service (Product) ",reject,0,,
+stripe:7370967,"Pre-Sales Solutions Architect, Money Management",reject,0,,
+stripe:7377101,Technical Solutions Engineer,reject,0,,
+stripe:7392697,"Product Manager, Link - Consumer",reject,1,,SQL
+stripe:7393071,"Implementation Specialist, GTM Accelerate",reject,1,,dashboards
+stripe:7396679,"Software Engineer, Secrets Infrastructure",reject,0,,
+stripe:7436086,"Full Stack Engineer, Web Presence and Platform",reject,0,,
+stripe:7456167,Credit Risk Operations Analyst (CDMX),reject,1,,SQL
+stripe:7456716,"Account Executive, Product Sales - Stablecoin Issuing",reject,0,,
+stripe:7461966,"Global Strategic Alliances Lead, PwC",reject,0,,
+stripe:7462961,"Infrastructure Engineer, Privy",reject,0,,
+stripe:7466921,"People Partner, Technology",reject,0,,
+stripe:7473983,Finance and Strategy Partner,reject,3,,SQL|dashboards|reporting
+stripe:7476555,"Backend Engineer, Developer & End-user Experience Platform",reject,0,,
+stripe:7517535,"Staff Product Manager, GenAI and Agent Foundations",reject,0,,
+stripe:7523947,"Head of Specialist Solutions Architecture, Revenue Suite (AMER)",reject,0,,
+stripe:7524334,"Business Development Manager, Agentic Commerce",reject,0,,
+stripe:7528816,"Account Executive, Enterprise Hunter Japan",reject,0,,
+stripe:7543868,"Software Engineer, Financial Business Insights",reject,1,,data pipelines
+stripe:7544547,"Operations Associate, New Grad (Mexico)",reject,0,,
+stripe:7553098,Global People Support - People Ops Manager,reject,1,,reporting
+stripe:7554002,Payments Fraud Investigator,reject,2,,SQL|dashboards
+stripe:7576967,"Account Executive, Enterprise Platforms (Grower)",reject,0,,
+stripe:7584016,Campaign Strategy & Operations Manager,reject,0,,
+stripe:7586413,"Product Manager, Terminal Developer Experiences",reject,0,,
+stripe:7618977,"Software Engineer, Core Technology",reject,1,,data pipelines
+stripe:7634113,"Regional Field Marketing Manager, EMEA Commercial",reject,0,,
+stripe:7650177,"Regulatory Reporting Program Manager, Stablecoin",reject,2,,data pipelines|reporting
+stripe:7677136, EMEA Global Strategic Alliances Lead-Accenture,reject,0,,
+stripe:7684149,"Communications Manager, APAC",reject,0,,
+stripe:7685460,Fraud Operations Team Lead,reject,1,,reporting
+stripe:7703750,Manager - Legal Entity Controller,reject,1,,reporting
+stripe:7718947,"Tech Operations Associate, New Grad (Mexico)",reject,1,,SQL
+stripe:7728618,"Specialist Solutions Architect, Billing",reject,0,,
+stripe:7737124,Product Manager: New Grad Accelerator,reject,1,,dashboards
+stripe:7737248,"Technical Support Engineer (EMEA), Metronome",reject,1,,SQL
+stripe:7742552,"Enterprise Risk Management (ERM) Program Lead, MALPB",keep,4,,SQL|dashboards|data pipelines|reporting
+stripe:7769005,"Engineering Manager, Terminal",reject,0,,
+stripe:7773461,"Product Marketing, Data Products",reject,1,,data pipelines
+stripe:7774312,Crypto Product Accounting ,reject,2,,SQL|reporting
+stripe:7776179,"Security Engineer, Bridge",reject,0,,
+stripe:7789539,"Account Executive, Commercial Hunter Japan",reject,1,,SQL
+stripe:7793636,"Senior Designer, Brand Advertising",reject,0,,
+stripe:7812856,"Staff Product Manager, Enterprise",reject,0,,
+stripe:7813411,Strategy and Analytics Business Partner,reject,2,,SQL|dashboards
+stripe:7819426,Integration Engineer (Chicago) ,reject,0,,
+stripe:7825578,"Account Executive, Enterprise Hunter (DACH Market)  ",reject,0,,
+stripe:7827403,Corporate Communications,reject,0,,
+stripe:7832098,"Product Marketing Manager, Portfolio Pricing",reject,0,,
+stripe:7861422,"Product Designer, Global",reject,1,,dashboards
+stripe:7862938,Sales Compensation Design Lead,reject,2,,SQL|reporting
+stripe:7866374,People Consultant,reject,0,,
+stripe:7867328,"Social Media, Customer Support Associate (Includes Weekend Rotations)",reject,0,,
+stripe:7867389,Cloud Security Engineer,reject,0,,
+stripe:7893199,"Account Executive, Cross Border China",reject,0,,
+stripe:7895284,"Full Stack Software Engineer, Brazil",reject,0,,
+stripe:7895287,"Backend Engineer, Payments Experiences",reject,0,,
+stripe:7896538,"Manager, Sales Development",reject,0,,
+stripe:7901987,"Product Manager, Startup Products",reject,0,,
+stripe:7913698,"Staff Product Manager, Sail Core",reject,1,,dashboards
+stripe:7917880,Technical Solutions Engineer,reject,0,,
+stripe:7919030,Technical Solutions Engineer,reject,0,,
+stripe:7923653,"Data Science Manager, Risk",reject,2,,SQL|reporting
+stripe:7927330,"Partner Solutions Architect, Billing",reject,0,,
+stripe:7930343,"Account Executive, Enterprise - Hunter",reject,0,,
+stripe:7943804,"Engineering Manager, AI Conversation Platform",reject,0,,
+stripe:7947546,"Engineering Manager, Forward Deployed (Privy)",reject,0,,
+stripe:7954207,"Product Designer, Internal Tools",reject,0,,
+stripe:7955051,Operations Associate - Bridge (CDMX),reject,0,,
+stripe:7958150,Deal Strategist,reject,0,,
+stripe:7960875,"Deal Pricing Strategist, APAC",reject,0,,
+stripe:7962437,"Social Media, Customer Support Associate",reject,0,,
+stripe:7967890,Consumer Operations Associate,reject,0,,
+stripe:7974211,"Risk Operations Analyst, Financial Crimes",reject,2,,SQL|reporting
+stripe:7975721,Payments Analyst,reject,1,,SQL
+stripe:7975725,"Software Engineer, Core Infrastructure",reject,0,,
+stripe:7978915,"Mobile Engineer, Treasury",reject,0,,
+stripe:7980578,Product Designer - Dashboard,reject,1,,dashboards
+stripe:7981587,Technical Customer Support Associate - Product Support Operations (CDMX),reject,1,,SQL
+stripe:7982720,"Software Engineer, Secure Devices",reject,0,,
+stripe:7983076,"Product Designer, Design Systems",reject,0,,
+stripe:7983725,"Staff Product Manager, Billing ",reject,1,,data modeling
+stripe:7983854,"Product Manager, Disputes",reject,2,,SQL|dashboards
+stripe:7983856,"Product Manager, Treasury for Platforms",reject,1,,SQL
+stripe:7984866,"Product Manager, Identity",reject,1,,dashboards
+stripe:7994443,"Product Manager, Global Payouts",reject,2,,dashboards|reporting
+stripe:7997359,Indirect Tax Systems Specialist,reject,1,,reporting
+stripe:7998031,Deal Pricing,reject,1,,SQL
+stripe:8007738,"Senior Manager, Technical Program Management",reject,0,,
+stripe:8014995,"Operations Associate, Financial Crimes (AML Investigations)",reject,1,,reporting
+stripe:8016504,GTM Recruiter (Fixed Term),reject,1,,reporting
+stripe:8017084,"Sanctions, Operations Associate(CDMX)",reject,1,,reporting
+stripe:8022713,"ML Engineer Manager, AI Conversation Platform",reject,0,,
+stripe:8023524,Technical Account Manager,reject,2,,SQL|ETL
+stripe:8029043,"Account Executive, Product Sales, Metronome (Hunter) ",reject,1,,reporting
+stripe:8029128,"Enterprise Account Executive, Revenue Suite (Grower)",reject,1,,reporting
+stripe:8031782,"Staff Product Designer, Risk",reject,0,,
+stripe:8039548,"Full Stack Engineer, Support Experience (Greater China Support)",reject,0,,
+stripe:8040940,"Account Executive, Product Sales - Link",reject,0,,
+stripe:8041655,"Product Manager, E-Invoicing",reject,0,,
+stripe:8041894,"Account Executive, Enterprise Platforms, Tier 2 Grower",reject,0,,
+stripe:8042055,"Technical Program Manager, Money-as-a-Service",reject,0,,
+stripe:8042913,Solutions Architect (India),reject,0,,
+stripe:8043052,Data Scientist,reject,2,,SQL|dashboards
+stripe:8043083,"Staff Product Manager, Issuing",reject,0,,
+stripe:8048193,"Account Executive, Financial Services, Existing Business",reject,0,,
+stripe:8048266,Sales Development Representative ,reject,1,,reporting
+stripe:8049722,People Operations Associate (Centralized Operations),reject,0,,
+stripe:8049828,"Account Executive, Product - Link",reject,0,,
+stripe:8052814,"Customer Success Manager, Revenue Suite",reject,0,,
+stripe:8053933,"Strategy & Ops, Enterprise",reject,2,,SQL|dashboards
+stripe:8064171,"Solutions Architect Manager, Platforms (Asia-Pacific) ",reject,0,,
+stripe:8065034,"Staff Product Manager, Connect",reject,0,,
+stripe:8069506,"Engineering Manager, Machine Learning - Fraud Detection",reject,0,,
+stripe:8070949,"Staff Engineer, Core Infrastructure",reject,1,,dashboards
+stripe:8075570,"Integration Engineer, Professional Services",reject,1,,data modeling
+stripe:8076108,"Head of Risk Programs, APAC",reject,0,,
+stripe:8076626,"Software Engineer, Stripe Tax ",reject,0,,
+stripe:8077887,"Account Executive, Bridge ",reject,1,,SQL
+stripe:8077971,"Account Executive, Platforms - Hunter",reject,0,,
+stripe:8078168,"Growth Marketing Manager, Greater China",reject,1,,reporting
+stripe:8079514,"Account Executive, hunter",reject,0,,
+stripe:8079918,Financial Connections TechOps Manager,reject,0,,
+stripe:8080454,"Integration Engineer, Metronome",reject,1,,reporting
+stripe:8081754,"Program Manager, Card Network Office (Card Networks)",reject,1,,dashboards
+stripe:8082149,"Lifecycle Marketing Manager, Capital",reject,0,,
+stripe:8083966,Food Experience Manager ,reject,0,,
+stripe:8089353,"Software Engineer, Vulnerability Management",reject,0,,
+stripe:8089815,Staff Backend Engineer - CI Services  ,reject,0,,
+stripe:8090126,"Partner Development Manager, Link - Payments Partnerships",reject,0,,
+stripe:8090203,"Product Marketing Lead, Billing",reject,0,,
+stripe:8090244,"Specialist Solutions Architect, Tax",reject,0,,
+stripe:8093103,Operations Associate - Managed Support (Includes Weekend Rotation),reject,0,,
+stripe:8096121,"Public Sector Operations Lead, UK",reject,0,,
+stripe:8096790,Partner Development Manager,reject,0,,
+stripe:8097801,"Software Engineer, Intern (Summer or Winter)",reject,0,,
+stripe:8098866,Professional Services Account Executive,reject,0,,
+stripe:8103750,Accounting AI Solutions Lead,keep,5,,SQL|dashboards|ETL|data pipelines|reporting
+stripe:8104302,"Manager, Solution Architecture Platforms",reject,0,,
+stripe:8104748, Credit Risk Operations Associate,reject,0,,
+stripe:8106775,Sales Strategy & Operations Business Partner,reject,2,,SQL|reporting
+stripe:8109607,Enterprise Account Executive - Hunter,reject,0,,
+stripe:8112043,"Staff Software Engineer, Risk Data Engineering",reject,3,,SQL|data pipelines|reporting
+stripe:8112448,Fraud Strategist,reject,1,,SQL
+stripe:8114397,"Technical Program Manager, Extensibility ",reject,1,,dashboards
+stripe:8114458,"Account Executive, Enterprise Grower (Israel)",reject,0,,
+stripe:8118929,"Full Stack Engineer, Enterprise & Ecosystem",reject,0,,
+stripe:8119498,"Account Executive, Startups Platforms Scaled Grower (French fluency)",reject,0,,
+stripe:8119697,"Account Executive, Existing Business (Central Eastern Europe)",reject,0,,
+stripe:8120494,"Staff Software Engineer, Risk Engineering",reject,0,,
+stripe:8122188,"Product Manager, Strategic Apps",reject,2,,dashboards|reporting
+stripe:8122192,Account Executive - LATAM,reject,0,,
+stripe:8123027,"Account Executive, Commercial (Grower)",reject,0,,
+stripe:8123400,Sales Development Representative (Mandarin-speaking),reject,1,,reporting
+stripe:8124304,"Staff Product Manager, Stripe Tax",reject,1,,reporting
+stripe:8126984,"Channel Sales Executive, SaaS Platforms",reject,0,,
+stripe:8127182,"Software Engineer, Revenue and Financial Automation",reject,1,,reporting
+stripe:8127894,"Staff Program Manager, Event Design",reject,0,,
+stripe:8128744,"Software Engineer, New Grad",reject,0,,
+stripe:8128745,"Software Engineer, Intern (Summer)",reject,0,,
+stripe:8129702,"Account Executive, Platforms Hunter (German fluency)",reject,0,,
+stripe:8129954,"Strategic Account Executive, Platforms",reject,0,,
+stripe:8129956,"Account Executive, Enterprise Grower, Platforms (Israel)",reject,0,,
+stripe:8130052,"Account Executive, Hunter (Central Eastern Europe)",reject,0,,
+stripe:8130729,"Account Executive, UK Commercial Hunter",reject,0,,
+stripe:8130805,"Software Engineer, Intern (Summer)",reject,0,,
+stripe:8130807,"Software Engineer, Intern ",reject,0,,
+stripe:8130867,"Software Engineer, Intern",reject,0,,
+stripe:8130881,"Software Engineer, New Grad",reject,0,,
+stripe:8130883,"Software Engineer, Intern",reject,0,,
+stripe:8130922,"Software Engineer, New Grad",reject,0,,
+stripe:8130927,"Software Engineer, New Grad - Frontend",reject,0,,
+stripe:8130930,"Software Engineer, New Grad",reject,0,,
+stripe:8131129,"Senior Brand Designer, Experiential",reject,0,,
+stripe:8131132,F&S COE Manager,reject,2,,SQL|dashboards
+stripe:8131144,"Backend Engineer, Link",reject,0,,
+stripe:8138044,"Account Executive, AI Sales",reject,0,,
+stripe:8139711,Strategy & Transformation Advisor (Enterprise Commerce Architecture),reject,1,,reporting
+stripe:8140438,"Staff Product Manager, Mobile",reject,0,,
+stripe:8141677,"Sales Manager, SoEU, SMB",reject,0,,
+stripe:8141829,Enterprise Support Specialist,reject,1,,SQL
+stripe:8142304,"Technical Account Manager, Billing",reject,2,,SQL|ETL
+stripe:8142764,"Full Stack Engineer, Bridge",reject,1,,SQL
+stripe:8142770,"Product Marketing Manager, Payments",reject,1,,reporting
+stripe:8142856,Technical Recruiter (Fixed Term Contract),reject,0,,
+stripe:8143563,"Product Manager, Support Platform ",reject,0,,
+stripe:8144185,"Solutions Architect, Enterprise",reject,0,,
+stripe:8144196,AI Engineer,reject,0,,
+stripe:8144223,Solutions Architect (China Market),reject,0,,
+stripe:8144233,"Solutions Architect, (Italian fluency) ",reject,0,,
+stripe:8144256,"Solutions Architect, SMB",reject,0,,
+stripe:8144262,"Specialist Solutions Architect, Data",keep,4,,SQL|ETL|data pipelines|reporting
+stripe:8144264,"Solutions Architect, Startups & SMB",reject,0,,
+stripe:8146053,"Global Partnerships Lead — Greater China, Hong Kong & Singapore",reject,0,,
+stripe:8146271,"Staff Software Engineer, Startup Products",reject,0,,
+stripe:8147491,"Solutions Architect, Platforms, UK",reject,0,,
+stripe:8148497,Product Support Specialist,reject,1,,SQL
+stripe:8148653,"Staff Machine Learning Engineer, Financial Connections",reject,1,,data pipelines
+stripe:8148731,"Sales Development Representative, Japan",reject,1,,reporting
+stripe:8152136,"Manager, Technical Account Management",reject,0,,
+stripe:8153331,Software Quality Assurance Engineer,reject,0,,
+stripe:8154295,"Account Executive, Product Sales, Metronome",reject,1,,reporting
+stripe:8154304,"Manager, Technical Account Management",reject,0,,
+stripe:8154525,Technical Recruiter (Fixed Term Contract),reject,1,,reporting
+stripe:8155002,"Product Designer, Link",reject,0,,
+stripe:8155386,"Payments Performance Strategist, LATAM",reject,3,,SQL|dashboards|reporting
+stripe:8155580,"Strategic Business Performance, Central Strategy & Operations",reject,1,,SQL
+stripe:8156996,"Account Executive, SMB (Grower)",reject,1,,SQL
+stripe:8156998,"Sales Manager, Billing",reject,0,,
+stripe:8157838,"Software Engineer, New Grad",reject,0,,
+stripe:8158082,"Program Manager, Risk Operations ",reject,0,,
+stripe:8159355,University Recruiter,reject,0,,
+stripe:8160699,Technical Account Manager,reject,1,,SQL
+stripe:8161567,"Engineering Manager, Checkout Optimization",reject,0,,
+stripe:8162185,"Staff Engineer, Support Experiences",reject,0,,
+stripe:8163193,Design Recruiter,reject,0,,
+stripe:8163198,"Enterprise Services Manager, Professional Services Sales (Southeast Asia / China)",reject,0,,
+stripe:8163540,"Staff Software Engineer, IAM Control Plane",reject,0,,
+stripe:8163542,"Manager, Solutions Architecture- Platforms",reject,0,,
+stripe:8164666,"Technical Curriculum Developer, Technical Enablement",reject,0,,
+stripe:8164674,Sales Strategy & Operations Analyst ,reject,3,,SQL|dashboards|reporting
+stripe:8165259,"UX Research Manager, Payments",reject,0,,
+stripe:8165265,"Product Manager, Infrastructure",reject,1,,reporting
+stripe:8165267,"Partner Development Manager, Alliances and Channels",reject,1,,reporting
+stripe:8165269,"Partner Development Manager, AI Partnerships",reject,0,,
+stripe:8165515,"Engineering Manager, Revenue Foundations",reject,0,,
+stripe:8165855,Head of Private Equity and Advisory Partnerships,reject,0,,
+stripe:8167558,Incident Response Manager ,reject,1,,SQL
+stripe:8168550,"Fraud Operations Associate, Bridge (CDMX)",reject,0,,
+stripe:8168813,"Solutions Architect, Metronome (AI Native)",reject,0,,
+stripe:8170772,Customer Success Manager ,reject,0,,
+stripe:8170920,Senior Mechanical and Industrial Design Engineer,reject,0,,
+stripe:8171095,"Strategy & Operations, Infrastructure",reject,3,,SQL|dashboards|reporting
+stripe:8171220,"Technical Support Engineer, Metronome",reject,1,,SQL
+stripe:8171222,"Integration Engineer, Metronome ",reject,1,,reporting
+stripe:8172111,Training Program Manager,reject,0,,
+stripe:8172495,"Marketing Operations Manager, EMEA Events",reject,1,,reporting
+stripe:8172499,"Engineering Manager, Agentic Commerce",reject,1,,dashboards
+stripe:8172510,Abuse Investigator,reject,1,,SQL
+stripe:8172672,"Senior Brand Designer, Link",reject,0,,
+stripe:8174141,Account Executive Product - Global Selling,reject,0,,
+stripe:8174148,"Account Executive, Product - Buy Now Pay Later (AUNZ)",reject,0,,
+stripe:8174150,Sales Manager (China Market),reject,0,,
+stripe:8174160,"Account Executive, Product - Local Payment Methods",reject,0,,
+stripe:8174963,"Staff Security Engineer, Abuse Control",reject,1,,SQL
+stripe:8174965,Security Engineer ,reject,1,,SQL
+stripe:8174984,"Security Engineer, ACE",reject,1,,SQL
+stripe:8175627,Scale Partner Marketing Lead,reject,1,,reporting
+stripe:8175633,"Manager, Solutions Architecture - Enterprise (East)",reject,0,,
+stripe:8175647,Integration Engineer (Metronome) ,reject,1,,reporting
+stripe:8175656,"Software Engineer, Security Business Enablement",reject,0,,
+stripe:8175661,"Partner Marketing Manager, Online & Regional Events",reject,0,,
+stripe:8175669,"Global Head of Specialist Solutions Architecture, Revenue Suite",reject,2,,data pipelines|reporting
+stripe:8175671,"Manager, Competitive Programs",reject,2,,SQL|reporting
+stripe:8175673,"Program Manager, Competitive Programs",reject,2,,SQL|reporting
+stripe:8175820,Operations Team Lead (Night Shift) ,reject,1,,SQL
+stripe:8175824,Risk Operations Analyst - Restricted Business Operations ,reject,2,,SQL|reporting
+stripe:8175832,Fraud Operations Manager,reject,2,,SQL|dashboards
+stripe:8175834,Head of Customer Success Management (China Market),reject,0,,
+stripe:8176254,"Staff Product Manager,  Startup Products",reject,0,,
+stripe:8176256,"Marketing Operations Manager, APAC Events",reject,1,,reporting
+stripe:8176724,"Sales Manager, Enterprise CEE",reject,0,,
+stripe:8176726,"Sales Manager, Enterprise, DACH",reject,0,,
+stripe:8176730,"Sales Manager, SMB & Mid-Market",reject,0,,
+stripe:8176733,"Senior Sales Manager, Startups New Business, EMEA",reject,0,,
+stripe:8177513,"Staff Software Engineer, Money Movement Platform",reject,0,,
+stripe:8178563,"Risk Partnerships Manager, Banks & Treasury",reject,0,,
+stripe:8178692,"Customer Success Manager, Enterprise",reject,0,,
+stripe:8179341,"Product Sales Development Representative, China Market",reject,1,,reporting
+stripe:8179347,Implementation Consultant (AUNZ),reject,1,,SQL
+stripe:8180845,"Head of Events, Works in Progress",reject,0,,
+stripe:8181022,"Manager, Customer Success Platforms",reject,0,,
+stripe:8181024,Account Executive Product - Fraud & Risk ,reject,0,,
+stripe:8181026,Startup Partnerships - Y Combinator ,reject,1,,SQL
+stripe:8181032,"Manager, Customer Success Enterprise",reject,0,,
+stripe:8181034,"Manager, Customer Success Manager",reject,0,,
+stripe:8181036,"Sales Manager, Product- Fraud & Risk",reject,0,,
+stripe:8184893,"Sales Program Manager, APAC",reject,0,,
+stripe:8185012,"Software Engineer, Payin",reject,0,,
+stripe:8186367,"Integration Reliability Engineer Intern, Technical Operations",reject,2,,SQL|data pipelines
+stripe:8186442,"Financial Data Analyst Intern, Technical Operations",keep,6,Data Analyst,SQL|dashboards|reporting
+stripe:8186445,"Integration Reliability Engineer, Technical Operations",reject,0,,
+stripe:8186541,"Product Manager, Connected Account Onboarding Experiences",reject,1,,reporting
+stripe:8187574,"Machine Learning Engineer, Transaction Risk",reject,0,,
+stripe:8187580,Link Social Lead ,reject,2,,dashboards|reporting
+stripe:8188088,Account Executive Product - Billing (Japanese Fluency) ,reject,1,,reporting
+stripe:8189018,Third Party Risk Analyst,reject,1,,reporting
+stripe:8189020,"India Tax Lead - Tax, APAC",reject,0,,
+stripe:8189909,"Data Analyst, SF",keep,7,Data Analyst,SQL|dashboards|data pipelines|reporting
+stripe:8190030,Executive Advisory Programs Manager,reject,0,,
+stripe:8190032,Critical Support Manager - Escalations,reject,1,,reporting
+stripe:8190042,"Account Executive, Product Sales, Metronome",reject,1,,reporting
+stripe:8190044,"Account Executive, Product - Issuing & Treasury (Grower)",reject,0,,
+stripe:8190048,"Account Executive, Product Sales - Tax",reject,1,,reporting
+stripe:8190050," Account Executive, Product Sales - Billing",reject,1,,reporting
+stripe:8190057,"Account Executive, Product Sales - Open Issuance ",reject,0,,
+stripe:8190059,"Account Executive, Product Sales (Data)",reject,1,,reporting
+stripe:8191248,Enterprise Support Specialist ,reject,1,,SQL
+stripe:8191706,"Sales Manager, Startups - Hunter ",reject,0,,
+stripe:8191708,"Account Executive, Product Sales - Open Issuance",reject,0,,
+stripe:8191718,"Sales Manager, Enterprise Hunter - Public Sector ",reject,0,,
+stripe:8194283,"PhD Data Scientist, Intern",reject,3,,SQL|dashboards|data pipelines
+stripe:8194285,"PhD Data Scientist, Intern",reject,3,,SQL|dashboards|data pipelines
+stripe:8194287,"Data Analyst, Intern",keep,6,Data Analyst,SQL|dashboards|data pipelines
+stripe:8194291,"Data Analyst, Intern",keep,6,Data Analyst,SQL|dashboards|data pipelines
+stripe:8194397,"Strategic Account Executive, AI Sales",reject,0,,
+stripe:8195058,Fraud Strategist,reject,2,,SQL|reporting
+stripe:8195440,"Product Manager, Connect Growth & Monetization",reject,0,,
+stripe:8195478,"Account Executive, Velocity SMB Hunter",reject,0,,
+stripe:8195480,Account Executive - Velocity SMB Grower,reject,0,,
+stripe:8195584,Channel Sales Executive,reject,0,,
+stripe:8196254,"Account Executive, Product Sales (Billing) - French speaking",reject,1,,reporting
+stripe:8196269,"Account Executive, Product (Payouts) - Hunter",reject,0,,
+stripe:8196283,HR Operations Team Lead (Centralized Operations),reject,0,,
+stripe:8196288,"Account Executive, Product - Tax",reject,1,,reporting
+stripe:8197135,"Software Engineer, High Availability and Disaster Recovery",reject,1,,SQL
+stripe:8197886,"Machine Learning Engineer, Link",reject,2,,SQL|data pipelines
+stripe:8198330,"Senior Manager, Sales Development",reject,1,,reporting
+stripe:8199593,"Product Manager, Card Networks",reject,1,,SQL
+stripe:8201702,"Staff Brand Designer, Creative Lab",reject,0,,
+stripe:8202299,"Software Engineer, New Grad",reject,0,,
+stripe:8202831,"Benefits Program Manager, EMEA",reject,1,,reporting
+stripe:8202836,"Account Executive, Enterprise Hunter (French-speaking)",reject,0,,
+stripe:8203201,"Sales Manager, Billing ",reject,0,,
+stripe:8203216,"Editorial Director, Brand & Creative Partnerships",reject,1,,reporting
+stripe:8203220,Transaction Fraud Architect,reject,1,,SQL
+stripe:8203649,Account Executive Product - Issuing & Treasury ,reject,0,,
+stripe:8203966,Integration Engineer,reject,0,,
+stripe:8203969,Implementation Consultant,reject,1,,SQL
+stripe:8203973,"Integration Engineer, Professional Services",reject,2,,SQL|dashboards
+stripe:8203975,"Integration Engineer, Professional Services",reject,2,,SQL|dashboards
+stripe:8203977,"Implementation Consultant, Professional Services",reject,1,,SQL
+stripe:8204227,"Product Manager - Developer Experience, Bridge",reject,1,,dashboards
+stripe:8204649,"Head of Product Sales, Payouts",reject,0,,
+stripe:8205126,"Product Designer, Treasury",reject,1,,dashboards
+stripe:8205278,"Internal Audit - Operational Audit Lead, EMEA",reject,1,,reporting
+stripe:8205280,"Engineering Manager, Machine Learning - Credit Risk",reject,0,,
+stripe:8206733,FX Trading & Risk Management,reject,2,,SQL|data pipelines
+stripe:8208521,"Customer Success Manager, Enterprise",reject,0,,
+stripe:8209307,"Security Engineer, Bridge",reject,0,,
+stripe:8209626,"EMEA Demand Generation, Platforms ",reject,0,,
+stripe:8209633,"Program Manager, Deal Operations",reject,0,,
+stripe:8209639,"Administrative Business Partner, Office of the President",reject,0,,
+stripe:8209647,"Large User Sales Managers, Platform Partnerships",reject,0,,
+stripe:8209967,"Staff Software Engineer, High Availability and Disaster Recovery",reject,0,,
+stripe:8209970,"Software Engineer, Stripe Data Pipeline",reject,1,,data pipelines
+stripe:8209996,"Staff Product Manager, Payments Intelligence",reject,0,,
+stripe:8210218,Renewals Specialist,reject,0,,
+stripe:8210228,Proposal Lead,reject,1,,reporting
+stripe:8211151,"Account Executive, Product Sales (Billing) - Grower",reject,1,,reporting
+stripe:8211180,"Staff Security Engineer, Abuse Control",reject,1,,SQL
+stripe:8212319,"Backend Engineer, UI Platform",reject,1,,dashboards
+stripe:8212325,"Strategic Accounts Sales Leader, AI GTM",reject,1,,reporting
+stripe:8212517,"Software Engineer, Early Career — Immediate Start",reject,0,,
+stripe:8212667,"Sales Strategy and Operations, Mergers and Acquisitions",reject,2,,SQL|reporting
+stripe:8212674,"Manager, Go-to-Market Enablement Business Partners",reject,1,,reporting
+stripe:8213057,"Account Executive, SMB Hunter (DACH)",reject,0,,
+stripe:8213481,"Account Executive, Product (Global Payouts - Hunter)",reject,0,,
+stripe:8213951,Commercial Credit Operations Manager,reject,2,,SQL|dashboards
+stripe:8214616,"Full Stack Engineer, Enterprise Engineering",reject,1,,dashboards
+stripe:8214618,"Full Stack Engineer, Enterprise Engineering",reject,1,,dashboards
+stripe:8214620,"Strategy & Operations Business Partner, Solution Architecture ",reject,3,,SQL|dashboards|reporting
+stripe:8215758,"Account Executive, Product Sales, Billing (Grower)",reject,1,,reporting
+stripe:8215824,Account Executive - Bridge,reject,1,,SQL
+stripe:8220932,"Financial Crimes Investigator, Luxembourg",reject,2,,SQL|reporting
+stripe:8221776,"AI Solutions Program Manager, Finance",keep,4,,SQL|ETL|data pipelines|reporting
+stripe:8222212,"Events Manager, Event Technology and Registration ",reject,1,,reporting
+stripe:8222459,"Staff Engineer, Revenue Experiences",reject,2,,data pipelines|reporting
+stripe:8222642,Payments F&S Specialist,reject,2,,SQL|dashboards
+stripe:8223712,"Specialist Solutions Architect, Money Management",reject,0,,
+stripe:8223719,Administrative Coordinator,reject,0,,
+stripe:8223723,"Product Manager - Payments Experience, Bridge",reject,0,,
+stripe:8224607,"Global Industry Lead, Healthcare",reject,0,,
+stripe:8224617,"Program Manager, Commercial Solutions",reject,0,,
+stripe:8224620,"Strategy & Operations Business Partner, Customer Success",reject,3,,SQL|dashboards|reporting
+stripe:8224915,"Machine Learning Engineer, Growth Platform",reject,2,,SQL|dashboards
+stripe:8225567,"Specialist Solutions Architect, Fraud & Risk (Asia-Pacific)",reject,0,,
+stripe:8226261,"Full Stack Engineer, Money Movement",reject,0,,
+stripe:8226890,"Frontend Engineer, UI Platform",reject,1,,dashboards
+stripe:8226893,"Staff Product Manager, Agentic Commerce",reject,1,,dashboards
+stripe:8227563,"Partner Solutions Engineer, Ecosystem",reject,0,,
+stripe:8227570,Global People Operations - Systems Administrator,reject,1,,reporting
+stripe:8227572,People Systems Administrator,reject,1,,reporting
+stripe:8230294,Operations Team Lead (SDC),reject,2,,dashboards|reporting
+stripe:8230306,Renewals Analyst,reject,2,,SQL|reporting
+stripe:8231145,Recruiting Scheduler (SF),reject,0,,
+stripe:8231178,"Software Engineer, Storage Integrations",reject,0,,
+stripe:8231202,Technical Program Manager,reject,0,,
+stripe:8231223,"Workplace Experience Manager, Bengaluru",reject,0,,
+stripe:8231234,"Product Manager, Foreign Exchange",reject,0,,
+stripe:8231439,"Software Engineer, Metronome Infrastructure",reject,1,,reporting
+stripe:8232743,"Enterprise Account Executive, Privy",reject,0,,
+stripe:8232858,"Engineering Manager, Local Payment Methods",reject,0,,
+stripe:8233263,"Product Marketing Manager, Revenue suite",reject,0,,
+stripe:8233889,Offensive Security Engineer,reject,1,,reporting
+stripe:8234243,"Staff Product Manager, Accounting Products ",reject,0,,
+stripe:8234252,"Engineering Manager, Accounting Products",reject,0,,
+stripe:8234357,"Full Stack Engineer, Revenue",reject,0,,
+stripe:8234703,Partner Development Manager,reject,0,,
+stripe:8234705,"Staff Product Manager, Ecosystem ",reject,2,,dashboards|reporting
+stripe:8234710,"Startup Products Strategy & Operations, Insights & Analytics",reject,1,,dashboards
+stripe:8236491,"Specialist Solutions Architect, Crypto",reject,0,,
+stripe:8236540,UPO Team Lead (Operations) ,reject,1,,reporting
+stripe:8237366,"Customer Success Manager, Revenue Suite",reject,0,,
+stripe:8237505,M&A/Integration Accounting Lead,reject,1,,reporting
+stripe:8237526,SDC Recruiter,reject,1,,reporting
+stripe:8237533,Implementation Consultant,reject,1,,SQL
+stripe:8237540,"Account Executive, Startup Platforms (Grower)",reject,0,,
+stripe:8238489,"Engineering Manager, Self Serve Direct Onboarding",reject,0,,
+stripe:8238731,"Account Executive, AI Startups - Grower",reject,1,,SQL
+stripe:8238733,"Staff Engineer, Compute Foundation",reject,0,,
+stripe:8239006,Android BSP Engineer,reject,0,,
+stripe:8240148,Equity and Reporting Accounting,reject,1,,reporting
+stripe:8241260,"High School Internship, Software Engineering (Summer 2027)",reject,0,,
+stripe:8241288,"Security GRC Program Manager, Third Party Risk",reject,1,,reporting
+stripe:8241292,Account Executive - Platforms Hunter (French Fluency),reject,0,,
+stripe:8241294,"Account Executive, SaaS Platforms Grower",reject,0,,
+stripe:8241299,"Account Executive, Existing Business ",reject,0,,
+stripe:8241304,"Account Executive, Platforms (Nordic Region)",reject,0,,
+stripe:8241322,"Account Executive, Existing Business, Iberia ",reject,0,,
+stripe:8241345,"Account Executive, Velocity Scaled Grower (Italian or Spanish fluency)",reject,0,,
+stripe:8241855,Pricing Activation Specialist,reject,1,,SQL
+stripe:8243615,"Staff Machine Learning Engineer, Radar",reject,0,,
+stripe:8243617,"Machine Learning Engineer, Radar",reject,0,,
+stripe:8243621,"International Employee Relations, People Risk & Compliance Lead",reject,1,,dashboards
+stripe:8244505,Monetization and Contract Success (MACS) Specialist,reject,0,,
+stripe:8245230,Strategy and Analytics Business Partner,reject,3,,SQL|dashboards|reporting
+stripe:8245638,User Escalation Specialist ,reject,1,,SQL
+stripe:8247120,Monetization Operations Analyst,reject,1,,SQL
+stripe:8247127,AR Analyst,reject,0,,
+stripe:8248086,Sales Development Representative (Spanish fluency),reject,1,,reporting
+stripe:8248088,Product Tax Specialist,reject,1,,reporting
+stripe:8248096,Risk Operations Manager,reject,0,,
+stripe:8248102,People Operations Associate (11-Month FTC),reject,0,,
+stripe:8248415,"Startup Products Strategy & Operations, Product Strategy",reject,0,,
+stripe:8248507,SaaS Platform and AI Partner Marketing Lead,reject,1,,dashboards
+stripe:8248509,"Solutions Architect, AI",reject,0,,
+stripe:8249652," Account Executive, Platforms (Hunter)",reject,0,,
+stripe:8250475,"Account Executive, SMB Grower (French speaking)",reject,1,,SQL
+stripe:8250483,"Marketing Operations Manager, AMER Events",reject,1,,reporting
+stripe:8256027,"Engineering Manager, Payments",reject,0,,
+stripe:8257354,"Staff Full Stack Software Engineer, Link - Consumer Preference",reject,0,,
+stripe:8257500,"Partner Marketing Leader, Alliances & Channel",reject,1,,dashboards
+stripe:8257892,"Security Engineer, New Grad",reject,1,,SQL
+stripe:8257939,Marketing Technology Program Manager,reject,1,,dashboards
+stripe:8258078,"Account Executive, Commercial Hunter, AUNZ",reject,0,,
+stripe:8258364,"Account Executive, SMB Hunter (Central Eastern Europe)",reject,0,,
+stripe:8260290,"Product Design Manager, Treasury ",reject,0,,
+stripe:8260982,"Software Engineer, Payments",reject,0,,
+stripe:8261010,"Staff Backend Engineer, Supportability Decisions",reject,0,,
+stripe:8261012,"Software Engineer, Payments and Risk",reject,0,,
+stripe:8262027,People Consultant,reject,0,,
+stripe:8262029,"Head of Technical Account Management, EMEA",reject,0,,
+stripe:8262032,Bridge Product Accountant,reject,2,,SQL|reporting
+stripe:8264005,"Senior Staff Product Manager, Risk",reject,0,,
+stripe:8264423,Head of Southern Europe Revenue & Growth,reject,1,,reporting
+stripe:8265128,Sales Development Representative (Polish Fluency),reject,1,,reporting
+stripe:8265139,"Enterprise Services Manager, Professional Services",reject,0,,
+stripe:8265144,"Privacy Counsel, Americas",reject,0,,
+stripe:8265151, IT Support Engineer,reject,0,,
+stripe:8265389,"Motion Designer 3D, Stripe Identity",reject,1,,dashboards
+stripe:8265686,"Writer, Content Marketing",reject,0,,
+stripe:8267102,Integration Engineer,reject,2,,SQL|dashboards
+stripe:8267105,"Product Manager, Global Self-Serve Product",reject,0,,
+stripe:8267519,Partner Development Manager- Alliances & Channels,reject,0,,
+stripe:8267829,"Sales Manager, Startups - Hunter ",reject,0,,
+stripe:8267839,"Account Executive, Velocity Platforms (Hunter)",reject,0,,
+stripe:8267841,"Account Executive, Velocity Platforms (Hunter)",reject,0,,
+stripe:8267847,Head of AMER Startups (AI Sales),reject,0,,
+stripe:8267851,"Account Executive, Enterprise Grower (Benelux)",reject,0,,
+stripe:8268059,"Staff Product Designer, Checkout",reject,0,,
+stripe:8271657,Account Executive Product - Fraud & Risk ,reject,0,,
+stripe:8271659,"Account Executive, Funded Startups DACH",reject,0,,
+stripe:8273713,Corporate Accounting Analyst (Bangalore),reject,1,,SQL
+stripe:8273741,"Senior Staff Product Manager, Risk",reject,0,,
+stripe:8273853,"Head of Marketing, Japan",reject,0,,
+stripe:8273855,"Employment Counsel, EMEA",reject,0,,
+stripe:8274580,SOX Business Controls Specialist,reject,1,,reporting
+stripe:8274582,Staff Software Engineer - Stripe Tax,reject,1,,reporting
+stripe:8274773,"Partner Development Manager, International Bank Partnerships",reject,0,,
+stripe:8274893,"Android Engineer, Terminal - CA",reject,0,,
+stripe:8274920,"Account Executive, Platforms (Grower)",reject,0,,
+stripe:8274927,"Account Executive, Amer Platform (Growth Velocity)",reject,0,,
+stripe:8275259,"Manager, Integration Engineering",reject,1,,reporting
+stripe:8275513,"Partner Development Manager, Strategic Payment Partnerships",reject,0,,
+stripe:8275558,"Customer Support Specialist, Clerky",reject,0,,
+stripe:8279202,"Specialist Solutions Architecture, Link",reject,0,,
+stripe:8279850,Head of Commercial Solutions,reject,1,,reporting
+stripe:8279867,"Program Manager, Commercial Solutions (Product Integration)",reject,0,,
+stripe:8280266,"Account Executive, Startups (Grower)",reject,1,,SQL
+stripe:8281536,Implementation Consultant Professional Services (AI Companies),reject,1,,SQL
+stripe:8282169,"Engineering Manager, Money as a Service (MaaS)",reject,0,,
+stripe:8282171,"Integration Reliability Engineer, Technical Operations",reject,2,,SQL|reporting
+stripe:8282390,"Product Designer, Terminal",reject,1,,dashboards
+stripe:8282721,Indirect Tax (VAT/GST) Advisory Consultant,reject,0,,
+stripe:8282859,"Technical Program Manager, Extensibility Platform",reject,1,,dashboards
+stripe:8283778,"Program Manager, Brand Studio",reject,1,,reporting
+stripe:8283782,"Creative Engineer, Stripe Creative Lab",reject,0,,
+stripe:8283786,Marketing Operations Program Manager,reject,1,,dashboards
+stripe:8284589,"Regional Field Marketing Manager, EMEA Platforms",reject,1,,reporting
+stripe:8284962,Account Executive - Enterprise (Grower) - French Speaking ,reject,0,,
+stripe:8284965,Account Executive - Platforms (LFC) - Spanish Speaking ,reject,0,,
+stripe:8284968,Enterprise Account Executive (Grower) - German Speaking,reject,0,,
+stripe:8284970,Account Executive - Enterprise (Hunter) - Belgium,reject,0,,
+stripe:8284974,Account Executive - Nordics (Hunter),reject,0,,
+stripe:8284978,"Account Executive - Travel, Ticketing & Hospitality (Hunter) ",reject,0,,
+stripe:8286655,"Account Executive, SMB Commercial - Existing Business ",reject,0,,
+stripe:8286680,"Account Executive, Existing Business, French",reject,0,,
+stripe:8286685,"Account Executive, SMB Grower (DACH)",reject,0,,
+stripe:8287910,"AI Transformation Lead, Marketing",reject,1,,dashboards
+stripe:8287912,"Staff Software Engineer, Radar",reject,1,,dashboards
+stripe:8287914,Finance & Strategy Specialist,reject,1,,SQL
+stripe:8287918,"Account Executive, SMB Hunter",reject,0,,
+stripe:8287920,"Account Executive, Startups (Grower)",reject,1,,SQL
+stripe:8288334,"Operations Program Manager, Consumer Support",reject,1,,SQL
+stripe:8288538,"Team Lead, Managed Support",reject,1,,reporting
+stripe:8288541,"Marketing Lead, DACH",reject,0,,
+stripe:8288561,Account Executive - Enterprise Grower (DACH Market) ,reject,0,,
+stripe:8288876,"Account Executive - Startup SaaS Platforms, Scaled UK Hunter",reject,0,,
+stripe:8288879,SDC Recruiter,reject,1,,reporting
+stripe:8293644,"Staff Software Engineer, Code Forge",reject,0,,
+stripe:8299649,"Head of AI Startups, EMEA",reject,1,,reporting
+stripe:8299651,"Sales Manager, Europe, Enterprise Platforms",reject,0,,
+stripe:8301253,"Backend / API Engineer, Radar",reject,1,,dashboards
+stripe:8301264,Recruiting Coordinator,reject,0,,
+stripe:8301379,"	Backend / API Engineer, Radar",reject,1,,dashboards
+stripe:8301646,"Product Manager, Radar",reject,2,,SQL|dashboards
+stripe:8301946,"Engineering Manager, Sandboxes",reject,0,,
+stripe:8301957,Core Recruiter (Fixed Term),reject,0,,
+stripe:8303870,Product/Design Recruiter,reject,0,,
+stripe:8304725,"Product Designer, Risk",reject,0,,
+stripe:8304788,"Staff Software Engineer, Link - Consumer Identity",reject,0,,
+stripe:8304836,"Account Executive, Velocity Platforms (Hunter)",reject,0,,
+stripe:8304841,"Account Executive, Velocity Platforms (Hunter)",reject,0,,
+stripe:8304858,"Technical Program Manager, Terminal",reject,0,,
+stripe:8306158,"Product Manager, Radar - Fraud and Abuse Prevention",reject,2,,SQL|dashboards
+stripe:8306475,"Security Engineer, Privy",reject,0,,
+stripe:8311069,"Android Engineer, Identity ",reject,0,,
+stripe:8311071,"Corporate Security Infrastructure Project Manager, EMEA",reject,1,,reporting
+stripe:8311082,"iOS Engineer, Identity",reject,0,,
+stripe:8311735,"Engineering Manager, Terminal Enterprise Features",reject,0,,
+stripe:8314318,Federal Government Relations Director ,reject,1,,reporting
+stripe:8315943,Product Operations Manager,reject,2,,SQL|dashboards
+stripe:8315951,"Staff Product Manager, Custom Objects",reject,0,,
+stripe:8315954,"Full-Stack Software Engineer, Communication Tools",reject,0,,
+stripe:8315956,"Risk Team Lead, User Policy Operations",reject,1,,reporting
+stripe:8315962,"Risk Operations Associate, Bridge UPO",reject,0,,
+stripe:8316059,"Account Executive, Product Sales (Terminal), Enterprise Retail ",reject,0,,
+stripe:8317306,"Senior Staff Engineer, Big Data Infrastructure",reject,2,,dashboards|data pipelines
+stripe:8318509,Software Engineer,reject,0,,
+stripe:8318680,Financial Services Transfer Pricing Strategist,reject,0,,
+stripe:8318694,"Manager, Enterprise Sales - UK",reject,0,,
+stripe:8318707,"Account Executive, SMB, Velocity Hunter, Spanish speaking",reject,0,,
+stripe:8318719,"Second-Line Manager, Enterprise Sales",reject,0,,
+stripe:8319452,"Account Executive, Strategics",reject,0,,
+stripe:8319459,"Account Executive, Platforms Hunter (Spanish fluency)",reject,0,,
+stripe:8319461,"Account Executive, Scaled Hunter – Startup SaaS Platforms (ROE)",reject,0,,
+stripe:8319481,Enterprise Account Executive: Platforms (Hunter) - German Speaking ,reject,0,,
+stripe:8319488,Account Executive- Enterprise Grower,reject,0,,
+stripe:8319491,"Account Executive, Startups (Grower - Benelux)",reject,0,,
+stripe:8319823,"Account Executive, Startups - Grower (Italian Fluency)",reject,0,,
+stripe:8322582,"Account Executive, SMB Grower (CEE)",reject,0,,
+stripe:8322584,"Account Executive, SMB, Benelux (English speaking)",reject,0,,
+stripe:8322588,"Account Executive, SMB, Italian speaking ",reject,0,,
+stripe:8323732,"Account Executive, Money Management- Issuing and Treasury",reject,0,,
+stripe:8323907,"Staff Data Scientist, Fraud",reject,1,,SQL
+stripe:8324207,Processing Cost Analyst,reject,2,,SQL|reporting
+stripe:8324997,"Account Executive, Platforms Enterprise ( Hunter ) Japan",reject,0,,
+stripe:8325009,Solutions Architect (ANZ) ,reject,0,,
+stripe:8325019,"Japan Sales Manager, Mid Market (Hunter)",reject,0,,
+stripe:8325807,Technical Operations Engineer,reject,1,,SQL
+stripe:8326098,"Risk Partnerships Manager, Networks and Acquiring",reject,0,,
+stripe:8326105,"Account Executive, Platforms Mid Market (Hunter), Japan",reject,0,,
+stripe:8326189,"Sales Manager, Billing",reject,0,,
+stripe:8326577,"Product Support Operations, Team Lead ",reject,1,,reporting
+stripe:8326579,Strategy and Analytics Business Partner,reject,3,,SQL|dashboards|reporting
+stripe:8328106,"Account Executive, New Business - SMB - French",reject,0,,
+stripe:8328114,"Product Lead, Payments ",reject,0,,
+stripe:8328116, Account Executive - Funded Startups - French,reject,0,,
+stripe:8328323,IT Support Engineer,reject,0,,
+stripe:8328662,"PhD Machine Learning Engineer, Intern",reject,0,,
+stripe:8328664,"PhD Machine Learning Engineer, Intern",reject,0,,
+stripe:8329747,Account Executive - Startups UKI,reject,0,,
+stripe:8330131,"Engineering Manager, Commerce Systems",reject,1,,data pipelines
+stripe:8330789,Enterprise Account Executive - Grower,reject,0,,
+stripe:8330791,Commercial Account Executive - Grower,reject,0,,
+stripe:8330795,"Account Executive, Platforms Large Users (Grower)",reject,0,,
+stripe:8330801,"Enterprise Account Executive,  Hunter",reject,0,,
+stripe:8330813,Account Executive - SMB (Grower),reject,1,,SQL
+stripe:8330815,"Account Executive Platforms, Grower",reject,0,,
+stripe:8331124,"Product Marketing Manager, Subscriptions",reject,0,,
+stripe:8331445,"Specialist Solutions Architect, Fraud & Risk",reject,0,,
+stripe:8331852,"Staff Product Manager, Risk",reject,0,,
+stripe:8332341,"Product Lead, Support Experience",reject,0,,
+stripe:8332467,"Account Executive, AI Sales",reject,0,,
+stripe:8332681,Product Design Intern,reject,0,,
+stripe:8332683,Product Design Intern,reject,0,,
+stripe:8332821,"Strategic Account Executive, Existing Business (Central Eastern Europe)",reject,0,,
+stripe:8332888,"Events Lead, Product & Financial Services",reject,1,,reporting
+stripe:8333074,"Master's Machine Learning Engineer, Intern",reject,0,,
+stripe:8333122,"Master's Machine Learning Engineer, Intern",reject,0,,
+stripe:8334539,"Government Relations Manager, AI",reject,0,,
+stripe:8334550,"Demand Generation Manager, Startups, APAC",reject,0,,
+stripe:8334554,"Sales Manager, Enterprise Platforms, France",reject,0,,
+stripe:8334556,"Policy Lead, AI Infrastructure",reject,0,,
+stripe:8335413,"Manager, Marketing Analytics",reject,3,,SQL|dashboards|data pipelines
+stripe:8335758,"Commercial Counsel, Bridge",reject,0,,
+stripe:8336023,Enterprise Account Executive - Grower,reject,0,,
+stripe:8336062,"Deal Strategist, APAC",reject,0,,
+stripe:8336296,Operations Manager (FinCrime),reject,3,,SQL|dashboards|reporting
+stripe:8336697,"Solutions Architect, Enterprise, UK ",reject,0,,
+stripe:8336699,"Solutions Architect Manager, Startups & SMB",reject,0,,
+stripe:8336703,"Solutions Architect, Enterprise (German-Speaking) ",reject,0,,
+stripe:8336705,"Manager, Solutions Architecture",reject,0,,
+stripe:8336711,"Solutions Architect, Startups & SMB",reject,0,,
+stripe:8336717,"Solutions Architect, Enterprise (French Speaking) ",reject,0,,
+stripe:8336719,"Solutions Architect, Platforms (German-Speaking)",reject,0,,
+stripe:8336819,"Blockchain Security Engineer, Bridge",reject,0,,
+stripe:8337362,Recruiting Scheduler,reject,0,,
+stripe:8337955, Integration Engineer,reject,2,,SQL|dashboards
+stripe:8338344,Demo Engineer,reject,0,,
+stripe:8338354,"Regional Product Marketing Manager, Latin America",reject,0,,
+stripe:8338839,"Solutions Architect, Metronome (Startups)",reject,1,,dashboards
+stripe:8338845,"Solution Architect, Metronome (AI Native)",reject,0,,
+stripe:8338849,"Integration Engineer, Metronome",reject,1,,reporting
+stripe:8345653,"Account Executive (Commercial Grower, Japan)",reject,1,,SQL
+stripe:8345657,"Account Executive (SMB Grower, Japan ) ",reject,0,,
+stripe:8346417,"Engineering Manager, Infrastructure (Privy)",reject,0,,
+stripe:8348327,OpenRouter Product Accounting ,reject,2,,SQL|reporting
+stripe:8348731,"Account Executive, Enterprise (Southeast Asia)",reject,1,,SQL
+stripe:8348835,"Account Executive Enterprise (Korean-speaking, Singapore based)",reject,1,,SQL
+stripe:8348839,Partner Solutions Architect (Japan),reject,0,,
+stripe:8349475,"Account Executive - Startups, Southeast Asia",reject,0,,
+stripe:8349479,"Account Executive - Startups & AI, New Zealand",reject,0,,
+stripe:8349481,"Account Executive - Startups & AI  (Korean Speaking, Singapore based)",reject,0,,
+stripe:8349777,"Account Executive, Large Users Platforms (China Market)",reject,0,,
+stripe:8350106,"Manager, Sales Development",reject,0,,
+stripe:8350430,"Engineering Manager, Adaptive Pricing",reject,0,,
+stripe:8350917,"Activations Specialist, Bridge ",reject,2,,dashboards|reporting
+stripe:8350920,Revenue and Go-to-Market Accounting Lead ,reject,2,,SQL|reporting
+stripe:8350923,"Partner Development Manager, Ecosystem Partnerships",reject,0,,
+stripe:8351500,"Account Executive - Startups (Grower), Australia",reject,1,,SQL
+stripe:8351504,Recruiting Scheduler,reject,0,,
+stripe:8351589,Japan Enterprise Account Manager,reject,0,,
+stripe:8352148,Customer Success Manager,reject,0,,
+stripe:8352150,Engineering Manager - Internal Systems Automations Platform,reject,1,,data pipelines
+stripe:8352154,"Specialist Solutions Architect, Crypto and Stablecoins",reject,0,,
+stripe:8352238,"Account Executive, SMB (Southeast Asia)",reject,0,,
+stripe:8352487,"Account Executive - Startups, Grower (India)",reject,1,,SQL
+stripe:8352489,"Account Executive, Commercial & SMB (India)",reject,1,,SQL
+stripe:8353180,"Operations Associate, Tax Jar",reject,1,,SQL
+stripe:8353516,"Backend Engineer, Internationalisation",reject,0,,
+stripe:8354560,Credit Operations Analyst,reject,3,,SQL|dashboards|reporting
+stripe:8354566,AMER Data Analyst - Sales Strategy and Operations,keep,6,Data Analyst,SQL|dashboards|reporting
+stripe:8354572,"Public Affairs Campaigns Lead, EMEA",reject,0,,
+stripe:8354574,EU Government Relations Manager,reject,0,,
+stripe:8354752,"Account Executive, Startups (Hunter)",reject,0,,
+stripe:8354754,Solutions Architect (Japan),reject,0,,
+stripe:8354762,Solutions Architect (Korea Market),reject,0,,
+stripe:8354764,Account Executive - SMB Hunter - Southeast Asia,reject,0,,
+stripe:8354768,"Sales Manager, SMB Hunter",reject,0,,
+stripe:8354772,"Head of Enterprise Sales, East",reject,0,,
+stripe:8355353,Account Executive Product - Radar (AUNZ),reject,0,,
+stripe:8355357,"Account Executive, Radar (Mandarin-speaking)",reject,0,,
+stripe:8355371,Customer Success Manager (China Market),reject,0,,
+stripe:8355374,Customer Success Manager (Korea Market),reject,0,,
+stripe:8356912,"Staff Security Engineer, Abuse Control",reject,1,,SQL
+stripe:8356916,"Staff Security Engineer, Abuse Control",reject,1,,SQL
+stripe:8356917,"Staff Security Engineer, Abuse Control",reject,1,,SQL
+stripe:8357043,"Head of Renewals, EMEA & APAC ",reject,0,,
+stripe:8357049,Education Partnerships Coordinator,reject,0,,
+stripe:8358044,Global Head of Partner Solutions Architecture,reject,0,,
+stripe:8358071,"Product Integration Reliability Engineer, Money Management",reject,1,,SQL
+stripe:8358823,"Account Executive, Platforms Large Users (India)",reject,0,,
+stripe:8360332,"Integration Reliability Engineer, Technical Operations",reject,1,,SQL
+stripe:8361184,"Head of Strategic Accounts, Solutions Architecture",reject,0,,
+stripe:8364868,Finance and Strategy Data Analyst,keep,4,Data Analyst,dashboards
+stripe:8366828,EMEA Deal Pricing Strategist,reject,0,,
+stripe:8368260,"Solutions Architect, Metronome (AI Native)",reject,0,,
+stripe:8368621,"Startups Sales Manager, Platform Partnerships",reject,0,,
+stripe:8368638,"Large User Sales Managers, Platform Partnerships",reject,0,,
+stripe:8368645,"Technical Account Manager, German Speaking",reject,2,,SQL|ETL
+stripe:8368652,"Technical Account Manager, Spanish Speaking",reject,2,,SQL|ETL
+stripe:8368656,Technical Solutions Engineer,reject,0,,
+stripe:8370799,"Manager, Sales Development (Japan)",reject,0,,
+stripe:8374754,"Payments Performance Strategist, Fraud ",reject,3,,SQL|dashboards|reporting
+stripe:8375966,Accounts Receivable Analyst,reject,2,,SQL|reporting
+stripe:8376773,Briefing Content Strategist,reject,0,,
+stripe:8376775,Analyst Relations Senior Manager,reject,1,,reporting
+stripe:8378507,"Sales Development Representative, Southeast Asia",reject,1,,reporting
+stripe:8379538,"Account Executive, Commercial Hunter",reject,0,,
+stripe:8379544,"Technical Operations Engineer, Revenue",reject,2,,SQL|reporting
+stripe:8381041,"Staff Product Manager, Foundation Pillar ",reject,0,,
+stripe:8382000,"Head of Enterprise Sales, West",reject,0,,
+stripe:8382002,"Head of Enterprise Sales, Marketplaces",reject,0,,
+stripe:8383460,"Engineering Manager, Tax Filing and Remittance",reject,1,,reporting
+stripe:8383464,"Engineering Manager, Security",reject,0,,
+stripe:8384434,"Product Manager, Financial Connections",reject,0,,
+stripe:8384438,"Product Manager, Consumer Bank Network",reject,0,,
+stripe:8384567,"Software Engineer, Vulnerability Management",reject,1,,data pipelines
+stripe:8384780,"Product Manager, Payment Methods, EMEA",reject,0,,
+stripe:8384782,"Marketing Strategy & Operations Lead, Global Demand, Campaigns, Field Marketing",reject,2,,SQL|reporting
+stripe:8386610,"Engineering Manager, Core Infrastructure",reject,0,,
+stripe:8387804,Head of Americas Internal Audit,reject,1,,reporting
+stripe:8387820,Deal Pricing,reject,3,,SQL|dashboards|reporting
+stripe:8392755,"Account Executive, Funded Startups (CEE) ",reject,0,,
+stripe:8393107,"Engineering Manager, Collaboration Engineering ",reject,0,,
+stripe:8393428,Sales Development & Vendor Enablement Training Specialist,reject,0,,
+stripe:8393436,Global Sales Vendor Enablement Business Partner (APAC),reject,0,,
+stripe:8393544,"Specialist Solutions Architect, Payments",reject,0,,
+stripe:8393866,Real Estate Transactions Manager,reject,0,,
+stripe:8393939,"Product Manager, Finance Operations",reject,1,,reporting
+stripe:8394657,Head of AML/CTF - Ireland,reject,1,,reporting
+stripe:8394936,"Software Engineer, Experimental Projects",reject,1,,data pipelines
+stripe:8395417,"Account Executive, New Business, UK Financial Services, Banking",reject,0,,
+stripe:8396168,Deal Strategist,reject,0,,
+stripe:8396176,"Solutions Architect, Platforms",reject,0,,
+stripe:8397257,"Designer, Web Presence & Platform",reject,0,,
+stripe:8397987,Finance & Strategy Analyst,reject,3,,SQL|dashboards|reporting
+stripe:8399738,"Solutions Architect, Platforms (French Speaking)",reject,0,,
+stripe:8399913,"Staff Offensive Security Engineer, Proactive threat",reject,1,,reporting
+stripe:8401662,Accounting Analyst,reject,2,,SQL|reporting
+stripe:8403659,"Senior Treasury Specialist, Bridge Capital & Liquidity Risk – Digital Assets",reject,2,,SQL|reporting
+stripe:8404115,"Staff Software Engineer, Mobile Development Productivity",reject,1,,dashboards
+stripe:8404131,"GTM Recruiter, OpenRouter (Fixed Term)",reject,1,,reporting
+stripe:8404144,"Technical Recruiter, OpenRouter (Fixed Term)",reject,1,,reporting
+stripe:8404667,"Head of Global Partnerships and Startup and Ecosystem Product, Finance & Strategy",reject,2,,SQL|reporting
+stripe:8405596,Integration Engineer (Client-Facing),reject,2,,SQL|dashboards
+stripe:8405746,Payments Performance Strategist,reject,3,,SQL|dashboards|reporting
+stripe:8405752,Payments Performance Strategist,reject,3,,SQL|dashboards|reporting
+stripe:8406140,"Forward Deployed AI Accelerator, Marketing",reject,1,,dashboards
+stripe:8406660,"Integration Reliability Engineer, Payments",reject,2,,SQL|reporting
+stripe:8406995,"Product Manager, Payment Methods, EMEA",reject,0,,
+stripe:8407180,Engineering Manager - Developer Tooling,reject,0,,
+stripe:8411021,"Account Executive, Commercial Scaled Grower",reject,0,,
+stripe:8411217,Accounts Payable Analyst,reject,0,,
+stripe:8411927,"Software Engineer, Data Warehouse Analytics",reject,1,,SQL
+stripe:8411988,"Software Engineer, Core Technology",reject,1,,data pipelines
+stripe:8412977,"Account Executive, Product Crypto/Stablecoins",reject,1,,SQL
+stripe:8412981,"Head of Revenue Finance Automation, Finance & Strategy ",reject,2,,SQL|reporting
+stripe:8412983,"Account Executive Product, Crypto/Stablecoins",reject,1,,SQL
+stripe:8414351,"Product Manager, Stripe Business Network",reject,0,,
+stripe:8414490,Renewals Specialist,reject,0,,
+stripe:8414532,"Infrastructure Engineer, Workflow Engine",reject,0,,
+stripe:8415333,Analytics Engineer,keep,8,Analytics Engineer,SQL|dashboards|ETL|data pipelines|data modeling
+wealthfront:01d4c688-ca68-4c03-bc36-05d3bd4b32db,Mortgage Operations - Senior Loan Closer/Funder,reject,0,,
+wealthfront:02a09f4e-7de6-4251-a5ea-674398d0a708,Home Lending Lead Compliance Analyst,reject,1,,reporting
+wealthfront:26d453d0-f9df-4396-a655-70f6dbceb328,Anti-Money Laundering Monitoring Analyst,reject,1,,reporting
+wealthfront:35cbe2ef-d92b-40cf-84c2-c51d8647782c,Client Services Representative,reject,0,,
+wealthfront:367b310e-0aa2-4eb2-9587-908069ab099d,"Data Scientist, Marketing",reject,1,,SQL
+wealthfront:4d469c84-f50e-479f-bc29-80b573cd6336,Market Commentary Writer + Social Editor,reject,0,,
+wealthfront:522080d2-8334-4dd9-9aaf-127cfe4f2c0c,Trust Officer,reject,1,,reporting
+wealthfront:5cead124-1663-4ae2-9c28-708e1dee1ad7,Engineering Manager,reject,0,,
+wealthfront:5ced49b7-c2e6-4e6d-86bd-41c7033e7c3e,"Lead Economist, Editorial",reject,0,,
+wealthfront:709a061c-01bb-4f1e-a900-d2361930020c,Mortgage Operations - Licensed Loan Partner,reject,0,,
+wealthfront:83118495-115a-436d-9230-e6eb5a977713,People Research Scientist,reject,1,,SQL
+wealthfront:91c149ed-18fa-4e72-a3a6-386840aae86e,Software Engineer – DevOps Platform,reject,0,,
+wealthfront:97f51038-7c78-4a7d-ae16-e80aa758bf71,"Senior Content Designer, Wealthfront Home Lending",reject,0,,
+wealthfront:a577f609-b61b-4c26-b0a5-e74f2004d669,"Director of Product Management, Growth",reject,0,,
+wealthfront:b533ad17-4c0e-4a5e-aa2c-c7f0dd93f5e6,Senior Marketing Manager - Affiliate & Strategic Partnerships,reject,0,,
+wealthfront:bc9ef3ab-00da-47a9-a7f8-fbdcbd9d8c28,Mortgage Operations - Licensed Loan Officer Assistant,reject,0,,
+wealthfront:cab92a5e-7cc5-48ea-9755-5f9f2fdcfad9,"Principal Product Designer, Investing",reject,1,,reporting
+wealthfront:eccc8bc6-81e4-4d43-af11-b246ba28c56e,iOS Engineer,reject,0,,
+wealthfront:f5a0963a-ca1a-4140-b9e6-dbf6072093fe,Backend Engineer,reject,1,,SQL
