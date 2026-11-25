@@ -109,7 +109,7 @@ def run():
         for row, result in keep[:5]
     ])
     with (EVIDENCE / "scores.csv").open("w", newline="") as file:
-        writer = csv.writer(file)
+        writer = csv.writer(file, lineterminator="\n")
         writer.writerow(["id", "title", "decision", "score", "title_match", "signals"])
         for row, result in scored:
             writer.writerow([row["id"], row["title"], result["decision"], result["score"],
