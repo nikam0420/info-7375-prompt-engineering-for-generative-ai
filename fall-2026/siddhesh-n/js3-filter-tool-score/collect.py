@@ -1,22 +1,13 @@
-"""Collect public job postings from three fixed endpoints."""
-import concurrent.futures
+"""Extend JS2 intake with full posting text for JS3 scoring."""
+from datetime import datetime, timezone
 import hashlib
+from html import unescape
 from html.parser import HTMLParser
 import json
 from pathlib import Path
-from urllib.request import (
-    HTTPRedirectHandler, Request, build_opener,
-)
 
-BOARDS = {
-    "stripe": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-    "airbnb": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
-    "wealthfront": "https://api.lever.co/v0/postings/wealthfront?mode=json",
-}
-
-class NoRedirect(HTTPRedirectHandler):
-    def redirect_request(self, *args, **kwargs):
-        return None
+from js1_decode import decode_json_bytes
+from js2_intake import BOARDS, collect, fetch
 
 class VisibleText(HTMLParser):
     def __init__(self):
@@ -26,21 +17,12 @@ class VisibleText(HTMLParser):
         self.parts.append(data)
 
 def content(html):
-    from html import unescape
     parser = VisibleText()
     parser.feed(unescape(html or ""))
     return " ".join(" ".join(parser.parts).split())
 
-def collect(board, url):
-    opener = build_opener(NoRedirect())
-    with opener.open(Request(url, headers={"User-Agent": "INFO7375 course project"}), timeout=30) as result:
-        payload = result.read(16_000_001)
-    if len(payload) > 16_000_000:
-        raise ValueError("Response exceeds collection limit")
-    value = json.loads(payload)
-    raw = value if board == "wealthfront" else value["jobs"]
-    if not isinstance(raw, list) or not raw:
-        raise ValueError("Expected a nonempty postings array")
+def normalize(provider, board, payload):
+    raw = payload["jobs"] if provider == "greenhouse" else payload
     rows = {}
     for item in raw:
         key = item.get("id")
@@ -60,26 +42,40 @@ def collect(board, url):
             link = item.get("absolute_url")
         rows[str(key)] = dict(id=f"{board}:{key}", title=title, text=body,
                               url=link, location=location)
-    return list(rows.values()), dict(
-        returned=len(raw), usable=len(rows), sha256=hashlib.sha256(payload).hexdigest()
-    )
+    return list(rows.values())
+
 
 def main():
-    from datetime import datetime, timezone
     Path("local").mkdir(exist_ok=True)
     Path("evidence").mkdir(exist_ok=True)
+    captured = {}
+
+    def capture(board, payload):
+        captured[board] = payload
+        return hashlib.sha256(payload).hexdigest()
+
+    started = datetime.now(timezone.utc).isoformat()
+    trace = collect(BOARDS, fetch, capture)
     results = []
-    report = {"started_utc": datetime.now(timezone.utc).isoformat(), "boards": {}}
-    with concurrent.futures.ThreadPoolExecutor() as pool:
-        tasks = {board: pool.submit(collect, board, url) for board, url in BOARDS.items()}
-        for board, task in tasks.items():
-            try:
-                rows, stats = task.result()
-                results.extend(rows)
-                report["boards"][board] = stats
-            except (OSError, ValueError, KeyError, TypeError, AttributeError) as error:
-                report["boards"][board] = {"error": str(error)}
-    report["coverage"] = "complete" if all("usable" in b for b in report["boards"].values()) else "incomplete"
+    boards = {}
+    for row in trace["observations"]:
+        board = row["board"]
+        if row["result"] != "observed":
+            boards[board] = {"error": row.get("detail", row["result"])}
+            continue
+        try:
+            normalized = normalize(row["provider"], board, decode_json_bytes(captured[board]))
+        except (ValueError, KeyError, TypeError, AttributeError) as error:
+            boards[board] = {"error": str(error)}
+            continue
+        results.extend(normalized)
+        boards[board] = {"returned": row["count"], "usable": len(normalized), "sha256": row["raw"]}
+    report = {
+        "started_utc": started, "boards": boards, "js2_status": trace["status"],
+        "requests": trace["requests"], "elapsed_seconds": trace["elapsed_seconds"],
+        "coverage": "complete" if trace["status"] == "finished" and
+        all("usable" in boards.get(board, {}) for _, board, _ in BOARDS) else "incomplete",
+    }
     Path("evidence/collection.json").write_text(json.dumps(report, indent=2) + "\n")
     Path("local/postings.json").write_text(json.dumps(sorted(results, key=lambda row: row["id"])))
     print(json.dumps(report, indent=2))

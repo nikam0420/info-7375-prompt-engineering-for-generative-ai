@@ -28,9 +28,19 @@ class FilterTests(unittest.TestCase):
     def test_greenhouse_html_visible_text(self):
         self.assertEqual(content("&lt;p&gt;SQL &amp;amp; dashboards&lt;/p&gt;"), "SQL & dashboards")
 
-    def test_allowlisted_source_refuses_redirect(self):
-        from collect import NoRedirect
-        self.assertIsNone(NoRedirect().redirect_request(None, None, 302, "", None, "https://example.org"))
+    def test_js2_allowlist_preserves_exact_endpoints(self):
+        from js2_intake import BOARDS, PolicyError, require_request
+        for _, _, url in BOARDS:
+            require_request("GET", url)
+            with self.assertRaises(PolicyError):
+                require_request("GET", url + "#unexpected")
+            with self.assertRaises(PolicyError):
+                require_request("POST", url)
+
+    def test_js2_missing_jobs_still_means_unknown(self):
+        from js2_intake import count_jobs
+        with self.assertRaisesRegex(ValueError, "invalid listing schema"):
+            count_jobs("greenhouse", b'{"meta":{"total":0}}')
 
 class ProtocolTests(unittest.TestCase):
     def test_malformed_message(self):

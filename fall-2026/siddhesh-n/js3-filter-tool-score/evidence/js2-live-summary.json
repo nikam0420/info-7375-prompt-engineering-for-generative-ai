@@ -1,0 +1,15 @@
+{
+  "total": 990,
+  "kept": 16,
+  "rejected": 974,
+  "unknown": 0,
+  "seed": 7375,
+  "sample_counts": {
+    "random_reject": 30,
+    "near_reject": 5,
+    "near_keep": 5,
+    "random_keep": 5,
+    "heldout": 18
+  },
+  "heldout_threshold_flips": 2
+}

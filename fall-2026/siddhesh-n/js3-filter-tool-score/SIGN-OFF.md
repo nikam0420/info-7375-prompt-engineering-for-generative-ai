@@ -5,10 +5,11 @@
 | Standalone reporting and repeated SQL do not pass the filter | Codex wrote and ran `test_reporting_alone_is_not_relevant` and `test_repeated_sql_is_one_signal`. |
 | Title corroboration, multiple body signals, and missing evidence | Codex wrote and ran `test_title_and_one_signal_clear_baseline_only`, `test_distinct_body_signals_can_surface_adjacent_title` and `test_missing_text_abstains`. |
 | Startup and tool dispatch | Codex ran `test_tools_require_initialization`, `test_malformed_message` and the live subprocess transcript test `demo.py`. |
-| Board collection and sample counts | Codex ran collection and recomputed the score and sample manifest. |
+| Board collection and sample counts | Codex ran both collection versions and checked sample stability. |
+| Historical threshold sensitivity | Codex verified the locked JS1 CSV and recomputed both thresholds on 10 prior judgments that Siddhesh recorded in JS1. |
 | Student's independent checks | Pending. Add the exact checks you personally performed and what each showed. |
 
-**Not checked:** Real Claude exchange. Accuracy on independent student labels. Results on sources outside the allow-list. Complete MCP conformance. Hiring eligibility.
+**Not checked:** Real Claude exchange. Accuracy on current JS3 student labels. Results on sources outside the allow-list. Complete MCP conformance. Hiring eligibility.
 
 **Not claiming:** Market-wide coverage, qualification for a specific job, or evidence of model training.
 

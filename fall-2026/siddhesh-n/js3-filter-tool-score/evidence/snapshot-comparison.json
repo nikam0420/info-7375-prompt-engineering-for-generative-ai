@@ -1,0 +1,23 @@
+{
+  "baseline_rows": 989,
+  "recheck_rows": 990,
+  "new_ids": [
+    "airbnb:8207095",
+    "airbnb:8360678",
+    "stripe:8142302",
+    "stripe:8417785",
+    "stripe:8417797"
+  ],
+  "absent_ids": [
+    "airbnb:7417293",
+    "airbnb:7417294",
+    "stripe:8164666",
+    "stripe:8387820"
+  ],
+  "changed_shared_rows": [
+    "airbnb:8412312",
+    "stripe:8191708"
+  ],
+  "frozen_review_rows": 62,
+  "changed_frozen_review_ids": []
+}

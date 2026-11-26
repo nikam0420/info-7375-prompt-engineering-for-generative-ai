@@ -1,0 +1,139 @@
+{
+  "scope": "Historical JS1 Stripe heldout labels under the JS1 relevance rule",
+  "sha256": "cdc5d71b070be4ed56696bc1ccf444ea14b7e16a18e78b548b94174eb6549d71",
+  "locked_at": "2026-10-19T19:08:43.410597Z",
+  "metrics": {
+    "baseline": {
+      "tp": 4,
+      "fp": 0,
+      "tn": 6,
+      "fn": 0,
+      "accuracy": 1.0
+    },
+    "variant": {
+      "tp": 3,
+      "fp": 0,
+      "tn": 6,
+      "fn": 1,
+      "accuracy": 0.9
+    }
+  },
+  "rows": [
+    {
+      "id": "stripe:7921649",
+      "title": "Staff Data Analyst",
+      "label": "relevant",
+      "score": 5,
+      "title_match": "Data Analyst",
+      "signals": [
+        "SQL",
+        "dashboards"
+      ],
+      "baseline": "keep",
+      "variant": "keep"
+    },
+    {
+      "id": "stripe:8186442",
+      "title": "Financial Data Analyst Intern, Technical Operations",
+      "label": "relevant",
+      "score": 6,
+      "title_match": "Data Analyst",
+      "signals": [
+        "SQL",
+        "dashboards",
+        "reporting"
+      ],
+      "baseline": "keep",
+      "variant": "keep"
+    },
+    {
+      "id": "stripe:8044924",
+      "title": "Data Analyst, Payments",
+      "label": "relevant",
+      "score": 4,
+      "title_match": "Data Analyst",
+      "signals": [
+        "SQL"
+      ],
+      "baseline": "keep",
+      "variant": "reject"
+    },
+    {
+      "id": "stripe:8230296",
+      "title": "Data Analyst, Global Growth",
+      "label": "relevant",
+      "score": 7,
+      "title_match": "Data Analyst",
+      "signals": [
+        "SQL",
+        "dashboards",
+        "data pipelines",
+        "reporting"
+      ],
+      "baseline": "keep",
+      "variant": "keep"
+    },
+    {
+      "id": "stripe:8209649",
+      "title": "Engagement Manager, Professional Services",
+      "label": "not_relevant",
+      "score": 0,
+      "title_match": null,
+      "signals": [],
+      "baseline": "reject",
+      "variant": "reject"
+    },
+    {
+      "id": "stripe:7544547",
+      "title": "Operations Associate, New Grad (Mexico)",
+      "label": "not_relevant",
+      "score": 0,
+      "title_match": null,
+      "signals": [],
+      "baseline": "reject",
+      "variant": "reject"
+    },
+    {
+      "id": "stripe:8244515",
+      "title": "Immigration Specialist",
+      "label": "not_relevant",
+      "score": 0,
+      "title_match": null,
+      "signals": [],
+      "baseline": "reject",
+      "variant": "reject"
+    },
+    {
+      "id": "stripe:8224617",
+      "title": "Commercial Lead",
+      "label": "not_relevant",
+      "score": 0,
+      "title_match": null,
+      "signals": [],
+      "baseline": "reject",
+      "variant": "reject"
+    },
+    {
+      "id": "stripe:7961101",
+      "title": "Product Marketing Manager, Radar",
+      "label": "not_relevant",
+      "score": 1,
+      "title_match": null,
+      "signals": [
+        "reporting"
+      ],
+      "baseline": "reject",
+      "variant": "reject"
+    },
+    {
+      "id": "stripe:7728618",
+      "title": "Specialist Solutions Architect, Billing",
+      "label": "not_relevant",
+      "score": 0,
+      "title_match": null,
+      "signals": [],
+      "baseline": "reject",
+      "variant": "reject"
+    }
+  ]
+}

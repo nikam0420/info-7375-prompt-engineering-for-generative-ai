@@ -1,6 +1,7 @@
-test_allowlisted_source_refuses_redirect (test_js3.FilterTests.test_allowlisted_source_refuses_redirect) ... ok
 test_distinct_body_signals_can_surface_adjacent_title (test_js3.FilterTests.test_distinct_body_signals_can_surface_adjacent_title) ... ok
 test_greenhouse_html_visible_text (test_js3.FilterTests.test_greenhouse_html_visible_text) ... ok
+test_js2_allowlist_preserves_exact_endpoints (test_js3.FilterTests.test_js2_allowlist_preserves_exact_endpoints) ... ok
+test_js2_missing_jobs_still_means_unknown (test_js3.FilterTests.test_js2_missing_jobs_still_means_unknown) ... ok
 test_literal_mention_does_not_become_a_requirement (test_js3.FilterTests.test_literal_mention_does_not_become_a_requirement) ... ok
 test_missing_text_abstains (test_js3.FilterTests.test_missing_text_abstains) ... ok
 test_repeated_sql_is_one_signal (test_js3.FilterTests.test_repeated_sql_is_one_signal) ... ok
@@ -10,6 +11,6 @@ test_malformed_message (test_js3.ProtocolTests.test_malformed_message) ... ok
 test_tools_require_initialization (test_js3.ProtocolTests.test_tools_require_initialization) ... ok
 
 ----------------------------------------------------------------------
-Ran 10 tests in 0.001s
+Ran 11 tests in 0.001s
 
 OK

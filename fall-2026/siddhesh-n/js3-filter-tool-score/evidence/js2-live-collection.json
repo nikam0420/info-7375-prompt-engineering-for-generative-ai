@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-11-26T01:31:31.068982+00:00",
+  "boards": {
+    "stripe": {
+      "returned": 772,
+      "usable": 772,
+      "sha256": "233e149959e8ea6998fb5337b5969d2f572520c711e72b843da61ed95949eaf9"
+    },
+    "airbnb": {
+      "returned": 199,
+      "usable": 199,
+      "sha256": "048d9411412df2f9b999b5aa1621d5597badf5520a05969c7a1594372d97b37a"
+    },
+    "wealthfront": {
+      "returned": 19,
+      "usable": 19,
+      "sha256": "cf69184e78976a826f8806f3dc75a4efec356dca1fd99c920c91ca7af04d9585"
+    }
+  },
+  "js2_status": "finished",
+  "requests": 3,
+  "elapsed_seconds": 11.207,
+  "coverage": "complete"
+}
