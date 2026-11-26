@@ -9,7 +9,9 @@
 | Historical threshold sensitivity | Codex verified the locked JS1 CSV and recomputed both thresholds on 10 prior judgments that Siddhesh recorded in JS1. |
 | Student's independent checks | Siddhesh entered and exported 62 verdicts. Codex provided suggestions during the review and recomputed the counts. Add any separate tests you personally performed. |
 
-**Not checked:** Real Claude exchange. Independent repeat labeling by a second reviewer. Results on sources outside the allow-list. Complete MCP conformance. Hiring eligibility.
+Siddhesh ran the fictional Claude Code tool check. The supplied wire trace shows initialization, discovery of the tool via `tools/list`, and call ID 2 returning `5, keep`. Codex verified the pasted exchange.
+
+**Not checked:** Newer MCP discovery interoperability. Independent repeat labeling by a second reviewer. Results on sources outside the allow-list. Complete MCP conformance. Hiring eligibility.
 
 **Not claiming:** Market-wide coverage, qualification for a specific job, or evidence of model training.
 
