@@ -1,0 +1,56 @@
+{
+  "audit": {
+    "near_keep": {
+      "pending": 0,
+      "uncertain": 0,
+      "correct": 5,
+      "wrong": 0
+    },
+    "heldout": {
+      "pending": 0,
+      "uncertain": 0,
+      "correct": 16,
+      "wrong": 1
+    },
+    "random_reject": {
+      "pending": 0,
+      "uncertain": 0,
+      "correct": 27,
+      "wrong": 3
+    },
+    "near_reject": {
+      "pending": 0,
+      "uncertain": 0,
+      "correct": 1,
+      "wrong": 4
+    },
+    "random_keep": {
+      "pending": 0,
+      "uncertain": 0,
+      "correct": 5,
+      "wrong": 0
+    }
+  },
+  "heldout": {
+    "4": {
+      "confusion": {
+        "tp": 5,
+        "fp": 0,
+        "tn": 11,
+        "fn": 1
+      },
+      "n": 17,
+      "accuracy": 0.9411764705882353
+    },
+    "5": {
+      "confusion": {
+        "tp": 3,
+        "fp": 0,
+        "tn": 11,
+        "fn": 3
+      },
+      "n": 17,
+      "accuracy": 0.8235294117647058
+    }
+  }
+}

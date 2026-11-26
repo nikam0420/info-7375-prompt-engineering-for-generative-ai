@@ -25,7 +25,7 @@ Open `local/review.html` in a browser or use the review sheet preserved for the 
 python3 run.py --labels /path/to/human-labels.json
 ```
 
-This writes human verdicts and group-level counts to `evidence/`. Before submission, fill in the audit result and sign-off using the checks you actually performed.
+This writes human verdicts and group-level counts to `evidence/`. The exported labels and computed audit are included. Complete the personal sign-off using the checks you actually performed.
 
 | File | Contents |
 |---|---|
@@ -37,4 +37,4 @@ This writes human verdicts and group-level counts to `evidence/`. Before submiss
 | SIGN-OFF.md | Verification attribution and driver's seat |
 | SOURCES.md and FRICTIONAL.md | Provenance and observed revisions |
 
-The initial package records 11 passing tests and six checked server replies. For the 10 historical JS1 hand labels, rerun `python3 historical_check.py "/path/to/submitted-JS1.zip"`. The script verifies the held-out lock and scores the archived posting bodies at 4 and 5. The resulting historical ledger is in `evidence/js1-heldout.json`. Current JS3 hand verdicts, a live Claude exchange, and student sign-off are pending at packaging.
+The initial package records 11 passing tests and six checked server replies. For the 10 historical JS1 hand labels, rerun `python3 historical_check.py "/path/to/submitted-JS1.zip"`. The script verifies the held-out lock and scores the archived posting bodies at 4 and 5. The resulting historical ledger is in `evidence/js1-heldout.json`. All 62 current JS3 verdicts are included. A live Claude exchange and signed student attestation remain pending.

@@ -1,0 +1,374 @@
+[
+  {
+    "id": "airbnb:8300926",
+    "group": "near_keep",
+    "verdict": "relevant",
+    "reason": "The role handles data ingestion and reconciliation and builds analytics-ready datasets for reporting and dashboards"
+  },
+  {
+    "id": "stripe:7742552",
+    "group": "heldout",
+    "verdict": "relevant",
+    "reason": "The role focuses on enterprise risk governance and compliance. Automated data pipelines support that work."
+  },
+  {
+    "id": "stripe:8189909",
+    "group": "heldout",
+    "verdict": "relevant",
+    "reason": "The role analyzes Stripe data and builds metrics, pipelines, and dashboards to guide business decisions."
+  },
+  {
+    "id": "stripe:6348471",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role focuses on product positioning and go-to-market strategy. Data insights help shape the messaging."
+  },
+  {
+    "id": "airbnb:7789528",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role leads regulatory programs and coordinates regional operations. It uses trends to guide that work."
+  },
+  {
+    "id": "airbnb:8074955",
+    "group": "near_reject",
+    "verdict": "relevant",
+    "reason": "Alongside incident response, the role builds monitoring dashboards for service health and data quality and requires experience with data queries and pipelines."
+  },
+  {
+    "id": "stripe:8356916",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The main duty is designing and testing security controls that prevent abuse on Stripe’s platform."
+  },
+  {
+    "id": "airbnb:8347087",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role builds and operates backend services for audience segmentation and campaign tooling, with a focus on platform reliability and scale."
+  },
+  {
+    "id": "stripe:7277406",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role acquires new mid-market customers and develops a sales approach for reaching them"
+  },
+  {
+    "id": "stripe:8203969",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role manages customer onboarding, integration design, and launch timelines."
+  },
+  {
+    "id": "stripe:8076108",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role leads regional risk programs, builds operating procedures, and manages the team that delivers them."
+  },
+  {
+    "id": "airbnb:8201750",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role develops host messaging and campaigns across channels. It uses sentiment and performance data to refine communications."
+  },
+  {
+    "id": "stripe:8345653",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role grows existing customer accounts by understanding their needs and identifying opportunities to expand their use of Stripe."
+  },
+  {
+    "id": "stripe:8089815",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role builds and improves continuous integration systems, including test reliability and merge workflows."
+  },
+  {
+    "id": "wealthfront:522080d2-8334-4dd9-9aaf-127cfe4f2c0c",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role oversees trust administration, account supervision, and regulatory reporting to Nevada."
+  },
+  {
+    "id": "airbnb:8350117",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The main duties are managing host accounts and acquiring rental inventory in Spain and Portugal."
+  },
+  {
+    "id": "stripe:8304858",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role coordinates engineering and operations teams to launch payment hardware and Tap to Pay products."
+  },
+  {
+    "id": "stripe:8186442",
+    "group": "random_keep",
+    "verdict": "relevant",
+    "reason": "The example projects include checking payment data quality, dashboarding aging balances, and analyzing partner costs."
+  },
+  {
+    "id": "airbnb:8107160",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role owns reservation support cases and works directly with customers to resolve issues."
+  },
+  {
+    "id": "airbnb:8365363",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role converts hotel leads into new listings and manages the sales process for market launches."
+  },
+  {
+    "id": "stripe:7476555",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role builds APIs and services for balance management and access to funds."
+  },
+  {
+    "id": "airbnb:8023118",
+    "group": "near_reject",
+    "verdict": "relevant",
+    "reason": "The role analyzes support data, defines metrics, builds reporting tools, and uses statistical models to guide decisions."
+  },
+  {
+    "id": "stripe:8415333",
+    "group": "random_keep",
+    "verdict": "relevant",
+    "reason": "The role builds pipelines, data products, metrics, and dashboards from Privy’s SaaS and blockchain data."
+  },
+  {
+    "id": "stripe:8194291",
+    "group": "heldout",
+    "verdict": "relevant",
+    "reason": "The internship involves analyzing Stripe data and building metrics and tools that teams can use to make decisions."
+  },
+  {
+    "id": "wealthfront:367b310e-0aa2-4eb2-9587-908069ab099d",
+    "group": "random_reject",
+    "verdict": "relevant",
+    "reason": "The role analyzes financial and behavioral data to evaluate marketing campaigns and inform customer acquisition decisions."
+  },
+  {
+    "id": "airbnb:8336893",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role grows Airbnb’s UK supply by acquiring inventory and managing professional host accounts."
+  },
+  {
+    "id": "stripe:8330815",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role manages existing Australian platform accounts and grows revenue through payments partnerships."
+  },
+  {
+    "id": "stripe:5601881",
+    "group": "random_keep",
+    "verdict": "relevant",
+    "reason": "The role translates business questions into analyses and builds pipelines, dashboards, and reports."
+  },
+  {
+    "id": "airbnb:7862109",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role manages and coaches a customer support team. Service metrics help monitor its performance."
+  },
+  {
+    "id": "stripe:8273713",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role owns journal entries, reconciliations, and financial close. It uses variance analysis to support accounting reviews."
+  },
+  {
+    "id": "airbnb:8070705",
+    "group": "near_reject",
+    "verdict": "irrelevant",
+    "reason": "The role owns a finance data platform, works with engineers on accounting data flows, and uses SQL to investigate finance questions."
+  },
+  {
+    "id": "stripe:8354566",
+    "group": "random_keep",
+    "verdict": "relevant",
+    "reason": "The role improves sales analytics and standardizes reporting so sales leaders can make decisions from consistent data."
+  },
+  {
+    "id": "stripe:8399738",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role advises customers on Stripe platform architecture and helps them design payment and monetization solutions."
+  },
+  {
+    "id": "stripe:8319452",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role grows strategic accounts, negotiates commercial terms, and closes deals."
+  },
+  {
+    "id": "stripe:8234357",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The main responsibility is building software services and platforms for Stripe users and teams."
+  },
+  {
+    "id": "stripe:8144262",
+    "group": "near_keep",
+    "verdict": "relevant",
+    "reason": "The role designs customer data solutions around warehouse pipelines, ETL, financial reporting, and BI integrations."
+  },
+  {
+    "id": "stripe:8154304",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role leads technical account managers and oversees support for Stripe’s largest customers."
+  },
+  {
+    "id": "stripe:7461966",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role owns the PwC partnership strategy and coordinates joint sales and revenue growth."
+  },
+  {
+    "id": "stripe:8190050",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role sells Stripe Billing, leads customer product conversations, and closes strategic deals."
+  },
+  {
+    "id": "stripe:7980578",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role designs and prototypes the Stripe Dashboard interface and its user experience."
+  },
+  {
+    "id": "stripe:8221776",
+    "group": "near_keep",
+    "verdict": "relevant",
+    "reason": "The role writes SQL to extract, transform, and validate finance data and improves the pipelines that feed AI workflows."
+  },
+  {
+    "id": "airbnb:8225785",
+    "group": "heldout",
+    "verdict": "relevant",
+    "reason": "The role defines metrics, builds analytical tools, and turns findings into recommendations for business teams."
+  },
+  {
+    "id": "wealthfront:97f51038-7c78-4a7d-ae16-e80aa758bf71",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role writes and designs content for the home lending customer experience."
+  },
+  {
+    "id": "airbnb:7839229",
+    "group": "near_reject",
+    "verdict": "relevant",
+    "reason": "The role forecasts contact center demand and uses the results to guide staffing and service-level planning."
+  },
+  {
+    "id": "stripe:8348835",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role builds a sales pipeline and manages enterprise relationships across its Korean territory."
+  },
+  {
+    "id": "stripe:5416444",
+    "group": "random_keep",
+    "verdict": "relevant",
+    "reason": "The role uses SQL to analyze business data and builds metrics, dashboards, and pipelines for stakeholders."
+  },
+  {
+    "id": "airbnb:7662244",
+    "group": "random_reject",
+    "verdict": "relevant",
+    "reason": "The listed tracks include measuring pricing changes through experiments and building data products for marketplace decisions."
+  },
+  {
+    "id": "stripe:8387804",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role leads regional audits and evaluates business risks and controls."
+  },
+  {
+    "id": "airbnb:8044801",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role leads market managers and executes plans to grow Airbnb’s rental supply and improve host operations"
+  },
+  {
+    "id": "airbnb:8303967",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role leads account managers who win and onboard large hotel groups."
+  },
+  {
+    "id": "stripe:8364868",
+    "group": "near_keep",
+    "verdict": "relevant",
+    "reason": "The role builds financial forecasts, tracks actual results against targets, and uses data to answer strategy questions."
+  },
+  {
+    "id": "airbnb:8303971",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role manages an enterprise accounts team responsible for signing and onboarding hotel partners"
+  },
+  {
+    "id": "stripe:8194287",
+    "group": "heldout",
+    "verdict": "relevant",
+    "reason": "The internship involves extracting insights from Stripe data and creating analytical outputs for business teams."
+  },
+  {
+    "id": "airbnb:8081180",
+    "group": "near_reject",
+    "verdict": "relevant",
+    "reason": "The role builds analytics pipelines for support metrics such as contact volume, handle time, and resolution quality."
+  },
+  {
+    "id": "airbnb:8262207",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role owns the API platform roadmap and coordinates feature design and launches for hosts and developers."
+  },
+  {
+    "id": "stripe:8007738",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role leads technical program managers and coordinates delivery across engineering and product teams."
+  },
+  {
+    "id": "stripe:8049828",
+    "group": "random_reject",
+    "verdict": "irrelevant",
+    "reason": "The role focuses on selling Stripe Link, finding new customers, and closing deals."
+  },
+  {
+    "id": "stripe:8393428",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The main duties are onboarding sales teams, leading workshops, and coaching vendor trainers."
+  },
+  {
+    "id": "stripe:8103750",
+    "group": "near_keep",
+    "verdict": "relevant",
+    "reason": "The role builds accounting data products and uses SQL for analysis and pipeline logic."
+  },
+  {
+    "id": "stripe:8230306",
+    "group": "random_reject",
+    "verdict": "relevant",
+    "reason": "The role forecasts renewals performance, analyzes operational and financial trends, and builds reports for leadership."
+  },
+  {
+    "id": "stripe:8206733",
+    "group": "heldout",
+    "verdict": "relevant",
+    "reason": "Alongside trading, the role uses SQL and quantitative modeling to build automated currency risk monitors and alerts."
+  },
+  {
+    "id": "stripe:8237526",
+    "group": "heldout",
+    "verdict": "irrelevant",
+    "reason": "The role owns full-cycle recruiting and hiring strategy. It partners with the recruiting analytics team to track hiring progress."
+  }
+]
