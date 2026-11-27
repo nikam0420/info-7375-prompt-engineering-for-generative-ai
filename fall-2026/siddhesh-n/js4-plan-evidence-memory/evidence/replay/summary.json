@@ -1,0 +1,12 @@
+{
+  "claim": {
+    "id": "a",
+    "pay": 42
+  },
+  "result": {
+    "check": "summary-pay-vs-trace",
+    "expected": 42,
+    "actual": 42,
+    "passed": true
+  }
+}

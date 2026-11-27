@@ -1,0 +1,100 @@
+[
+  {
+    "id": "P-104",
+    "check": "live",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "new",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "title",
+    "expected": "P-104 Data Analyst",
+    "actual": "P-104 Data Analyst",
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "location",
+    "expected": "Boston, MA",
+    "actual": "Boston, MA",
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "authorization",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "pay",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "pay_unit",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "live",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "new",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "title",
+    "expected": "Data Analyst",
+    "actual": "Data Analyst",
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "location",
+    "expected": "Boston, MA",
+    "actual": "Boston, MA",
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "authorization",
+    "expected": "Employer says sponsorship is unavailable.",
+    "actual": "Employer says sponsorship is unavailable.",
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "pay",
+    "expected": 42,
+    "actual": 42,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "pay_unit",
+    "expected": "USD per hour minimum",
+    "actual": "USD per hour minimum",
+    "passed": true
+  }
+]

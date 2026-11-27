@@ -1,0 +1,98 @@
+{
+  "mode": "fictional seeded replay",
+  "from_revision": 2,
+  "to_revision": 4,
+  "added": [
+    "b"
+  ],
+  "changed": {
+    "P-104": {
+      "before": {
+        "value": {
+          "title": "P-104 Data Analyst",
+          "location": "Boston, MA",
+          "authorization": null,
+          "pay": null,
+          "pay_unit": null,
+          "live": true,
+          "new": true
+        },
+        "source": {
+          "snapshot": "fixtures/day1.json",
+          "date": "2026-11-25",
+          "id": "P-104",
+          "details": "board",
+          "status_check": "direct",
+          "prior_revision": 0,
+          "newness": "notes version 0",
+          "mode": "fictional seeded replay"
+        }
+      },
+      "after": {
+        "value": {
+          "title": null,
+          "location": null,
+          "authorization": null,
+          "pay": null,
+          "pay_unit": null,
+          "live": null,
+          "new": false
+        },
+        "source": {
+          "snapshot": "fixtures/day2.json",
+          "date": "2026-11-26",
+          "id": "P-104",
+          "details": "board",
+          "status_check": "no direct record",
+          "prior_revision": 2,
+          "newness": "notes version 2",
+          "mode": "fictional seeded replay"
+        }
+      }
+    },
+    "a": {
+      "before": {
+        "value": {
+          "title": "Data Analyst",
+          "location": "Boston, MA",
+          "authorization": "Employer says sponsorship is unavailable.",
+          "pay": 42,
+          "pay_unit": "USD per hour minimum",
+          "live": true,
+          "new": true
+        },
+        "source": {
+          "snapshot": "fixtures/day1.json",
+          "date": "2026-11-25",
+          "id": "a",
+          "details": "board",
+          "status_check": "direct",
+          "prior_revision": 0,
+          "newness": "notes version 0",
+          "mode": "fictional seeded replay"
+        }
+      },
+      "after": {
+        "value": {
+          "title": null,
+          "location": null,
+          "authorization": null,
+          "pay": null,
+          "pay_unit": null,
+          "live": false,
+          "new": false
+        },
+        "source": {
+          "snapshot": "fixtures/day2.json",
+          "date": "2026-11-26",
+          "id": "a",
+          "details": "board",
+          "status_check": "direct",
+          "prior_revision": 2,
+          "newness": "notes version 2",
+          "mode": "fictional seeded replay"
+        }
+      }
+    }
+  }
+}

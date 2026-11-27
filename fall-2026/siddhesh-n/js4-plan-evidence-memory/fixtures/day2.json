@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-26",
+  "board": {
+    "b": {"title":"Data Engineer","description":"SQL pipelines.","location":"Remote — US","authorization":null,"pay":null,"pay_unit":null}
+  },
+  "direct": {
+    "a": {"status":404},
+    "b": {"status":200,"title":"Data Engineer","location":"Remote — US","authorization":null,"pay":null,"pay_unit":null}
+  }
+}

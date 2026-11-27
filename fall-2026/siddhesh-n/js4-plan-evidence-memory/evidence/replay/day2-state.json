@@ -1,0 +1,118 @@
+{
+  "version": 4,
+  "postings": {
+    "P-104": {
+      "value": {
+        "title": null,
+        "location": null,
+        "authorization": null,
+        "pay": null,
+        "pay_unit": null,
+        "live": null,
+        "new": false
+      },
+      "source": {
+        "snapshot": "fixtures/day2.json",
+        "date": "2026-11-26",
+        "id": "P-104",
+        "details": "board",
+        "status_check": "no direct record",
+        "prior_revision": 2,
+        "newness": "notes version 2",
+        "mode": "fictional seeded replay"
+      }
+    },
+    "a": {
+      "value": {
+        "title": null,
+        "location": null,
+        "authorization": null,
+        "pay": null,
+        "pay_unit": null,
+        "live": false,
+        "new": false
+      },
+      "source": {
+        "snapshot": "fixtures/day2.json",
+        "date": "2026-11-26",
+        "id": "a",
+        "details": "board",
+        "status_check": "direct",
+        "prior_revision": 2,
+        "newness": "notes version 2",
+        "mode": "fictional seeded replay"
+      }
+    },
+    "b": {
+      "value": {
+        "title": "Data Engineer",
+        "location": "Remote — US",
+        "authorization": null,
+        "pay": null,
+        "pay_unit": null,
+        "live": true,
+        "new": true
+      },
+      "source": {
+        "snapshot": "fixtures/day2.json",
+        "date": "2026-11-26",
+        "id": "b",
+        "details": "board",
+        "status_check": "direct",
+        "prior_revision": 2,
+        "newness": "notes version 2",
+        "mode": "fictional seeded replay"
+      }
+    }
+  },
+  "watchers": {
+    "threshold-4": {
+      "b": {
+        "description": "SQL pipelines.",
+        "source": {
+          "snapshot": "fixtures/day2.json",
+          "date": "2026-11-26",
+          "id": "b",
+          "details": "board",
+          "status_check": "direct",
+          "prior_revision": 2,
+          "newness": "notes version 2",
+          "mode": "fictional seeded replay"
+        },
+        "threshold": 4,
+        "result": {
+          "decision": "keep",
+          "score": 4,
+          "title_match": "Data Engineer",
+          "mentions": {
+            "SQL": "SQL"
+          }
+        }
+      }
+    },
+    "threshold-5": {
+      "b": {
+        "description": "SQL pipelines.",
+        "source": {
+          "snapshot": "fixtures/day2.json",
+          "date": "2026-11-26",
+          "id": "b",
+          "details": "board",
+          "status_check": "direct",
+          "prior_revision": 2,
+          "newness": "notes version 2",
+          "mode": "fictional seeded replay"
+        },
+        "threshold": 5,
+        "result": {
+          "decision": "reject",
+          "score": 4,
+          "title_match": "Data Engineer",
+          "mentions": {
+            "SQL": "SQL"
+          }
+        }
+      }
+    }
+  }
+}

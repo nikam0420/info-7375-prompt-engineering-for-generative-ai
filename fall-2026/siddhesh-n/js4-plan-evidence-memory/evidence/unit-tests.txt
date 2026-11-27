@@ -1,0 +1,11 @@
+test_lookup_refutes_stale_live_claim (test_agent.EvidenceTests.test_lookup_refutes_stale_live_claim) ... ok
+test_missing_authorization_remains_unknown (test_agent.EvidenceTests.test_missing_authorization_remains_unknown) ... ok
+test_missing_listing_and_lookup_remain_unknown (test_agent.EvidenceTests.test_missing_listing_and_lookup_remain_unknown) ... ok
+test_planted_pay_mismatch (test_agent.EvidenceTests.test_planted_pay_mismatch) ... ok
+test_review_gate_blocks_output (test_agent.EvidenceTests.test_review_gate_blocks_output) ... ok
+test_stale_writer_preserves_bytes (test_agent.EvidenceTests.test_stale_writer_preserves_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

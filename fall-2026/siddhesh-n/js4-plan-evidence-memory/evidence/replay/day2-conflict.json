@@ -1,0 +1,11 @@
+{
+  "expected": 2,
+  "actual": 3,
+  "error": "expected version 2, found 3",
+  "unchanged": true,
+  "after_merge": 4,
+  "watchers": [
+    "threshold-4",
+    "threshold-5"
+  ]
+}

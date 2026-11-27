@@ -1,0 +1,149 @@
+[
+  {
+    "id": "P-104",
+    "check": "live",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "new",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "title",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "location",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "authorization",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "pay",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "P-104",
+    "check": "pay_unit",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "live",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "new",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "title",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "location",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "authorization",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "pay",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "a",
+    "check": "pay_unit",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "b",
+    "check": "live",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "id": "b",
+    "check": "new",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "id": "b",
+    "check": "title",
+    "expected": "Data Engineer",
+    "actual": "Data Engineer",
+    "passed": true
+  },
+  {
+    "id": "b",
+    "check": "location",
+    "expected": "Remote — US",
+    "actual": "Remote — US",
+    "passed": true
+  },
+  {
+    "id": "b",
+    "check": "authorization",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "b",
+    "check": "pay",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "id": "b",
+    "check": "pay_unit",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  }
+]
